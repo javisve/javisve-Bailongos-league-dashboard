@@ -1,0 +1,5 @@
+# Archivos sensibles y temporales
+password.txt
+*.log
+__pycache__/
+.env

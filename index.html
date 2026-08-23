@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>Biwenger Community Hub | Dashboard Oficial</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              400: '#34d399',
+              500: '#10b981',
+              600: '#059669',
+              900: '#064e3b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Data fallback for file:// protocol -->
+  <script src="data.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background-color: #0b0f19;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(59, 130, 246, 0.08) 0%, transparent 40%);
+    }
+
+    /* Soccer Pitch Styles */
+    .soccer-pitch {
+      background: radial-gradient(circle at center, #1b3d22 0%, #0f2313 100%);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.6);
+    }
+    .soccer-pitch::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .pitch-center-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 120px;
+      height: 120px;
+      margin-top: -60px;
+      margin-left: -60px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+    }
+    .pitch-box-top {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 45%;
+      height: 15%;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      border-left: 2px solid rgba(255, 255, 255, 0.2);
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+    }
+    .pitch-box-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 45%;
+      height: 15%;
+      border-top: 2px solid rgba(255, 255, 255, 0.2);
+      border-left: 2px solid rgba(255, 255, 255, 0.2);
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="text-slate-100 min-h-screen flex flex-col selection:bg-brand-500 selection:text-white">
+
+  <!-- TOP HEADER -->
+  <header class="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-xl sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center space-x-3">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-brand-600 to-emerald-400 flex items-center justify-center shadow-lg shadow-emerald-500/20 text-slate-950 font-black text-xl">
+          ⚽
+        </div>
+        <div>
+          <h1 id="league-name" class="font-extrabold text-xl sm:text-2xl text-white tracking-tight flex items-center gap-2">
+            Cargando Liga...
+          </h1>
+          <p id="updated-at" class="text-xs text-slate-400 font-medium">Sincronizando datos...</p>
+        </div>
+      </div>
+
+      <!-- SUMMARY PILLS -->
+      <div class="flex items-center gap-2 sm:gap-4 flex-wrap">
+        <div class="bg-slate-800/80 border border-slate-700/60 px-3 py-1.5 rounded-lg text-xs flex items-center gap-2">
+          <span class="text-brand-400 inline-flex items-center"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          <span class="text-slate-400">Mánagers:</span>
+          <span id="stat-managers" class="font-bold text-white">-</span>
+        </div>
+        <div class="bg-slate-800/80 border border-slate-700/60 px-3 py-1.5 rounded-lg text-xs flex items-center gap-2">
+          <span class="text-sky-400 inline-flex items-center"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"/></svg></span>
+          <span class="text-slate-400">Jugadores:</span>
+          <span id="stat-players" class="font-bold text-white">-</span>
+        </div>
+        <!-- VALOR TOTAL (Oculto por preferencia de usuario, conservado en el código) -->
+        <div id="stat-league-value-container" class="hidden bg-slate-800/80 border border-slate-700/60 px-3 py-1.5 rounded-lg text-xs items-center gap-2">
+          <span class="text-amber-400 inline-flex items-center"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18"/><path d="m7 6 5 5"/></svg></span>
+          <span class="text-slate-400">Valor Total:</span>
+          <span id="stat-league-value" class="font-bold text-white">-</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION TABS -->
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 w-full">
+    <div class="flex items-center space-x-2 border-b border-slate-800/80 pb-3 overflow-x-auto custom-scroll">
+      <!-- TAB CLASIFICACIÓN (Oculto por preferencia de usuario, conservado en el código) -->
+      <button onclick="switchTab('clasificacion')" id="tab-clasificacion" style="display:none;" class="hidden tab-btn px-4 py-2 rounded-xl text-sm font-semibold items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800/60 border border-transparent transition-all">
+        <span>🏆</span> Clasificación & Plantillas
+      </button>
+      <button onclick="switchTab('trofeos')" id="tab-trofeos" class="tab-btn px-4 py-2 rounded-xl text-sm font-bold flex items-center gap-2 bg-brand-500/10 text-brand-400 border border-brand-500/30 transition-all">
+        <span>🎖️</span> Trofeos & Récords
+      </button>
+      <button onclick="switchTab('once-ideal')" id="tab-once-ideal" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800/60 border border-transparent transition-all">
+        <span>⭐</span> El 11 Ideal
+      </button>
+      <button onclick="switchTab('curiosidades')" id="tab-curiosidades" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800/60 border border-transparent transition-all">
+        <span>📊</span> Rankings
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1">
+
+    <!-- 1. SECCIÓN CLASIFICACIÓN (Oculto por preferencia de usuario, conservado en el código) -->
+    <section id="section-clasificacion" class="hidden space-y-6">
+      <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-4 sm:p-6 shadow-xl backdrop-blur-sm">
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-5">
+          <div>
+            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+              <span class="text-amber-400">🏅</span> Tabla de Clasificación General
+            </h2>
+            <p class="text-xs text-slate-400 mt-0.5">Haz clic en cualquier mánager para desplegar su plantilla completa.</p>
+          </div>
+          <!-- Quick search player in league -->
+          <div class="relative w-full sm:w-64">
+            <span class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs">🔍</span>
+            <input type="text" id="player-search" oninput="searchLeaguePlayer(this.value)" placeholder="Buscar jugador en la liga..." class="w-full pl-8 pr-3 py-1.5 text-xs bg-slate-800/90 border border-slate-700/70 rounded-lg text-slate-200 placeholder-slate-500 focus:outline-none focus:border-brand-400 transition-all">
+            <div id="search-results-dropdown" class="hidden absolute left-0 right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl z-50 max-h-60 overflow-y-auto custom-scroll p-2 text-xs"></div>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto custom-scroll">
+          <table class="w-full text-left text-sm border-collapse">
+            <thead>
+              <tr class="text-xs uppercase tracking-wider text-slate-400 border-b border-slate-800">
+                <th class="py-3 px-3">Pos</th>
+                <th class="py-3 px-3">Mánager</th>
+                <th class="py-3 px-3 text-right">Puntos</th>
+                <th class="py-3 px-3 text-right">Valor Equipo</th>
+                <th class="py-3 px-3 text-center">Jugadores</th>
+                <th class="py-3 px-3 text-center">Traspasos</th>
+                <th class="py-3 px-3 text-center">Acción</th>
+              </tr>
+            </thead>
+            <tbody id="standings-tbody" class="divide-y divide-slate-800/60 font-medium">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- SQUAD ACCORDION CONTAINER -->
+      <div id="squad-detail-card" class="hidden bg-slate-900/90 border border-brand-500/30 rounded-2xl p-6 shadow-2xl">
+        <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-800">
+          <div class="flex items-center gap-3">
+            <img id="detail-manager-icon" src="" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 object-cover">
+            <div>
+              <h3 id="detail-manager-name" class="font-bold text-lg text-white">-</h3>
+              <p id="detail-manager-summary" class="text-xs text-slate-400">-</p>
+            </div>
+          </div>
+          <button onclick="closeSquadDetail()" class="text-slate-400 hover:text-white text-xs px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700">✕ Cerrar</button>
+        </div>
+        <div id="detail-players-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SECCIÓN TROFEOS & RÉCORDS -->
+    <section id="section-trofeos" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-xl font-bold text-white flex items-center gap-2">
+            <span class="text-amber-400">🎖️</span> Cuadro de Honor & Distinciones
+          </h2>
+          <p class="text-xs text-slate-400 mt-1">Trofeos basados exclusivamente en el rendimiento público de las jornadas y plantillas.</p>
+        </div>
+      </div>
+
+      <div id="trophies-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- 3. SECCIÓN EL ONCE IDEAL -->
+    <section id="section-once-ideal" class="hidden space-y-6">
+      <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-4 sm:p-6 shadow-xl">
+        <div class="flex flex-wrap items-center justify-between gap-3 mb-6">
+          <div>
+            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+              <span class="text-amber-400">⭐</span> El Once Ideal de la Comunidad
+            </h2>
+            <p class="text-xs text-slate-400 mt-0.5">La alineación más temible combinando los mejores jugadores de todos los mánagers.</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <span id="dream-formation" class="text-xs px-3 py-1 bg-brand-500/20 text-brand-400 font-bold rounded-lg border border-brand-500/30">3-4-3</span>
+            <span id="dream-total-pts" class="text-xs px-3 py-1 bg-amber-500/20 text-amber-300 font-bold rounded-lg border border-amber-500/30">0 Pts Totales</span>
+          </div>
+        </div>
+
+        <!-- TACTICAL PITCH -->
+        <div class="soccer-pitch rounded-2xl p-6 min-h-[580px] flex flex-col justify-between relative">
+          <div class="pitch-center-circle"></div>
+          <div class="pitch-box-top"></div>
+          <div class="pitch-box-bottom"></div>
+
+          <!-- DELANTEROS (DL) -->
+          <div id="pitch-forwards" class="relative z-10 flex justify-around items-center my-2"></div>
+
+          <!-- CENTROCAMPISTAS (MC) -->
+          <div id="pitch-midfielders" class="relative z-10 flex justify-around items-center my-2"></div>
+
+          <!-- DEFENSAS (DF) -->
+          <div id="pitch-defenders" class="relative z-10 flex justify-around items-center my-2"></div>
+
+          <!-- PORTERO (PT) -->
+          <div id="pitch-goalkeeper" class="relative z-10 flex justify-center items-center my-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SECCIÓN RANKINGS -->
+    <section id="section-curiosidades" class="hidden space-y-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+        <!-- TOP 5 MÁS CAROS -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 shadow-xl">
+          <div class="flex items-center justify-between mb-4 border-b border-slate-800 pb-3">
+            <h3 class="font-bold text-base text-white flex items-center gap-2">
+              <span class="text-cyan-400">💎</span> Top 5 Jugadores Más Caros
+            </h3>
+            <span class="text-xs text-slate-400">Valor</span>
+          </div>
+          <div id="top5-expensive-list" class="space-y-2.5"></div>
+        </div>
+
+        <!-- TOP 5 MÁS PUNTOS -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 shadow-xl">
+          <div class="flex items-center justify-between mb-4 border-b border-slate-800 pb-3">
+            <h3 class="font-bold text-base text-white flex items-center gap-2">
+              <span class="text-amber-400">🔥</span> Top 5 Más puntos
+            </h3>
+            <span class="text-xs text-slate-400">Puntos</span>
+          </div>
+          <div id="top5-points-list" class="space-y-2.5"></div>
+        </div>
+
+        <!-- TOP 5 POR PTS / M€ -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 shadow-xl">
+          <div class="flex items-center justify-between mb-4 border-b border-slate-800 pb-3">
+            <h3 class="font-bold text-base text-white flex items-center gap-2">
+              <span class="text-lime-400">🏷️</span> Top 5 Más rentables
+            </h3>
+            <span class="text-xs text-slate-400">Mejor pts/M€</span>
+          </div>
+          <div id="top5-rentabilidad-list" class="space-y-2.5"></div>
+        </div>
+
+        <!-- TOP 5 PUFOS -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 shadow-xl">
+          <div class="flex items-center justify-between mb-4 border-b border-slate-800 pb-3">
+            <h3 class="font-bold text-base text-white flex items-center gap-2">
+              <span class="text-rose-400">⚠️</span> Top 5 Pufos
+            </h3>
+            <span class="text-xs text-slate-400">Peor pts/M€</span>
+          </div>
+          <div id="top5-pufos-list" class="space-y-2.5"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800/80 bg-slate-900/40 py-6 text-center text-xs text-slate-500">
+    <p>Biwenger Community Dashboard • Estadísticas, récords y rankings oficiales de la liga.</p>
+  </footer>
+
+  <!-- SCRIPT LOGIC -->
+  <script>
+    let globalData = null;
+
+    // Colores oficiales Biwenger por posición
+    // PT (1): Naranja / Ámbar
+    // DF (2): Azul
+    // MC (3): Verde
+    // DL (4): Rojo
+    const POS_CONFIG = {
+      1: { short: 'PT', badgeClass: 'bg-amber-500/20 text-amber-400 border-amber-500/40' },
+      2: { short: 'DF', badgeClass: 'bg-blue-500/20 text-blue-400 border-blue-500/40' },
+      3: { short: 'MC', badgeClass: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40' },
+      4: { short: 'DL', badgeClass: 'bg-rose-500/20 text-rose-400 border-rose-500/40' }
+    };
+
+    function getPosBadge(posId) {
+      const cfg = POS_CONFIG[posId] || { short: 'OT', badgeClass: 'bg-slate-700/40 text-slate-300 border-slate-600' };
+      return `<span class="text-[10px] font-black px-1.5 py-0.5 rounded border ${cfg.badgeClass} shrink-0">${cfg.short}</span>`;
+    }
+
+    // Vectorial SVG Data URI Fallbacks
+    const DEFAULT_MANAGER_SVG = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%2310b981'><circle cx='50' cy='36' r='22'/><path d='M15 88c0-19.33 15.67-35 35-35s35 15.67 35 35z'/></svg>";
+    const DEFAULT_PLAYER_SVG = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%2338bdf8'><circle cx='50' cy='32' r='20'/><path d='M20 88c0-16.57 13.43-30 30-30s30 13.43 30 30z'/></svg>";
+
+    function formatMoney(num) {
+      if (!num) return '0 €';
+      return num.toLocaleString('es-ES') + ' €';
+    }
+
+    function getManagerAvatar(m) {
+      if (m.icon && m.icon.trim() !== '') {
+        return m.icon;
+      }
+      return DEFAULT_MANAGER_SVG;
+    }
+
+    function getPlayerPhoto(p) {
+      if (p.photoUrl && p.photoUrl.trim() !== '') {
+        return p.photoUrl;
+      }
+      return DEFAULT_PLAYER_SVG;
+    }
+
+    function switchTab(tabId) {
+      ['clasificacion', 'trofeos', 'once-ideal', 'curiosidades'].forEach(t => {
+        const sec = document.getElementById(`section-${t}`);
+        const btn = document.getElementById(`tab-${t}`);
+        if (!sec || !btn) return;
+        if (t === tabId) {
+          sec.classList.remove('hidden');
+          if (btn.style.display !== 'none') {
+            btn.className = "tab-btn px-4 py-2 rounded-xl text-sm font-bold flex items-center gap-2 bg-brand-500/10 text-brand-400 border border-brand-500/30 transition-all";
+          }
+        } else {
+          sec.classList.add('hidden');
+          if (btn.style.display !== 'none') {
+            btn.className = "tab-btn px-4 py-2 rounded-xl text-sm font-semibold flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-800/60 border border-transparent transition-all";
+          }
+        }
+      });
+    }
+
+    async function loadDashboardData() {
+      try {
+        const res = await fetch(`data.json?v=${Date.now()}`);
+        if (res.ok) {
+          globalData = await res.json();
+        } else {
+          throw new Error("HTTP error " + res.status);
+        }
+      } catch (e) {
+        console.warn("Fetch data.json failed, falling back to window.BIWENGER_COMMUNITY_DATA:", e);
+        if (window.BIWENGER_COMMUNITY_DATA) {
+          globalData = window.BIWENGER_COMMUNITY_DATA;
+        }
+      }
+
+      if (!globalData) {
+        document.getElementById('league-name').innerText = "Error cargando datos";
+        return;
+      }
+
+      renderHeader();
+      renderStandings();
+      renderTrophies();
+      renderDreamTeam();
+      renderCuriosities();
+    }
+
+    function renderHeader() {
+      document.getElementById('league-name').innerText = globalData.league.name || "Liga Biwenger";
+      const date = new Date(globalData.updatedAt);
+      document.getElementById('updated-at').innerText = `Última actualización: ${date.toLocaleDateString('es-ES', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })}`;
+      document.getElementById('stat-managers').innerText = globalData.league.totalManagers;
+      document.getElementById('stat-players').innerText = globalData.league.totalPlayersOwned;
+      document.getElementById('stat-league-value').innerText = formatMoney(globalData.league.totalMarketValue);
+    }
+
+    function renderStandings() {
+      const tbody = document.getElementById('standings-tbody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+
+      globalData.standings.forEach(m => {
+        let medal = '';
+        if (m.position === 1) medal = '🥇';
+        else if (m.position === 2) medal = '🥈';
+        else if (m.position === 3) medal = '🥉';
+        else medal = `<span class="text-slate-500 font-bold">${m.position}º</span>`;
+
+        const avatarUrl = getManagerAvatar(m);
+
+        const tr = document.createElement('tr');
+        tr.className = "hover:bg-slate-800/40 transition-colors cursor-pointer";
+        tr.onclick = () => showSquadDetail(m.id);
+
+        tr.innerHTML = `
+          <td class="py-3 px-3 font-bold text-sm">${medal}</td>
+          <td class="py-3 px-3">
+            <div class="flex items-center gap-2.5">
+              <img src="${avatarUrl}" class="w-8 h-8 rounded-full bg-slate-800 border border-slate-700 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_MANAGER_SVG}'">
+              <div>
+                <div class="font-bold text-slate-100">${m.name}</div>
+                <div class="text-[11px] text-slate-400">${m.dominantClub.count >= 2 ? m.dominantClub.name + ' (' + m.dominantClub.count + ')' : ''}</div>
+              </div>
+            </div>
+          </td>
+          <td class="py-3 px-3 text-right font-black text-emerald-400 text-base">${m.points}</td>
+          <td class="py-3 px-3 text-right font-semibold text-slate-300">${formatMoney(m.squadValue)}</td>
+          <td class="py-3 px-3 text-center text-slate-300">${m.playerCount}</td>
+          <td class="py-3 px-3 text-center text-slate-400 font-mono text-xs">${m.transfersCount}</td>
+          <td class="py-3 px-3 text-center">
+            <button class="text-xs text-brand-400 hover:text-brand-300 font-semibold px-2.5 py-1 rounded-lg bg-brand-500/10 border border-brand-500/20">Ver Plantilla</button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function showSquadDetail(managerId) {
+      const manager = globalData.standings.find(m => m.id === managerId);
+      if (!manager) return;
+
+      document.getElementById('detail-manager-name').innerText = manager.name;
+      document.getElementById('detail-manager-summary').innerText = `${manager.playerCount} jugadores • Valor: ${formatMoney(manager.squadValue)} • ${manager.points} Pts`;
+      
+      const avatarImg = document.getElementById('detail-manager-icon');
+      avatarImg.src = getManagerAvatar(manager);
+      avatarImg.onerror = () => { avatarImg.src = DEFAULT_MANAGER_SVG; };
+
+      const grid = document.getElementById('detail-players-grid');
+      grid.innerHTML = '';
+
+      const sortedPlayers = [...manager.players].sort((a,b) => a.positionId - b.positionId || b.price - a.price);
+
+      sortedPlayers.forEach(p => {
+        const photoUrl = getPlayerPhoto(p);
+        const posBadgeHtml = getPosBadge(p.positionId);
+        const pCard = document.createElement('div');
+        pCard.className = "bg-slate-800/80 border border-slate-700/80 rounded-xl p-3 flex items-center gap-3";
+        pCard.innerHTML = `
+          <img src="${photoUrl}" class="w-11 h-11 rounded-full bg-slate-900 border border-slate-700 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between gap-1">
+              <span class="font-bold text-sm text-white truncate">${p.name}</span>
+              ${posBadgeHtml}
+            </div>
+            <div class="text-xs text-slate-400 truncate">${p.teamName}</div>
+            <div class="flex items-center justify-between mt-1 text-xs">
+              <span class="text-slate-300 font-semibold">${formatMoney(p.price)}</span>
+              <span class="font-bold text-emerald-400">${p.points} pts</span>
+            </div>
+          </div>
+        `;
+        grid.appendChild(pCard);
+      });
+
+      const detailCard = document.getElementById('squad-detail-card');
+      detailCard.classList.remove('hidden');
+      detailCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function closeSquadDetail() {
+      const el = document.getElementById('squad-detail-card');
+      if (el) el.classList.add('hidden');
+    }
+
+    function renderTrophies() {
+      const grid = document.getElementById('trophies-grid');
+      grid.innerHTML = '';
+
+      const tr = globalData.trophies;
+      const trophyList = [
+        { key: 'laMasterclass', gradient: 'from-amber-500/20 to-orange-500/10', border: 'border-amber-500/30', textCol: 'text-amber-400' },
+        { key: 'jornadaNegra', gradient: 'from-slate-700/20 to-zinc-800/10', border: 'border-slate-700', textCol: 'text-slate-400' },
+        { key: 'balonDeOro', gradient: 'from-yellow-500/20 to-amber-500/10', border: 'border-yellow-500/30', textCol: 'text-yellow-400' },
+        { key: 'maquinaFichar', gradient: 'from-blue-500/20 to-sky-500/10', border: 'border-blue-500/30', textCol: 'text-blue-400' },
+        { key: 'elInmovilista', gradient: 'from-stone-600/20 to-zinc-700/10', border: 'border-stone-600/40', textCol: 'text-stone-300' },
+        { key: 'reyMidas', gradient: 'from-cyan-500/20 to-blue-500/10', border: 'border-cyan-500/30', textCol: 'text-cyan-400' },
+        { key: 'elMonje', gradient: 'from-emerald-500/20 to-teal-500/10', border: 'border-emerald-500/30', textCol: 'text-emerald-400' },
+        { key: 'elChollo', gradient: 'from-lime-500/20 to-emerald-500/10', border: 'border-lime-500/30', textCol: 'text-lime-400' },
+        { key: 'elPozo', gradient: 'from-rose-500/20 to-red-500/10', border: 'border-rose-500/30', textCol: 'text-rose-400' },
+        { key: 'elMonotematico', gradient: 'from-fuchsia-500/20 to-pink-500/10', border: 'border-fuchsia-500/30', textCol: 'text-fuchsia-400' },
+      ];
+
+      trophyList.forEach(t => {
+        const item = tr[t.key];
+        if (!item) return;
+
+        const card = document.createElement('div');
+        card.className = `bg-gradient-to-br ${t.gradient} bg-slate-900/90 border ${t.border} rounded-2xl p-4 sm:p-5 shadow-lg flex flex-col justify-between`;
+        
+        let targetText = '';
+        if (item.player && item.owner) {
+          targetText = `<div class="text-sm font-bold text-white">${item.player}</div><div class="text-xs text-slate-400">Dueño: <span class="text-slate-200 font-semibold">${item.owner}</span></div>`;
+        } else if (item.player && item.manager) {
+          targetText = `<div class="text-sm font-bold text-white">${item.player}</div><div class="text-xs text-slate-400">Mánager: <span class="text-slate-200 font-semibold">${item.manager}</span></div>`;
+        } else {
+          targetText = `<div class="text-sm font-bold text-white">${item.manager || '-'}</div>`;
+        }
+
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-2xl">${item.badge}</span>
+              <span class="text-xs font-black uppercase tracking-wider px-2.5 py-1 rounded-lg bg-slate-800/80 border border-slate-700 ${t.textCol}">${item.value}</span>
+            </div>
+            <h3 class="font-extrabold text-base text-slate-100">${item.title}</h3>
+            <p class="text-xs text-slate-400 mt-1 mb-4 leading-relaxed">${item.description}</p>
+          </div>
+          <div class="pt-3 border-t border-slate-800/80">
+            ${targetText}
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function renderDreamTeam() {
+      const dt = globalData.dreamTeam;
+      if (!dt) return;
+
+      document.getElementById('dream-formation').innerText = `Esquema: ${dt.formation}`;
+      document.getElementById('dream-total-pts').innerText = `${dt.totalPoints} Pts Totales`;
+
+      const gks = dt.players.filter(p => p.positionId === 1);
+      const dfs = dt.players.filter(p => p.positionId === 2);
+      const mfs = dt.players.filter(p => p.positionId === 3);
+      const fws = dt.players.filter(p => p.positionId === 4);
+
+      function createPitchPlayer(p) {
+        const photoUrl = getPlayerPhoto(p);
+        const cfg = POS_CONFIG[p.positionId] || { short: 'OT', badgeClass: 'bg-slate-700 text-slate-200' };
+        return `
+          <div class="flex flex-col items-center text-center max-w-[90px] sm:max-w-[120px] transition-transform hover:scale-105">
+            <div class="relative">
+              <img src="${photoUrl}" class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-slate-900 border-2 border-emerald-400 object-cover shadow-lg" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+              <span class="absolute -top-1 -right-1 bg-amber-400 text-slate-950 font-black text-[10px] px-1.5 py-0.2 rounded-full border border-slate-900 shadow">${p.points}p</span>
+              <span class="absolute -bottom-1 -left-1 text-[9px] font-black px-1 rounded ${cfg.badgeClass} border border-slate-900 shadow">${cfg.short}</span>
+            </div>
+            <div class="mt-1.5 bg-slate-950/85 backdrop-blur-sm px-2 py-0.5 rounded border border-slate-700/60 shadow w-full">
+              <div class="font-extrabold text-[11px] sm:text-xs text-white truncate">${p.name}</div>
+              <div class="text-[9px] text-emerald-400 truncate">${p.ownerName}</div>
+            </div>
+          </div>
+        `;
+      }
+
+      document.getElementById('pitch-forwards').innerHTML = fws.map(createPitchPlayer).join('');
+      document.getElementById('pitch-midfielders').innerHTML = mfs.map(createPitchPlayer).join('');
+      document.getElementById('pitch-defenders').innerHTML = dfs.map(createPitchPlayer).join('');
+      document.getElementById('pitch-goalkeeper').innerHTML = gks.map(createPitchPlayer).join('');
+    }
+
+    function renderCuriosities() {
+      // Top 5 Expensive
+      const expList = document.getElementById('top5-expensive-list');
+      expList.innerHTML = globalData.top5Expensive.map((p, idx) => `
+        <div class="flex items-center justify-between p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/50">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="font-black text-xs text-slate-500 w-4">${idx+1}</span>
+            ${getPosBadge(p.positionId)}
+            <img src="${getPlayerPhoto(p)}" class="w-8 h-8 rounded-full bg-slate-900 border border-slate-700 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+            <div class="min-w-0">
+              <div class="font-bold text-xs text-white truncate">${p.name} <span class="text-slate-400 font-normal text-[10px]">(${p.teamName})</span></div>
+              <div class="text-[10px] text-brand-400 truncate">Dueño: ${p.ownerName}</div>
+            </div>
+          </div>
+          <div class="text-right">
+            <div class="font-bold text-xs text-cyan-400">${formatMoney(p.price)}</div>
+            <div class="text-[10px] text-slate-400">${p.points} pts</div>
+          </div>
+        </div>
+      `).join('');
+
+      // Top 5 Más puntos
+      const ptsList = document.getElementById('top5-points-list');
+      ptsList.innerHTML = globalData.top5Points.map((p, idx) => `
+        <div class="flex items-center justify-between p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/50">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="font-black text-xs text-slate-500 w-4">${idx+1}</span>
+            ${getPosBadge(p.positionId)}
+            <img src="${getPlayerPhoto(p)}" class="w-8 h-8 rounded-full bg-slate-900 border border-slate-700 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+            <div class="min-w-0">
+              <div class="font-bold text-xs text-white truncate">${p.name} <span class="text-slate-400 font-normal text-[10px]">(${p.teamName})</span></div>
+              <div class="text-[10px] text-brand-400 truncate">Dueño: ${p.ownerName}</div>
+            </div>
+          </div>
+          <div class="text-right">
+            <div class="font-black text-sm text-amber-400">${p.points} pts</div>
+            <div class="text-[10px] text-slate-400">${formatMoney(p.price)}</div>
+          </div>
+        </div>
+      `).join('');
+
+      // Top 5 por pts/M€ (Rentabilidad)
+      const rentList = document.getElementById('top5-rentabilidad-list');
+      rentList.innerHTML = (globalData.top5PtsPerMillion || []).map((p, idx) => `
+        <div class="flex items-center justify-between p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/50">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="font-black text-xs text-slate-500 w-4">${idx+1}</span>
+            ${getPosBadge(p.positionId)}
+            <img src="${getPlayerPhoto(p)}" class="w-8 h-8 rounded-full bg-slate-900 border border-slate-700 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+            <div class="min-w-0">
+              <div class="font-bold text-xs text-white truncate">${p.name} <span class="text-slate-400 font-normal text-[10px]">(${p.teamName})</span></div>
+              <div class="text-[10px] text-brand-400 truncate">Dueño: ${p.ownerName}</div>
+            </div>
+          </div>
+          <div class="text-right">
+            <div class="font-black text-xs text-lime-400">${p.ptsPerMillion} pts/M€</div>
+            <div class="text-[10px] text-slate-400">${p.points} pts • ${formatMoney(p.price)}</div>
+          </div>
+        </div>
+      `).join('');
+
+      // Top 5 Pufos (Peor pts/M€)
+      const pufosList = document.getElementById('top5-pufos-list');
+      pufosList.innerHTML = (globalData.top5Pufos || []).map((p, idx) => `
+        <div class="flex items-center justify-between p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/50">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="font-black text-xs text-slate-500 w-4">${idx+1}</span>
+            ${getPosBadge(p.positionId)}
+            <img src="${getPlayerPhoto(p)}" class="w-8 h-8 rounded-full bg-slate-900 border border-slate-700 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+            <div class="min-w-0">
+              <div class="font-bold text-xs text-white truncate">${p.name} <span class="text-slate-400 font-normal text-[10px]">(${p.teamName})</span></div>
+              <div class="text-[10px] text-brand-400 truncate">Dueño: ${p.ownerName}</div>
+            </div>
+          </div>
+          <div class="text-right">
+            <div class="font-black text-xs text-rose-400">${p.ptsPerMillion} pts/M€</div>
+            <div class="text-[10px] text-slate-400">${p.points} pts • ${formatMoney(p.price)}</div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function searchLeaguePlayer(query) {
+      const dropdown = document.getElementById('search-results-dropdown');
+      if (!query || query.trim().length < 2) {
+        dropdown.classList.add('hidden');
+        return;
+      }
+
+      const q = query.toLowerCase().trim();
+      const allPlayers = [];
+      globalData.standings.forEach(m => {
+        m.players.forEach(p => allPlayers.push({ ...p, managerId: m.id }));
+      });
+
+      const matches = allPlayers.filter(p => p.name.toLowerCase().includes(q) || p.teamName.toLowerCase().includes(q)).slice(0, 8);
+
+      if (matches.length === 0) {
+        dropdown.innerHTML = `<div class="p-2 text-slate-400 text-center">No se encontraron jugadores en ninguna plantilla.</div>`;
+        dropdown.classList.remove('hidden');
+        return;
+      }
+
+      dropdown.innerHTML = matches.map(p => `
+        <div onclick="showSquadDetail(${p.managerId}); document.getElementById('search-results-dropdown').classList.add('hidden');" class="p-2 hover:bg-slate-700 rounded-lg flex items-center justify-between cursor-pointer">
+          <div class="flex items-center gap-2">
+            ${getPosBadge(p.positionId)}
+            <img src="${getPlayerPhoto(p)}" class="w-6 h-6 rounded-full bg-slate-900 object-cover" onerror="this.onerror=null;this.src='${DEFAULT_PLAYER_SVG}'">
+            <div>
+              <div class="font-bold text-white">${p.name} <span class="text-slate-400 text-[10px]">(${p.teamName})</span></div>
+              <div class="text-[10px] text-brand-400">Equipo: ${p.ownerName}</div>
+            </div>
+          </div>
+          <div class="text-right">
+            <div class="font-semibold text-slate-200">${formatMoney(p.price)}</div>
+            <div class="text-[10px] text-emerald-400 font-bold">${p.points} pts</div>
+          </div>
+        </div>
+      `).join('');
+      dropdown.classList.remove('hidden');
+    }
+
+    document.addEventListener('DOMContentLoaded', loadDashboardData);
+  </script>
+</body>
+</html>
