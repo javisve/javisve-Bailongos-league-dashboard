@@ -420,8 +420,12 @@
 
     function renderHeader() {
       document.getElementById('league-name').innerText = globalData.league.name || "Liga Biwenger";
-      const date = new Date(globalData.updatedAt);
-      document.getElementById('updated-at').innerText = `Última actualización: ${date.toLocaleDateString('es-ES', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })}`;
+      const rawDateStr = globalData.updatedAt;
+      const dateStr = (rawDateStr && !rawDateStr.endsWith('Z') && !rawDateStr.includes('+')) ? rawDateStr + 'Z' : rawDateStr;
+      const date = new Date(dateStr);
+      const dateFormatted = date.toLocaleDateString('es-ES', { timeZone: 'Europe/Madrid', day: '2-digit', month: 'short' });
+      const timeFormatted = date.toLocaleTimeString('es-ES', { timeZone: 'Europe/Madrid', hour: '2-digit', minute: '2-digit' });
+      document.getElementById('updated-at').innerText = `Última actualización: ${dateFormatted} a las ${timeFormatted}`;
       document.getElementById('stat-managers').innerText = globalData.league.totalManagers;
       document.getElementById('stat-players').innerText = globalData.league.totalPlayersOwned;
       document.getElementById('stat-league-value').innerText = formatMoney(globalData.league.totalMarketValue);

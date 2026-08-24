@@ -3,7 +3,7 @@ import sys
 import json
 import time
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 
 BASE_URL = "https://biwenger.as.com/api/v2"
 CDN_URL = "https://cf.biwenger.com/api/v2"
@@ -350,7 +350,7 @@ def main():
     dream_team = build_dream_team(all_league_players)
 
     dashboard_payload = {
-        "updatedAt": datetime.now().isoformat(),
+        "updatedAt": datetime.now(timezone.utc).isoformat(),
         "league": {
             "id": league_id,
             "name": league_name,
