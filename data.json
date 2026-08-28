@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-28T06:55:34.042036+00:00",
+  "updatedAt": "2026-08-28T19:25:42.997040+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 111,
-    "totalMarketValue": 362610000
+    "totalPlayersOwned": 106,
+    "totalMarketValue": 352490000
   },
   "standings": [
     {
@@ -317,10 +317,10 @@
       "icon": "https://cdn.biwenger.com/i/u/14296022.png",
       "position": 2,
       "points": 54,
-      "squadValue": 47120000,
+      "squadValue": 48020000,
       "playerCount": 16,
       "avgPointsPerPlayer": 3.38,
-      "transfersCount": 27,
+      "transfersCount": 29,
       "dominantClub": {
         "name": "Málaga",
         "count": 3
@@ -400,6 +400,32 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 0.86,
+          "negativeMatches": 0,
+          "ownerId": 14296022,
+          "ownerName": "Los intocables de Javi"
+        },
+        {
+          "id": 18251,
+          "name": "Sergio Herrera",
+          "slug": "sergio-herrera",
+          "photoUrl": "https://cdn.biwenger.com/i/p/18251.png",
+          "teamId": 93,
+          "teamName": "Osasuna",
+          "positionId": 1,
+          "positionName": "Portero",
+          "positionShort": "PT",
+          "price": 4420000,
+          "priceIncrement": -50000,
+          "purchasePrice": 4700000,
+          "purchaseDate": 1787924508,
+          "points": 6,
+          "fitness": [
+            2,
+            4
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 1.36,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -691,32 +717,6 @@
           "ownerName": "Los intocables de Javi"
         },
         {
-          "id": 42389,
-          "name": "Ryunosuke Sato",
-          "slug": "ryunosuke",
-          "photoUrl": "https://cdn.biwenger.com/i/p/42389.png",
-          "teamId": 18,
-          "teamName": "Valencia",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 3520000,
-          "priceIncrement": -40000,
-          "purchasePrice": 3820000,
-          "purchaseDate": 1787029528,
-          "points": 7,
-          "fitness": [
-            4,
-            3
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 1.99,
-          "negativeMatches": 0,
-          "ownerId": 14296022,
-          "ownerName": "Los intocables de Javi"
-        },
-        {
           "id": 42571,
           "name": "Funes",
           "slug": "funes",
@@ -827,6 +827,7 @@
           "purchaseDate": 1786894720,
           "points": 10,
           "fitness": [
+            5,
             0,
             10
           ],
@@ -1050,10 +1051,10 @@
       "icon": "https://cdn.biwenger.com/icons/13.png",
       "position": 4,
       "points": 45,
-      "squadValue": 50210000,
-      "playerCount": 16,
-      "avgPointsPerPlayer": 2.81,
-      "transfersCount": 23,
+      "squadValue": 45050000,
+      "playerCount": 14,
+      "avgPointsPerPlayer": 3.21,
+      "transfersCount": 25,
       "dominantClub": {
         "name": "Sevilla",
         "count": 3
@@ -1081,32 +1082,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 4.01,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 3159,
-          "name": "Jutglà",
-          "slug": "jutgla",
-          "photoUrl": "https://cdn.biwenger.com/i/p/3159.png",
-          "teamId": 5,
-          "teamName": "Celta",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 3830000,
-          "priceIncrement": -80000,
-          "purchasePrice": 3830000,
-          "purchaseDate": 1786894720,
-          "points": 4,
-          "fitness": [
-            3,
-            1
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 1.04,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1314,32 +1289,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 0.0,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 38095,
-          "name": "Davinchi",
-          "slug": "davinchi",
-          "photoUrl": "https://cdn.biwenger.com/i/p/38095.png",
-          "teamId": 8,
-          "teamName": "Getafe",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 1330000,
-          "priceIncrement": -30000,
-          "purchasePrice": 1330000,
-          "purchaseDate": 1786894720,
-          "points": 3,
-          "fitness": [
-            null,
-            3
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 2.26,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1845,6 +1794,7 @@
           "purchaseDate": 1786894720,
           "points": 5,
           "fitness": [
+            6,
             2,
             3
           ],
@@ -1863,13 +1813,13 @@
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 6,
       "points": 30,
-      "squadValue": 48410000,
-      "playerCount": 19,
-      "avgPointsPerPlayer": 1.58,
-      "transfersCount": 12,
+      "squadValue": 42830000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 1.76,
+      "transfersCount": 14,
       "dominantClub": {
-        "name": "Osasuna",
-        "count": 4
+        "name": "Betis",
+        "count": 3
       },
       "players": [
         {
@@ -1977,32 +1927,6 @@
           "ownerName": "Ajax Pino"
         },
         {
-          "id": 5678,
-          "name": "Diego Rico",
-          "slug": "diego-rico",
-          "photoUrl": "https://cdn.biwenger.com/i/p/5678.png",
-          "teamId": 93,
-          "teamName": "Osasuna",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 1160000,
-          "priceIncrement": -80000,
-          "purchasePrice": 1160000,
-          "purchaseDate": 1786894720,
-          "points": 0,
-          "fitness": [
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 0.0,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
           "id": 9045,
           "name": "Enes Ünal",
           "slug": "enes-unal",
@@ -2050,32 +1974,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 1.22,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 18251,
-          "name": "Sergio Herrera",
-          "slug": "sergio-herrera",
-          "photoUrl": "https://cdn.biwenger.com/i/p/18251.png",
-          "teamId": 93,
-          "teamName": "Osasuna",
-          "positionId": 1,
-          "positionName": "Portero",
-          "positionShort": "PT",
-          "price": 4420000,
-          "priceIncrement": -50000,
-          "purchasePrice": 4881000,
-          "purchaseDate": 1787547799,
-          "points": 6,
-          "fitness": [
-            2,
-            4
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 1.36,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -2374,10 +2272,10 @@
       "icon": "https://cdn.biwenger.com/i/u/14295617.png",
       "position": 7,
       "points": 28,
-      "squadValue": 42730000,
-      "playerCount": 12,
-      "avgPointsPerPlayer": 2.33,
-      "transfersCount": 9,
+      "squadValue": 42450000,
+      "playerCount": 11,
+      "avgPointsPerPlayer": 2.55,
+      "transfersCount": 10,
       "dominantClub": {
         "name": "Valencia",
         "count": 2
@@ -2644,32 +2542,6 @@
           "ownerName": "Cornellius"
         },
         {
-          "id": 41932,
-          "name": "Yeboah",
-          "slug": "yeboah",
-          "photoUrl": "https://cdn.biwenger.com/i/p/41932.png",
-          "teamId": 93,
-          "teamName": "Osasuna",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 280000,
-          "priceIncrement": -10000,
-          "purchasePrice": 280000,
-          "purchaseDate": 1786894720,
-          "points": 0,
-          "fitness": [
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 0.0,
-          "negativeMatches": 0,
-          "ownerId": 14295617,
-          "ownerName": "Cornellius"
-        },
-        {
           "id": 42748,
           "name": "Parrott",
           "slug": "parrott",
@@ -2861,8 +2733,8 @@
             -2,
             7
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "sanctioned",
+          "statusInfo": "Roja directa.",
           "ptsPerMillion": 1.25,
           "negativeMatches": 1,
           "ownerId": 14298565,
@@ -2884,7 +2756,7 @@
           "purchaseDate": 1786894720,
           "points": 0,
           "fitness": [
-            null,
+            "injured",
             null
           ],
           "status": "injured",
@@ -3055,21 +2927,21 @@
       "badge": "🚜",
       "description": "Mánager que más fichajes ha cerrado en el mercado",
       "manager": "Los intocables de Javi",
-      "value": "27 fichajes"
+      "value": "29 fichajes"
     },
     "elInmovilista": {
       "title": "El Inmovilista",
       "badge": "🗿",
       "description": "Mánager más fiel a su equipo (menos fichajes en el mercado)",
       "manager": "Cornellius",
-      "value": "9 fichajes"
+      "value": "10 fichajes"
     },
     "reyMidas": {
       "title": "El Rey Midas",
       "badge": "💎",
       "description": "Mánager con la plantilla más cotizada de la liga",
-      "manager": "Al Bajad Mamad",
-      "value": "50.210.000 €"
+      "manager": "Recreativo de Juerga",
+      "value": "49.410.000 €"
     },
     "elMonje": {
       "title": "El Monje / Austero",
@@ -3098,8 +2970,8 @@
       "title": "El Monotemático",
       "badge": "🏟️",
       "description": "Mánager con más jugadores del mismo club de LaLiga",
-      "manager": "Ajax Pino",
-      "value": "4 jugadores (Osasuna)"
+      "manager": "Recreativo de Juerga",
+      "value": "3 jugadores (Barcelona)"
     }
   },
   "top5Expensive": [
