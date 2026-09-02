@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T12:06:24.597932+00:00",
+  "updatedAt": "2026-09-02T16:25:21.932740+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -1442,8 +1442,8 @@
             2,
             null
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "injured",
+          "statusInfo": "Lesión muscular de bajo grado en los isquios de la pierna izquierda. Retorno estimado: Mediados de Septiembre.",
           "ptsPerMillion": 4.76,
           "negativeMatches": 1,
           "ownerId": 14319257,
@@ -3085,16 +3085,16 @@
     "laMasterclass": {
       "title": "La Masterclass",
       "badge": "💥",
-      "description": "Mayor puntuación registrada en la liga",
+      "description": "Mayor puntuación en una jornada individual",
       "manager": "Recreativo de Juerga",
-      "value": "114 pts"
+      "value": "59 pts (Jornada 3)"
     },
     "jornadaNegra": {
       "title": "La Jornada Negra",
       "badge": "🧱",
-      "description": "Puntuación más baja registrada en la liga",
+      "description": "Puntuación más baja en una jornada individual",
       "manager": "Deportivo de la Cogorza",
-      "value": "72 pts"
+      "value": "21 pts (Jornada 2)"
     },
     "balonDeOro": {
       "title": "Balón de Oro",
