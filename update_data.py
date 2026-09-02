@@ -324,8 +324,30 @@ def main():
     else:
         el_pozo = None
 
-    masterclass = max(managers_data, key=lambda m: m["points"]) if managers_data else None
-    jornada_negra = min(managers_data, key=lambda m: m["points"]) if managers_data else None
+    # Extraer puntuaciones de jornadas individuales desde los eventos del tablon
+    round_scores = []
+    for ev in board_events:
+        if ev.get("type") == "roundFinished":
+            r_name = ev.get("content", {}).get("round", {}).get("name", "Jornada")
+            results = ev.get("content", {}).get("results", [])
+            for res in results:
+                uid = res.get("user", {}).get("id")
+                uname = res.get("user", {}).get("name", "Desconocido")
+                pts = res.get("points", 0)
+                round_scores.append({
+                    "userId": uid,
+                    "userName": uname,
+                    "points": pts,
+                    "roundName": r_name
+                })
+
+    if round_scores:
+        masterclass_round = max(round_scores, key=lambda x: x["points"])
+        jornada_negra_round = min(round_scores, key=lambda x: x["points"])
+    else:
+        masterclass_round = None
+        jornada_negra_round = None
+
     el_inmovilista = min(managers_data, key=lambda m: m["transfersCount"]) if managers_data else None
 
     best_talisman = max(all_league_players, key=lambda p: (p["points"], p["price"])) if all_league_players else None
@@ -363,16 +385,16 @@ def main():
             "laMasterclass": {
                 "title": "La Masterclass",
                 "badge": "💥",
-                "description": "Mayor puntuación registrada en la liga",
-                "manager": masterclass["name"] if masterclass else "-",
-                "value": f"{masterclass['points']} pts" if masterclass else "-"
+                "description": "Mayor puntuación en una jornada individual",
+                "manager": masterclass_round["userName"] if masterclass_round else "-",
+                "value": f"{masterclass_round['points']} pts ({masterclass_round['roundName']})" if masterclass_round else "-"
             },
             "jornadaNegra": {
                 "title": "La Jornada Negra",
                 "badge": "🧱",
-                "description": "Puntuación más baja registrada en la liga",
-                "manager": jornada_negra["name"] if jornada_negra else "-",
-                "value": f"{jornada_negra['points']} pts" if jornada_negra else "-"
+                "description": "Puntuación más baja en una jornada individual",
+                "manager": jornada_negra_round["userName"] if jornada_negra_round else "-",
+                "value": f"{jornada_negra_round['points']} pts ({jornada_negra_round['roundName']})" if jornada_negra_round else "-"
             },
             "balonDeOro": {
                 "title": "Balón de Oro",
