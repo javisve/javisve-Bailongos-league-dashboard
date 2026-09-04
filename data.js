@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-03T12:05:30.637842+00:00",
+  "updatedAt": "2026-09-04T00:58:12.334191+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -378,15 +378,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 2780000,
           "purchaseDate": 1786894720,
-          "points": 12,
+          "points": 15,
           "fitness": [
+            3,
             0,
             8,
             4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.32,
+          "ptsPerMillion": 5.4,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -405,15 +406,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -10000,
           "purchasePrice": 1260000,
           "purchaseDate": 1787979787,
-          "points": 1,
+          "points": 2,
           "fitness": [
+            1,
             0,
             0,
             1
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 0.86,
+          "ptsPerMillion": 1.72,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -854,15 +856,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 40000,
           "purchasePrice": 4110000,
           "purchaseDate": 1786894720,
-          "points": 13,
+          "points": 16,
           "fitness": [
+            3,
             10,
             1,
             2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.16,
+          "ptsPerMillion": 3.89,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -908,15 +911,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 1920000,
           "purchaseDate": 1787291873,
-          "points": 10,
+          "points": 14,
           "fitness": [
+            4,
             3,
             4,
             3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.81,
+          "ptsPerMillion": 8.14,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -1018,6 +1022,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1786894720,
           "points": 0,
           "fitness": [
+            null,
             null,
             null
           ],
@@ -1167,15 +1172,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 40000,
           "purchasePrice": 3550000,
           "purchaseDate": 1786894720,
-          "points": 17,
+          "points": 20,
           "fitness": [
+            3,
             4,
             6,
             7
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.79,
+          "ptsPerMillion": 5.63,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1722,15 +1728,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 2020000,
           "purchaseDate": 1786894720,
-          "points": 3,
+          "points": 7,
           "fitness": [
+            4,
             0,
             0,
             3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 1.49,
+          "ptsPerMillion": 3.47,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2458,6 +2465,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             null,
             null,
+            null,
             3
           ],
           "status": "ok",
@@ -2822,15 +2830,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -10000,
           "purchasePrice": 3860000,
           "purchaseDate": 1787461488,
-          "points": 5,
+          "points": 10,
           "fitness": [
+            5,
             "sanctioned",
             -2,
             7
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 1.39,
+          "ptsPerMillion": 2.79,
           "negativeMatches": 1,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2849,15 +2858,16 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 480000,
           "purchaseDate": 1788288460,
-          "points": 6,
+          "points": 8,
           "fitness": [
+            2,
             null,
             3,
             3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 17.65,
+          "ptsPerMillion": 23.53,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -3015,6 +3025,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             null,
             null,
+            null,
             null
           ],
           "status": "ok",
@@ -3109,9 +3120,9 @@ window.BIWENGER_COMMUNITY_DATA = {
       "title": "El Chollo de la Liga",
       "badge": "🏷️",
       "description": "Jugador de bajo coste y gran rendimiento en puntos",
-      "player": "Kike Barja",
-      "owner": "Selenitos Galacticos",
-      "value": "13 pts / 720.000 €"
+      "player": "Pablo Durán",
+      "owner": "Deportivo de la Cogorza",
+      "value": "8 pts / 340.000 €"
     },
     "elPozo": {
       "title": "El Pozo sin Fondo",
@@ -3405,6 +3416,34 @@ window.BIWENGER_COMMUNITY_DATA = {
   ],
   "top5PtsPerMillion": [
     {
+      "id": 29185,
+      "name": "Pablo Durán",
+      "slug": "pablo-duran",
+      "photoUrl": "https://cdn.biwenger.com/i/p/29185.png",
+      "teamId": 5,
+      "teamName": "Celta",
+      "positionId": 4,
+      "positionName": "Delantero",
+      "positionShort": "DL",
+      "price": 340000,
+      "priceIncrement": 30000,
+      "purchasePrice": 480000,
+      "purchaseDate": 1788288460,
+      "points": 8,
+      "fitness": [
+        2,
+        null,
+        3,
+        3
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 23.53,
+      "negativeMatches": 0,
+      "ownerId": 14298565,
+      "ownerName": "Deportivo de la Cogorza"
+    },
+    {
       "id": 18256,
       "name": "Kike Barja",
       "slug": "kike-barja",
@@ -3430,33 +3469,6 @@ window.BIWENGER_COMMUNITY_DATA = {
       "negativeMatches": 0,
       "ownerId": 14295466,
       "ownerName": "Selenitos Galacticos"
-    },
-    {
-      "id": 29185,
-      "name": "Pablo Durán",
-      "slug": "pablo-duran",
-      "photoUrl": "https://cdn.biwenger.com/i/p/29185.png",
-      "teamId": 5,
-      "teamName": "Celta",
-      "positionId": 4,
-      "positionName": "Delantero",
-      "positionShort": "DL",
-      "price": 340000,
-      "priceIncrement": 30000,
-      "purchasePrice": 480000,
-      "purchaseDate": 1788288460,
-      "points": 6,
-      "fitness": [
-        null,
-        3,
-        3
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 17.65,
-      "negativeMatches": 0,
-      "ownerId": 14298565,
-      "ownerName": "Deportivo de la Cogorza"
     },
     {
       "id": 41081,
@@ -3611,6 +3623,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "purchaseDate": 1786894720,
       "points": 0,
       "fitness": [
+        null,
         null,
         null
       ],
