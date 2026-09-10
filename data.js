@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-09T12:19:39.450872+00:00",
+  "updatedAt": "2026-09-10T01:03:27.453281+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -1851,9 +1851,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "points": 7,
           "fitness": [
             -1,
+            null,
             -2,
-            4,
-            6
+            6,
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2561,9 +2562,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "points": 17,
           "fitness": [
             7,
+            null,
             4,
-            1,
-            5
+            5,
+            1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2589,9 +2591,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "points": 11,
           "fitness": [
             -1,
+            null,
             3,
-            2,
-            7
+            7,
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3216,6 +3219,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1786894720,
           "points": 0,
           "fitness": [
+            null,
             null,
             null,
             null,
@@ -3862,6 +3866,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "purchaseDate": 1786894720,
       "points": 0,
       "fitness": [
+        null,
         null,
         null,
         null,
