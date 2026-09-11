@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-10T12:13:22.740375+00:00",
+  "updatedAt": "2026-09-11T01:03:51.590807+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 114,
-    "totalMarketValue": 412800000
+    "totalPlayersOwned": 113,
+    "totalMarketValue": 412650000
   },
   "standings": [
     {
@@ -1854,8 +1854,8 @@
             null,
             4
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias en el tobillo.",
           "ptsPerMillion": 8.33,
           "negativeMatches": 0,
           "ownerId": 14295466,
@@ -2122,10 +2122,10 @@
       "icon": "",
       "position": 6,
       "points": 139,
-      "squadValue": 55170000,
-      "playerCount": 16,
-      "avgPointsPerPlayer": 8.69,
-      "transfersCount": 21,
+      "squadValue": 55020000,
+      "playerCount": 15,
+      "avgPointsPerPlayer": 9.27,
+      "transfersCount": 22,
       "dominantClub": {
         "name": "Levante",
         "count": 3
@@ -2382,34 +2382,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 8.54,
-          "negativeMatches": 0,
-          "ownerId": 14298565,
-          "ownerName": "Deportivo de la Cogorza"
-        },
-        {
-          "id": 37709,
-          "name": "Boayar",
-          "slug": "adam-boayar",
-          "photoUrl": "https://cdn.biwenger.com/i/p/37709.png",
-          "teamId": 75,
-          "teamName": "Elche",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 150000,
-          "priceIncrement": 0,
-          "purchasePrice": 150000,
-          "purchaseDate": 1786894720,
-          "points": 0,
-          "fitness": [
-            null,
-            "injured",
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 0.0,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
