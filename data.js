@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-11T12:11:39.010408+00:00",
+  "updatedAt": "2026-09-12T01:05:44.995220+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 112,
-    "totalMarketValue": 422180000
+    "totalPlayersOwned": 111,
+    "totalMarketValue": 421480000
   },
   "standings": [
     {
@@ -1027,16 +1027,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 20000,
           "purchasePrice": 3148070,
           "purchaseDate": 1787547799,
-          "points": 20,
+          "points": 25,
           "fitness": [
+            5,
             4,
+            null,
             3,
-            8,
-            5
+            8
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.75,
+          "ptsPerMillion": 7.18,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1055,15 +1056,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 2306640,
           "purchaseDate": 1787720918,
-          "points": 6,
+          "points": 12,
           "fitness": [
+            6,
             3,
+            null,
             3,
             null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.12,
+          "ptsPerMillion": 6.25,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1243,13 +1246,13 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/i/u/14296022.png",
       "position": 4,
       "points": 142,
-      "squadValue": 59070000,
-      "playerCount": 15,
-      "avgPointsPerPlayer": 9.47,
-      "transfersCount": 56,
+      "squadValue": 58370000,
+      "playerCount": 14,
+      "avgPointsPerPlayer": 10.14,
+      "transfersCount": 57,
       "dominantClub": {
         "name": "Celta",
-        "count": 3
+        "count": 2
       },
       "players": [
         {
@@ -1531,35 +1534,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 6.93,
-          "negativeMatches": 0,
-          "ownerId": 14296022,
-          "ownerName": "Los intocables de Javi"
-        },
-        {
-          "id": 37719,
-          "name": "Álvaro Núñez",
-          "slug": "alvaro-nunez",
-          "photoUrl": "https://cdn.biwenger.com/i/p/37719.png",
-          "teamId": 5,
-          "teamName": "Celta",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 700000,
-          "priceIncrement": 0,
-          "purchasePrice": 720000,
-          "purchaseDate": 1788843824,
-          "points": 10,
-          "fitness": [
-            null,
-            6,
-            4,
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 14.29,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1904,16 +1878,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 2499000,
           "purchaseDate": 1787202194,
-          "points": 7,
+          "points": 10,
           "fitness": [
+            3,
             -1,
+            null,
             -2,
-            4,
             6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.74,
+          "ptsPerMillion": 5.35,
           "negativeMatches": 2,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -1988,16 +1963,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 40000,
           "purchasePrice": 3860000,
           "purchaseDate": 1786894720,
-          "points": 25,
+          "points": 27,
           "fitness": [
+            2,
             3,
+            null,
             10,
-            6,
             6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.48,
+          "ptsPerMillion": 6.99,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2428,16 +2404,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 3570000,
           "purchaseDate": 1786894720,
-          "points": 14,
+          "points": 17,
           "fitness": [
+            3,
             6,
+            null,
             -2,
-            6,
-            4
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.92,
+          "ptsPerMillion": 4.76,
           "negativeMatches": 1,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2614,16 +2591,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -20000,
           "purchasePrice": 3930000,
           "purchaseDate": 1787029528,
-          "points": 17,
+          "points": 20,
           "fitness": [
+            3,
             7,
+            null,
             4,
-            1,
             5
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.04,
+          "ptsPerMillion": 5.93,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -2642,8 +2620,9 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -40000,
           "purchasePrice": 2760000,
           "purchaseDate": 1786894720,
-          "points": 11,
+          "points": 13,
           "fitness": [
+            2,
             -1,
             3,
             2,
@@ -2651,7 +2630,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.99,
+          "ptsPerMillion": 4.71,
           "negativeMatches": 1,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -2842,9 +2821,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "points": 17,
           "fitness": [
             null,
+            null,
+            null,
             3,
-            4,
-            10
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3316,7 +3296,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "badge": "🚜",
       "description": "Mánager que más fichajes ha cerrado en el mercado",
       "manager": "Los intocables de Javi",
-      "value": "56 fichajes"
+      "value": "57 fichajes"
     },
     "elInmovilista": {
       "title": "El Inmovilista",
