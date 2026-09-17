@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-16T12:35:43.487647+00:00",
+  "updatedAt": "2026-09-17T01:24:15.444767+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -124,17 +124,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 16762750,
           "purchaseDate": 1789189446,
-          "points": 39,
+          "points": 45,
           "fitness": [
             3,
             15,
+            6,
             5,
-            11,
             5
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.46,
+          "ptsPerMillion": 2.83,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -153,17 +153,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 200000,
           "purchasePrice": 10027260,
           "purchaseDate": 1788066454,
-          "points": 63,
+          "points": 65,
           "fitness": [
+            2,
             11,
             16,
             13,
-            11,
-            12
+            11
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.63,
+          "ptsPerMillion": 4.78,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -211,18 +211,18 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 10000,
           "purchasePrice": 400000,
           "purchaseDate": 1787202195,
-          "points": 13,
+          "points": 12,
           "fitness": [
             2,
             4,
+            -1,
             1,
-            null,
             6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.7,
-          "negativeMatches": 0,
+          "ptsPerMillion": 8.96,
+          "negativeMatches": 1,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
         },
@@ -240,17 +240,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 130000,
           "purchasePrice": 17400000,
           "purchaseDate": 1787115842,
-          "points": 71,
+          "points": 92,
           "fitness": [
             10,
             11,
+            21,
             18,
-            13,
             19
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.49,
+          "ptsPerMillion": 4.53,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -327,17 +327,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 80000,
           "purchasePrice": 7790000,
           "purchaseDate": 1787374967,
-          "points": 38,
+          "points": 49,
           "fitness": [
+            11,
             13,
             5,
             6,
-            4,
-            10
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.51,
+          "ptsPerMillion": 5.81,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -551,8 +551,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             "injured",
             "injured",
+            "injured",
             5,
-            1,
             3
           ],
           "status": "injured",
@@ -721,17 +721,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 10000,
           "purchasePrice": 3010000,
           "purchaseDate": 1786894720,
-          "points": 19,
+          "points": 22,
           "fitness": [
+            3,
             2,
             4,
             6,
-            3,
-            4
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.31,
+          "ptsPerMillion": 7.31,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -750,17 +750,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 50000,
           "purchasePrice": 4130000,
           "purchaseDate": 1786894720,
-          "points": 27,
+          "points": 33,
           "fitness": [
+            6,
             6,
             5,
             6,
-            4,
-            6
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.54,
+          "ptsPerMillion": 7.99,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -781,10 +781,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1788584802,
           "points": 9,
           "fitness": [
+            0,
             1,
             3,
             3,
-            1,
             1
           ],
           "status": "ok",
@@ -909,17 +909,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -10000,
           "purchasePrice": 3000000,
           "purchaseDate": 1789448644,
-          "points": 10,
+          "points": 13,
           "fitness": [
+            3,
             3,
             0,
             3,
-            1,
-            3
+            1
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.56,
+          "ptsPerMillion": 4.63,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -1025,17 +1025,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 70000,
           "purchasePrice": 25500000,
           "purchaseDate": 1787115843,
-          "points": 62,
+          "points": 76,
           "fitness": [
             17,
             17,
+            14,
             18,
-            7,
             3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.82,
+          "ptsPerMillion": 3.46,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -1170,17 +1170,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 3420000,
           "purchaseDate": 1786894720,
-          "points": 17,
+          "points": 26,
           "fitness": [
+            9,
             3,
             6,
             -2,
-            6,
-            4
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.97,
+          "ptsPerMillion": 7.6,
           "negativeMatches": 1,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -1228,17 +1228,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 200000,
           "purchaseDate": 1787720919,
-          "points": 7,
+          "points": 9,
           "fitness": [
+            2,
             null,
             3,
             4,
-            null,
             null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 12.5,
+          "ptsPerMillion": 16.07,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -1477,17 +1477,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 260000,
           "purchaseDate": 1789535031,
-          "points": 0,
+          "points": 8,
           "fitness": [
             null,
             null,
-            null,
+            8,
             null,
             null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 0.0,
+          "ptsPerMillion": 30.77,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1510,8 +1510,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             2,
             -2,
+            null,
             7,
-            2,
             4
           ],
           "status": "ok",
@@ -1626,8 +1626,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             7,
             7,
+            null,
             4,
-            8,
             null
           ],
           "status": "ok",
@@ -1655,8 +1655,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             2,
             10,
+            null,
             2,
-            10,
             3
           ],
           "status": "ok",
@@ -1711,11 +1711,11 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1788325847,
           "points": 18,
           "fitness": [
+            null,
             3,
             5,
             5,
-            3,
-            2
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1929,17 +1929,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 20000,
           "purchasePrice": 870000,
           "purchaseDate": 1786894720,
-          "points": 17,
+          "points": 19,
           "fitness": [
             4,
             null,
+            2,
             3,
-            10,
             0
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 19.54,
+          "ptsPerMillion": 21.84,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2045,17 +2045,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 4911001,
           "purchaseDate": 1787374967,
-          "points": 21,
+          "points": 23,
           "fitness": [
             4,
             2,
+            2,
             4,
-            3,
-            8
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.24,
+          "ptsPerMillion": 5.74,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2103,17 +2103,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -60000,
           "purchasePrice": 3720000,
           "purchaseDate": 1786894720,
-          "points": 27,
+          "points": 38,
           "fitness": [
+            11,
             2,
             3,
             10,
-            6,
             6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 7.26,
+          "ptsPerMillion": 10.22,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2219,18 +2219,18 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 1370000,
           "purchaseDate": 1786894720,
-          "points": 12,
+          "points": 11,
           "fitness": [
             null,
             1,
+            -1,
             6,
-            2,
-            3
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.76,
-          "negativeMatches": 0,
+          "ptsPerMillion": 8.03,
+          "negativeMatches": 1,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
         }
@@ -2265,17 +2265,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -40000,
           "purchasePrice": 8560000,
           "purchaseDate": 1788411963,
-          "points": 20,
+          "points": 25,
           "fitness": [
             3,
             2,
+            5,
             null,
-            7,
             8
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.72,
+          "ptsPerMillion": 3.4,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -2526,17 +2526,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 10000,
           "purchasePrice": 3148070,
           "purchaseDate": 1787547799,
-          "points": 25,
+          "points": 31,
           "fitness": [
+            6,
             5,
             4,
             3,
-            8,
-            5
+            8
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 7.02,
+          "ptsPerMillion": 8.71,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -2557,11 +2557,11 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1789275841,
           "points": 26,
           "fitness": [
+            null,
             2,
             3,
             7,
-            12,
-            2
+            12
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2584,8 +2584,9 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 20000,
           "purchasePrice": 2306640,
           "purchaseDate": 1787720918,
-          "points": 12,
+          "points": 15,
           "fitness": [
+            3,
             6,
             3,
             3,
@@ -2593,7 +2594,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.15,
+          "ptsPerMillion": 7.69,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -2732,9 +2733,9 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             3,
             0,
-            3,
             0,
-            1
+            3,
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2831,17 +2832,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 3710000,
           "purchaseDate": 1789535031,
-          "points": 15,
+          "points": 17,
           "fitness": [
+            2,
             3,
             6,
             3,
-            3,
-            null
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.6,
+          "ptsPerMillion": 5.21,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -2860,17 +2861,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -20000,
           "purchasePrice": 9610000,
           "purchaseDate": 1786943557,
-          "points": 21,
+          "points": 25,
           "fitness": [
+            4,
             5,
             -1,
             5,
-            9,
-            3
+            9
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.43,
+          "ptsPerMillion": 5.27,
           "negativeMatches": 1,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -2976,17 +2977,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -10000,
           "purchasePrice": 1811000,
           "purchaseDate": 1788411962,
-          "points": 16,
+          "points": 18,
           "fitness": [
             3,
             3,
+            2,
             4,
-            3,
             3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 12.9,
+          "ptsPerMillion": 14.52,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3115,17 +3116,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 181100,
           "purchaseDate": 1789448643,
-          "points": 4,
+          "points": 7,
           "fitness": [
             2,
             null,
+            3,
             2,
-            "doubt",
-            "injured"
+            "doubt"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 22.22,
+          "ptsPerMillion": 38.89,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3306,7 +3307,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 6000000,
           "purchaseDate": 1789016654,
-          "points": 15,
+          "points": 18,
           "fitness": [
             3,
             3,
@@ -3316,7 +3317,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.98,
+          "ptsPerMillion": 3.57,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3397,8 +3398,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             3,
             16,
+            null,
             4,
-            13,
             19
           ],
           "status": "ok",
@@ -3426,9 +3427,9 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             null,
             null,
+            null,
             3,
-            4,
-            10
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3548,7 +3549,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "description": "Mejor jugador de la liga",
       "manager": "Recreativo de Juerga",
       "player": "Raphinha",
-      "value": "71 pts"
+      "value": "92 pts"
     },
     "maquinaFichar": {
       "title": "La Máquina de Fichar",
@@ -3617,17 +3618,17 @@ window.BIWENGER_COMMUNITY_DATA = {
       "priceIncrement": 70000,
       "purchasePrice": 25500000,
       "purchaseDate": 1787115843,
-      "points": 62,
+      "points": 76,
       "fitness": [
         17,
         17,
+        14,
         18,
-        7,
         3
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 2.82,
+      "ptsPerMillion": 3.46,
       "negativeMatches": 0,
       "ownerId": 14298565,
       "ownerName": "Deportivo de la Cogorza"
@@ -3646,17 +3647,17 @@ window.BIWENGER_COMMUNITY_DATA = {
       "priceIncrement": 130000,
       "purchasePrice": 17400000,
       "purchaseDate": 1787115842,
-      "points": 71,
+      "points": 92,
       "fitness": [
         10,
         11,
+        21,
         18,
-        13,
         19
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 3.49,
+      "ptsPerMillion": 4.53,
       "negativeMatches": 0,
       "ownerId": 14295893,
       "ownerName": "Recreativo de Juerga"
@@ -3733,17 +3734,17 @@ window.BIWENGER_COMMUNITY_DATA = {
       "priceIncrement": 30000,
       "purchasePrice": 16762750,
       "purchaseDate": 1789189446,
-      "points": 39,
+      "points": 45,
       "fitness": [
         3,
         15,
+        6,
         5,
-        11,
         5
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 2.46,
+      "ptsPerMillion": 2.83,
       "negativeMatches": 0,
       "ownerId": 14295893,
       "ownerName": "Recreativo de Juerga"
@@ -3764,46 +3765,17 @@ window.BIWENGER_COMMUNITY_DATA = {
       "priceIncrement": 130000,
       "purchasePrice": 17400000,
       "purchaseDate": 1787115842,
-      "points": 71,
+      "points": 92,
       "fitness": [
         10,
         11,
+        21,
         18,
-        13,
         19
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 3.49,
-      "negativeMatches": 0,
-      "ownerId": 14295893,
-      "ownerName": "Recreativo de Juerga"
-    },
-    {
-      "id": 25769,
-      "name": "Aubameyang",
-      "slug": "aubameyang",
-      "photoUrl": "https://cdn.biwenger.com/i/p/25769.png",
-      "teamId": 6,
-      "teamName": "Deportivo",
-      "positionId": 4,
-      "positionName": "Delantero",
-      "positionShort": "DL",
-      "price": 13600000,
-      "priceIncrement": 200000,
-      "purchasePrice": 10027260,
-      "purchaseDate": 1788066454,
-      "points": 63,
-      "fitness": [
-        11,
-        16,
-        13,
-        11,
-        12
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 4.63,
+      "ptsPerMillion": 4.53,
       "negativeMatches": 0,
       "ownerId": 14295893,
       "ownerName": "Recreativo de Juerga"
@@ -3822,20 +3794,49 @@ window.BIWENGER_COMMUNITY_DATA = {
       "priceIncrement": 70000,
       "purchasePrice": 25500000,
       "purchaseDate": 1787115843,
-      "points": 62,
+      "points": 76,
       "fitness": [
         17,
         17,
+        14,
         18,
-        7,
         3
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 2.82,
+      "ptsPerMillion": 3.46,
       "negativeMatches": 0,
       "ownerId": 14298565,
       "ownerName": "Deportivo de la Cogorza"
+    },
+    {
+      "id": 25769,
+      "name": "Aubameyang",
+      "slug": "aubameyang",
+      "photoUrl": "https://cdn.biwenger.com/i/p/25769.png",
+      "teamId": 6,
+      "teamName": "Deportivo",
+      "positionId": 4,
+      "positionName": "Delantero",
+      "positionShort": "DL",
+      "price": 13600000,
+      "priceIncrement": 200000,
+      "purchasePrice": 10027260,
+      "purchaseDate": 1788066454,
+      "points": 65,
+      "fitness": [
+        2,
+        11,
+        16,
+        13,
+        11
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 4.78,
+      "negativeMatches": 0,
+      "ownerId": 14295893,
+      "ownerName": "Recreativo de Juerga"
     },
     {
       "id": 30477,
@@ -3884,8 +3885,8 @@ window.BIWENGER_COMMUNITY_DATA = {
       "fitness": [
         3,
         16,
+        null,
         4,
-        13,
         19
       ],
       "status": "ok",
@@ -3925,6 +3926,64 @@ window.BIWENGER_COMMUNITY_DATA = {
       "negativeMatches": 0,
       "ownerId": 14296207,
       "ownerName": "Ajax Pino"
+    },
+    {
+      "id": 41261,
+      "name": "Guliashvili",
+      "slug": "g-guliashvili",
+      "photoUrl": "https://cdn.biwenger.com/i/p/41261.png",
+      "teamId": 812,
+      "teamName": "Racing",
+      "positionId": 4,
+      "positionName": "Delantero",
+      "positionShort": "DL",
+      "price": 180000,
+      "priceIncrement": 0,
+      "purchasePrice": 181100,
+      "purchaseDate": 1789448643,
+      "points": 7,
+      "fitness": [
+        2,
+        null,
+        3,
+        2,
+        "doubt"
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 38.89,
+      "negativeMatches": 0,
+      "ownerId": 14293127,
+      "ownerName": "Mourinho’s Revenge"
+    },
+    {
+      "id": 16606,
+      "name": "Aitor Fernández",
+      "slug": "a-fernandez",
+      "photoUrl": "https://cdn.biwenger.com/i/p/16606.png",
+      "teamId": 93,
+      "teamName": "Osasuna",
+      "positionId": 1,
+      "positionName": "Portero",
+      "positionShort": "PT",
+      "price": 260000,
+      "priceIncrement": 0,
+      "purchasePrice": 260000,
+      "purchaseDate": 1789535031,
+      "points": 8,
+      "fitness": [
+        null,
+        null,
+        8,
+        null,
+        null
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 30.77,
+      "negativeMatches": 0,
+      "ownerId": 14296022,
+      "ownerName": "Los intocables de Javi"
     },
     {
       "id": 39736,
@@ -3983,64 +4042,6 @@ window.BIWENGER_COMMUNITY_DATA = {
       "negativeMatches": 0,
       "ownerId": 14295893,
       "ownerName": "Recreativo de Juerga"
-    },
-    {
-      "id": 29185,
-      "name": "Pablo Durán",
-      "slug": "pablo-duran",
-      "photoUrl": "https://cdn.biwenger.com/i/p/29185.png",
-      "teamId": 5,
-      "teamName": "Celta",
-      "positionId": 4,
-      "positionName": "Delantero",
-      "positionShort": "DL",
-      "price": 390000,
-      "priceIncrement": -10000,
-      "purchasePrice": 480000,
-      "purchaseDate": 1788288460,
-      "points": 9,
-      "fitness": [
-        null,
-        1,
-        2,
-        null,
-        3
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 23.08,
-      "negativeMatches": 0,
-      "ownerId": 14298565,
-      "ownerName": "Deportivo de la Cogorza"
-    },
-    {
-      "id": 41261,
-      "name": "Guliashvili",
-      "slug": "g-guliashvili",
-      "photoUrl": "https://cdn.biwenger.com/i/p/41261.png",
-      "teamId": 812,
-      "teamName": "Racing",
-      "positionId": 4,
-      "positionName": "Delantero",
-      "positionShort": "DL",
-      "price": 180000,
-      "priceIncrement": 0,
-      "purchasePrice": 181100,
-      "purchaseDate": 1789448643,
-      "points": 4,
-      "fitness": [
-        2,
-        null,
-        2,
-        "doubt",
-        "injured"
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 22.22,
-      "negativeMatches": 0,
-      "ownerId": 14293127,
-      "ownerName": "Mourinho’s Revenge"
     }
   ],
   "top5Pufos": [
@@ -4132,35 +4133,6 @@ window.BIWENGER_COMMUNITY_DATA = {
       "ownerName": "Al Bajad Mamad"
     },
     {
-      "id": 16606,
-      "name": "Aitor Fernández",
-      "slug": "a-fernandez",
-      "photoUrl": "https://cdn.biwenger.com/i/p/16606.png",
-      "teamId": 93,
-      "teamName": "Osasuna",
-      "positionId": 1,
-      "positionName": "Portero",
-      "positionShort": "PT",
-      "price": 260000,
-      "priceIncrement": 0,
-      "purchasePrice": 260000,
-      "purchaseDate": 1789535031,
-      "points": 0,
-      "fitness": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 0.0,
-      "negativeMatches": 0,
-      "ownerId": 14296022,
-      "ownerName": "Los intocables de Javi"
-    },
-    {
       "id": 41153,
       "name": "Rupérez",
       "slug": "inaki-ruperez",
@@ -4188,11 +4160,40 @@ window.BIWENGER_COMMUNITY_DATA = {
       "negativeMatches": 0,
       "ownerId": 14298565,
       "ownerName": "Deportivo de la Cogorza"
+    },
+    {
+      "id": 32460,
+      "name": "Héctor Fort",
+      "slug": "hector-fort",
+      "photoUrl": "https://cdn.biwenger.com/i/p/32460.png",
+      "teamId": 13,
+      "teamName": "Real Sociedad",
+      "positionId": 2,
+      "positionName": "Defensa",
+      "positionShort": "DF",
+      "price": 2110000,
+      "priceIncrement": -120000,
+      "purchasePrice": 2110000,
+      "purchaseDate": 1786894720,
+      "points": 3,
+      "fitness": [
+        null,
+        3,
+        null,
+        null,
+        null
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 1.42,
+      "negativeMatches": 0,
+      "ownerId": 14296207,
+      "ownerName": "Ajax Pino"
     }
   ],
   "dreamTeam": {
     "formation": "3-4-3",
-    "totalPoints": 548,
+    "totalPoints": 591,
     "totalValue": 136990000,
     "players": [
       {
@@ -4358,8 +4359,8 @@ window.BIWENGER_COMMUNITY_DATA = {
         "fitness": [
           3,
           16,
+          null,
           4,
-          13,
           19
         ],
         "status": "ok",
@@ -4412,17 +4413,17 @@ window.BIWENGER_COMMUNITY_DATA = {
         "priceIncrement": 30000,
         "purchasePrice": 16762750,
         "purchaseDate": 1789189446,
-        "points": 39,
+        "points": 45,
         "fitness": [
           3,
           15,
+          6,
           5,
-          11,
           5
         ],
         "status": "ok",
         "statusInfo": null,
-        "ptsPerMillion": 2.46,
+        "ptsPerMillion": 2.83,
         "negativeMatches": 0,
         "ownerId": 14295893,
         "ownerName": "Recreativo de Juerga"
@@ -4441,46 +4442,17 @@ window.BIWENGER_COMMUNITY_DATA = {
         "priceIncrement": 130000,
         "purchasePrice": 17400000,
         "purchaseDate": 1787115842,
-        "points": 71,
+        "points": 92,
         "fitness": [
           10,
           11,
+          21,
           18,
-          13,
           19
         ],
         "status": "ok",
         "statusInfo": null,
-        "ptsPerMillion": 3.49,
-        "negativeMatches": 0,
-        "ownerId": 14295893,
-        "ownerName": "Recreativo de Juerga"
-      },
-      {
-        "id": 25769,
-        "name": "Aubameyang",
-        "slug": "aubameyang",
-        "photoUrl": "https://cdn.biwenger.com/i/p/25769.png",
-        "teamId": 6,
-        "teamName": "Deportivo",
-        "positionId": 4,
-        "positionName": "Delantero",
-        "positionShort": "DL",
-        "price": 13600000,
-        "priceIncrement": 200000,
-        "purchasePrice": 10027260,
-        "purchaseDate": 1788066454,
-        "points": 63,
-        "fitness": [
-          11,
-          16,
-          13,
-          11,
-          12
-        ],
-        "status": "ok",
-        "statusInfo": null,
-        "ptsPerMillion": 4.63,
+        "ptsPerMillion": 4.53,
         "negativeMatches": 0,
         "ownerId": 14295893,
         "ownerName": "Recreativo de Juerga"
@@ -4499,20 +4471,49 @@ window.BIWENGER_COMMUNITY_DATA = {
         "priceIncrement": 70000,
         "purchasePrice": 25500000,
         "purchaseDate": 1787115843,
-        "points": 62,
+        "points": 76,
         "fitness": [
           17,
           17,
+          14,
           18,
-          7,
           3
         ],
         "status": "ok",
         "statusInfo": null,
-        "ptsPerMillion": 2.82,
+        "ptsPerMillion": 3.46,
         "negativeMatches": 0,
         "ownerId": 14298565,
         "ownerName": "Deportivo de la Cogorza"
+      },
+      {
+        "id": 25769,
+        "name": "Aubameyang",
+        "slug": "aubameyang",
+        "photoUrl": "https://cdn.biwenger.com/i/p/25769.png",
+        "teamId": 6,
+        "teamName": "Deportivo",
+        "positionId": 4,
+        "positionName": "Delantero",
+        "positionShort": "DL",
+        "price": 13600000,
+        "priceIncrement": 200000,
+        "purchasePrice": 10027260,
+        "purchaseDate": 1788066454,
+        "points": 65,
+        "fitness": [
+          2,
+          11,
+          16,
+          13,
+          11
+        ],
+        "status": "ok",
+        "statusInfo": null,
+        "ptsPerMillion": 4.78,
+        "negativeMatches": 0,
+        "ownerId": 14295893,
+        "ownerName": "Recreativo de Juerga"
       }
     ]
   }
