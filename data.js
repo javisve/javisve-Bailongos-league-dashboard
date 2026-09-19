@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-18T12:13:17.850416+00:00",
+  "updatedAt": "2026-09-19T01:09:11.430410+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 116,
-    "totalMarketValue": 455160000
+    "totalPlayersOwned": 112,
+    "totalMarketValue": 428820000
   },
   "standings": [
     {
@@ -14,10 +14,10 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
       "points": 313,
-      "squadValue": 74240000,
-      "playerCount": 12,
-      "avgPointsPerPlayer": 26.08,
-      "transfersCount": 41,
+      "squadValue": 70350000,
+      "playerCount": 10,
+      "avgPointsPerPlayer": 31.3,
+      "transfersCount": 43,
       "dominantClub": {
         "name": "Barcelona",
         "count": 4
@@ -66,46 +66,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 50000,
           "purchasePrice": 2901170,
           "purchaseDate": 1789621762,
-          "points": 20,
+          "points": 26,
           "fitness": [
+            6,
             6,
             2,
             12,
-            null,
             null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.67,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 12404,
-          "name": "Berrocal",
-          "slug": "juan-berrocal",
-          "photoUrl": "https://cdn.biwenger.com/i/p/12404.png",
-          "teamId": 65,
-          "teamName": "Málaga",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 220000,
-          "priceIncrement": 0,
-          "purchasePrice": 150000,
-          "purchaseDate": 1788153035,
-          "points": 2,
-          "fitness": [
-            null,
-            2,
-            null,
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 9.09,
+          "ptsPerMillion": 8.67,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -124,17 +95,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 300000,
           "purchaseDate": 1789189446,
-          "points": 10,
+          "points": 15,
           "fitness": [
+            5,
             null,
             3,
             2,
-            2,
-            null
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 26.32,
+          "ptsPerMillion": 39.47,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -223,35 +194,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "statusInfo": null,
           "ptsPerMillion": 4.66,
           "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 26276,
-          "name": "Ratiu",
-          "slug": "andrei-ratiu",
-          "photoUrl": "https://cdn.biwenger.com/i/p/26276.png",
-          "teamId": 70,
-          "teamName": "Rayo Vallecano",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 3670000,
-          "priceIncrement": 0,
-          "purchasePrice": 3836630,
-          "purchaseDate": 1789016654,
-          "points": 16,
-          "fitness": [
-            3,
-            -2,
-            12,
-            null,
-            2
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 4.36,
-          "negativeMatches": 1,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
         },
@@ -1026,17 +968,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 20000,
           "purchasePrice": 3800000,
           "purchaseDate": 1786894720,
-          "points": 26,
+          "points": 28,
           "fitness": [
+            2,
             4,
             3,
             2,
-            4,
-            6
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.84,
+          "ptsPerMillion": 7.37,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -1310,10 +1252,10 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/icons/13.png",
       "position": 4,
       "points": 236,
-      "squadValue": 56540000,
-      "playerCount": 17,
-      "avgPointsPerPlayer": 13.88,
-      "transfersCount": 42,
+      "squadValue": 56760000,
+      "playerCount": 18,
+      "avgPointsPerPlayer": 13.11,
+      "transfersCount": 43,
       "dominantClub": {
         "name": "Athletic",
         "count": 3
@@ -1465,6 +1407,35 @@ window.BIWENGER_COMMUNITY_DATA = {
           "ownerName": "Al Bajad Mamad"
         },
         {
+          "id": 12404,
+          "name": "Berrocal",
+          "slug": "juan-berrocal",
+          "photoUrl": "https://cdn.biwenger.com/i/p/12404.png",
+          "teamId": 65,
+          "teamName": "Málaga",
+          "positionId": 2,
+          "positionName": "Defensa",
+          "positionShort": "DF",
+          "price": 220000,
+          "priceIncrement": 0,
+          "purchasePrice": 220670,
+          "purchaseDate": 1789743330,
+          "points": 2,
+          "fitness": [
+            null,
+            2,
+            null,
+            null,
+            null
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 9.09,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
           "id": 16317,
           "name": "Puado",
           "slug": "javi-puado",
@@ -1480,14 +1451,14 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1788325847,
           "points": 0,
           "fitness": [
-            "injured",
+            "doubt",
             "injured",
             "injured",
             "injured",
             "injured"
           ],
-          "status": "injured",
-          "statusInfo": "Rotura del ligamento cruzado anterior. Retorno estimado: Principios de Octubre.",
+          "status": "doubt",
+          "statusInfo": "Rotura del ligamento cruzado anterior.",
           "ptsPerMillion": 0.0,
           "negativeMatches": 0,
           "ownerId": 14319257,
@@ -1902,11 +1873,11 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1786943557,
           "points": 6,
           "fitness": [
+            null,
             1,
             null,
             null,
-            null,
-            2
+            null
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1929,17 +1900,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -20000,
           "purchasePrice": 2180000,
           "purchaseDate": 1786894720,
-          "points": 6,
+          "points": 11,
           "fitness": [
+            5,
             2,
             4,
             -2,
-            0,
             0
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.75,
+          "ptsPerMillion": 5.05,
           "negativeMatches": 1,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2045,17 +2016,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 70000,
           "purchasePrice": 4581000,
           "purchaseDate": 1789707888,
-          "points": 38,
+          "points": 55,
           "fitness": [
+            17,
             10,
             2,
             11,
-            10,
-            3
+            10
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.92,
+          "ptsPerMillion": 15.8,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2132,17 +2103,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -50000,
           "purchasePrice": 2980001,
           "purchaseDate": 1788325847,
-          "points": 17,
+          "points": 18,
           "fitness": [
+            1,
             null,
             2,
             4,
-            2,
-            1
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.83,
+          "ptsPerMillion": 7.23,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2300,10 +2271,10 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/i/u/14296022.png",
       "position": 6,
       "points": 213,
-      "squadValue": 58550000,
-      "playerCount": 15,
-      "avgPointsPerPlayer": 14.2,
-      "transfersCount": 62,
+      "squadValue": 35880000,
+      "playerCount": 12,
+      "avgPointsPerPlayer": 17.75,
+      "transfersCount": 65,
       "dominantClub": {
         "name": "Racing",
         "count": 2
@@ -2334,35 +2305,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 7.83,
-          "negativeMatches": 0,
-          "ownerId": 14296022,
-          "ownerName": "Los intocables de Javi"
-        },
-        {
-          "id": 11800,
-          "name": "Cabrera",
-          "slug": "leandro-cabrera",
-          "photoUrl": "https://cdn.biwenger.com/i/p/11800.png",
-          "teamId": 7,
-          "teamName": "Espanyol",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 3040000,
-          "priceIncrement": -60000,
-          "purchasePrice": 3150000,
-          "purchaseDate": 1789448644,
-          "points": 8,
-          "fitness": [
-            1,
-            4,
-            3,
-            "sanctioned",
-            "sanctioned"
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 2.63,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -2426,35 +2368,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "ownerName": "Los intocables de Javi"
         },
         {
-          "id": 15568,
-          "name": "Vinícius Jr",
-          "slug": "vinicius-junior",
-          "photoUrl": "https://cdn.biwenger.com/i/p/15568.png",
-          "teamId": 15,
-          "teamName": "Real Madrid",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 16100000,
-          "priceIncrement": -220000,
-          "purchasePrice": 18250010,
-          "purchaseDate": 1787115843,
-          "points": 28,
-          "fitness": [
-            -2,
-            6,
-            4,
-            5,
-            11
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 1.74,
-          "negativeMatches": 1,
-          "ownerId": 14296022,
-          "ownerName": "Los intocables de Javi"
-        },
-        {
           "id": 16606,
           "name": "Aitor Fernández",
           "slug": "a-fernandez",
@@ -2480,35 +2393,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "statusInfo": null,
           "ptsPerMillion": 26.67,
           "negativeMatches": 0,
-          "ownerId": 14296022,
-          "ownerName": "Los intocables de Javi"
-        },
-        {
-          "id": 18251,
-          "name": "Sergio Herrera",
-          "slug": "sergio-herrera",
-          "photoUrl": "https://cdn.biwenger.com/i/p/18251.png",
-          "teamId": 93,
-          "teamName": "Osasuna",
-          "positionId": 1,
-          "positionName": "Portero",
-          "positionShort": "PT",
-          "price": 3530000,
-          "priceIncrement": -90000,
-          "purchasePrice": 4700000,
-          "purchaseDate": 1787924508,
-          "points": 13,
-          "fitness": [
-            null,
-            2,
-            -2,
-            7,
-            2
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 3.68,
-          "negativeMatches": 1,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
         },
@@ -2563,8 +2447,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             6,
             6
           ],
-          "status": "doubt",
-          "statusInfo": "Molestias musculares.",
+          "status": "ok",
+          "statusInfo": null,
           "ptsPerMillion": 7.55,
           "negativeMatches": 0,
           "ownerId": 14296022,
@@ -3528,7 +3412,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "badge": "🚜",
       "description": "Mánager que más fichajes ha cerrado en el mercado",
       "manager": "Los intocables de Javi",
-      "value": "62 fichajes"
+      "value": "65 fichajes"
     },
     "elInmovilista": {
       "title": "El Inmovilista",
@@ -3542,14 +3426,14 @@ window.BIWENGER_COMMUNITY_DATA = {
       "badge": "💎",
       "description": "Mánager con la plantilla más cotizada de la liga",
       "manager": "Recreativo de Juerga",
-      "value": "74.240.000 €"
+      "value": "70.350.000 €"
     },
     "elMonje": {
       "title": "El Monje / Austero",
       "badge": "🪙",
       "description": "Mánager con el equipo más humilde en valor",
-      "manager": "Mourinho’s Revenge",
-      "value": "44.840.000 €"
+      "manager": "Los intocables de Javi",
+      "value": "35.880.000 €"
     },
     "elChollo": {
       "title": "El Chollo de la Liga",
@@ -3664,35 +3548,6 @@ window.BIWENGER_COMMUNITY_DATA = {
       "ownerName": "Ajax Pino"
     },
     {
-      "id": 15568,
-      "name": "Vinícius Jr",
-      "slug": "vinicius-junior",
-      "photoUrl": "https://cdn.biwenger.com/i/p/15568.png",
-      "teamId": 15,
-      "teamName": "Real Madrid",
-      "positionId": 4,
-      "positionName": "Delantero",
-      "positionShort": "DL",
-      "price": 16100000,
-      "priceIncrement": -220000,
-      "purchasePrice": 18250010,
-      "purchaseDate": 1787115843,
-      "points": 28,
-      "fitness": [
-        -2,
-        6,
-        4,
-        5,
-        11
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 1.74,
-      "negativeMatches": 1,
-      "ownerId": 14296022,
-      "ownerName": "Los intocables de Javi"
-    },
-    {
       "id": 19441,
       "name": "Pedri",
       "slug": "pedri",
@@ -3720,6 +3575,35 @@ window.BIWENGER_COMMUNITY_DATA = {
       "negativeMatches": 0,
       "ownerId": 14295893,
       "ownerName": "Recreativo de Juerga"
+    },
+    {
+      "id": 31243,
+      "name": "Fermín",
+      "slug": "fermin-lopez",
+      "photoUrl": "https://cdn.biwenger.com/i/p/31243.png",
+      "teamId": 3,
+      "teamName": "Barcelona",
+      "positionId": 3,
+      "positionName": "Centrocampista",
+      "positionShort": "MC",
+      "price": 15560000,
+      "priceIncrement": 30000,
+      "purchasePrice": 16000000,
+      "purchaseDate": 1787289138,
+      "points": 55,
+      "fitness": [
+        null,
+        3,
+        16,
+        4,
+        13
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 3.53,
+      "negativeMatches": 0,
+      "ownerId": 14295617,
+      "ownerName": "Cornellius"
     }
   ],
   "top5Points": [
@@ -3900,6 +3784,35 @@ window.BIWENGER_COMMUNITY_DATA = {
       "ownerName": "Ajax Pino"
     },
     {
+      "id": 12734,
+      "name": "Javi Morcillo",
+      "slug": "javi-morcillo",
+      "photoUrl": "https://cdn.biwenger.com/i/p/12734.png",
+      "teamId": 75,
+      "teamName": "Elche",
+      "positionId": 3,
+      "positionName": "Centrocampista",
+      "positionShort": "MC",
+      "price": 380000,
+      "priceIncrement": 0,
+      "purchasePrice": 300000,
+      "purchaseDate": 1789189446,
+      "points": 15,
+      "fitness": [
+        5,
+        null,
+        3,
+        2,
+        2
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 39.47,
+      "negativeMatches": 0,
+      "ownerId": 14295893,
+      "ownerName": "Recreativo de Juerga"
+    },
+    {
       "id": 41261,
       "name": "Guliashvili",
       "slug": "g-guliashvili",
@@ -3985,35 +3898,6 @@ window.BIWENGER_COMMUNITY_DATA = {
       "negativeMatches": 0,
       "ownerId": 14296022,
       "ownerName": "Los intocables de Javi"
-    },
-    {
-      "id": 12734,
-      "name": "Javi Morcillo",
-      "slug": "javi-morcillo",
-      "photoUrl": "https://cdn.biwenger.com/i/p/12734.png",
-      "teamId": 75,
-      "teamName": "Elche",
-      "positionId": 3,
-      "positionName": "Centrocampista",
-      "positionShort": "MC",
-      "price": 380000,
-      "priceIncrement": 0,
-      "purchasePrice": 300000,
-      "purchaseDate": 1789189446,
-      "points": 10,
-      "fitness": [
-        null,
-        3,
-        2,
-        2,
-        null
-      ],
-      "status": "ok",
-      "statusInfo": null,
-      "ptsPerMillion": 26.32,
-      "negativeMatches": 0,
-      "ownerId": 14295893,
-      "ownerName": "Recreativo de Juerga"
     }
   ],
   "top5Pufos": [
@@ -4091,14 +3975,14 @@ window.BIWENGER_COMMUNITY_DATA = {
       "purchaseDate": 1788325847,
       "points": 0,
       "fitness": [
-        "injured",
+        "doubt",
         "injured",
         "injured",
         "injured",
         "injured"
       ],
-      "status": "injured",
-      "statusInfo": "Rotura del ligamento cruzado anterior. Retorno estimado: Principios de Octubre.",
+      "status": "doubt",
+      "statusInfo": "Rotura del ligamento cruzado anterior.",
       "ptsPerMillion": 0.0,
       "negativeMatches": 0,
       "ownerId": 14319257,
@@ -4134,33 +4018,33 @@ window.BIWENGER_COMMUNITY_DATA = {
       "ownerName": "Ajax Pino"
     },
     {
-      "id": 15568,
-      "name": "Vinícius Jr",
-      "slug": "vinicius-junior",
-      "photoUrl": "https://cdn.biwenger.com/i/p/15568.png",
-      "teamId": 15,
-      "teamName": "Real Madrid",
+      "id": 91,
+      "name": "Mayoral",
+      "slug": "borja-mayoral",
+      "photoUrl": "https://cdn.biwenger.com/i/p/91.png",
+      "teamId": 8,
+      "teamName": "Getafe",
       "positionId": 4,
       "positionName": "Delantero",
       "positionShort": "DL",
-      "price": 16100000,
-      "priceIncrement": -220000,
-      "purchasePrice": 18250010,
-      "purchaseDate": 1787115843,
-      "points": 28,
+      "price": 980000,
+      "priceIncrement": -20000,
+      "purchasePrice": 980000,
+      "purchaseDate": 1786894720,
+      "points": 2,
       "fitness": [
-        -2,
-        6,
-        4,
-        5,
-        11
+        null,
+        null,
+        null,
+        2,
+        0
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 1.74,
-      "negativeMatches": 1,
-      "ownerId": 14296022,
-      "ownerName": "Los intocables de Javi"
+      "ptsPerMillion": 2.04,
+      "negativeMatches": 0,
+      "ownerId": 14295617,
+      "ownerName": "Cornellius"
     }
   ],
   "dreamTeam": {
