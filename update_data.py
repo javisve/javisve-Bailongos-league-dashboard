@@ -3,6 +3,7 @@ import sys
 import json
 import time
 import requests
+import re
 from datetime import datetime, timezone
 
 BASE_URL = "https://biwenger.as.com/api/v2"
@@ -324,26 +325,38 @@ def main():
     else:
         el_pozo = None
 
-    # Extraer puntuaciones de jornadas individuales desde los eventos del tablon
-    round_scores = []
+    def normalize_round_name(r_name):
+        m = re.search(r"(Jornada\s+\d+)", str(r_name), re.IGNORECASE)
+        if m:
+            return m.group(1).title()
+        return str(r_name).strip()
+
+    # Extraer y acumular puntuaciones de jornadas individuales desde los eventos del tablon
+    # Permite sumar partes de jornadas adelantadas / aplazadas correspondientes a la misma jornada
+    round_totals = {}
     for ev in board_events:
         if ev.get("type") == "roundFinished":
-            r_name = ev.get("content", {}).get("round", {}).get("name", "Jornada")
+            raw_rname = ev.get("content", {}).get("round", {}).get("name", "Jornada")
+            canon_rname = normalize_round_name(raw_rname)
             results = ev.get("content", {}).get("results", [])
             for res in results:
                 uid = res.get("user", {}).get("id")
                 uname = res.get("user", {}).get("name", "Desconocido")
                 pts = res.get("points", 0)
-                round_scores.append({
-                    "userId": uid,
-                    "userName": uname,
-                    "points": pts,
-                    "roundName": r_name
-                })
+                key = (canon_rname, uid)
+                if key not in round_totals:
+                    round_totals[key] = {
+                        "userId": uid,
+                        "userName": uname,
+                        "points": 0,
+                        "roundName": canon_rname
+                    }
+                round_totals[key]["points"] += pts
 
-    if round_scores:
-        masterclass_round = max(round_scores, key=lambda x: x["points"])
-        jornada_negra_round = min(round_scores, key=lambda x: x["points"])
+    all_round_scores = list(round_totals.values())
+    if all_round_scores:
+        masterclass_round = max(all_round_scores, key=lambda x: x["points"])
+        jornada_negra_round = min(all_round_scores, key=lambda x: x["points"])
     else:
         masterclass_round = None
         jornada_negra_round = None
