@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-20T20:48:08.296870+00:00",
+  "updatedAt": "2026-09-21T01:04:04.083615+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 112,
-    "totalMarketValue": 438440000
+    "totalPlayersOwned": 110,
+    "totalMarketValue": 435120000
   },
   "standings": [
     {
@@ -321,10 +321,10 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
       "points": 259,
-      "squadValue": 66760000,
-      "playerCount": 19,
-      "avgPointsPerPlayer": 13.63,
-      "transfersCount": 26,
+      "squadValue": 63440000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 15.24,
+      "transfersCount": 28,
       "dominantClub": {
         "name": "Betis",
         "count": 4
@@ -431,17 +431,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -30000,
           "purchasePrice": 3640000,
           "purchaseDate": 1786894720,
-          "points": 19,
+          "points": 29,
           "fitness": [
+            10,
             3,
             null,
             3,
-            10,
-            1
+            10
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.22,
+          "ptsPerMillion": 7.97,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -493,42 +493,13 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             null,
             null,
-            "injured",
+            null,
             "injured",
             "injured"
           ],
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 0.0,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 24979,
-          "name": "Turrientes",
-          "slug": "benat-turrientes",
-          "photoUrl": "https://cdn.biwenger.com/i/p/24979.png",
-          "teamId": 13,
-          "teamName": "Real Sociedad",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 1420000,
-          "priceIncrement": -10000,
-          "purchasePrice": 1920000,
-          "purchaseDate": 1787291873,
-          "points": 14,
-          "fitness": [
-            null,
-            null,
-            4,
-            3,
-            4
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 9.86,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -637,44 +608,15 @@ window.BIWENGER_COMMUNITY_DATA = {
           "points": 35,
           "fitness": [
             9,
+            2,
             10,
             -2,
-            2,
             1
           ],
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 6.4,
           "negativeMatches": 1,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 32460,
-          "name": "Héctor Fort",
-          "slug": "hector-fort",
-          "photoUrl": "https://cdn.biwenger.com/i/p/32460.png",
-          "teamId": 13,
-          "teamName": "Real Sociedad",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 1900000,
-          "priceIncrement": -20000,
-          "purchasePrice": 1900000,
-          "purchaseDate": 1786894720,
-          "points": 3,
-          "fitness": [
-            null,
-            3,
-            null,
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 1.58,
-          "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
         },
@@ -1114,17 +1056,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 40000,
           "purchasePrice": 4000000,
           "purchaseDate": 1788930222,
-          "points": 32,
+          "points": 43,
           "fitness": [
+            11,
             4,
             13,
             2,
-            3,
-            8
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.38,
+          "ptsPerMillion": 11.26,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -1263,8 +1205,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           "fitness": [
             0,
             3,
-            0,
             3,
+            0,
             3
           ],
           "status": "ok",
@@ -1479,17 +1421,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 10000,
           "purchasePrice": 1510020,
           "purchaseDate": 1789189446,
-          "points": 16,
+          "points": 19,
           "fitness": [
+            3,
             10,
             "doubt",
             "doubt",
-            1,
-            5
+            1
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.96,
+          "ptsPerMillion": 13.01,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -2722,9 +2664,9 @@ window.BIWENGER_COMMUNITY_DATA = {
           "points": 29,
           "fitness": [
             4,
+            4,
             5,
             -1,
-            4,
             5
           ],
           "status": "ok",
@@ -2808,7 +2750,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1789103313,
           "points": 0,
           "fitness": [
-            "injured",
+            "doubt",
             "injured",
             "injured",
             "injured",
@@ -3055,17 +2997,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 10000,
           "purchasePrice": 3930000,
           "purchaseDate": 1787029528,
-          "points": 27,
+          "points": 29,
           "fitness": [
+            2,
             7,
             3,
             7,
-            4,
-            1
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.28,
+          "ptsPerMillion": 8.9,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3084,17 +3026,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 2590000,
           "purchaseDate": 1786894720,
-          "points": 18,
+          "points": 20,
           "fitness": [
+            2,
             5,
             2,
             -1,
-            3,
-            2
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.95,
+          "ptsPerMillion": 7.72,
           "negativeMatches": 1,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3113,9 +3055,9 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 220000,
           "purchaseDate": 1786894720,
-          "points": 3,
+          "points": 5,
           "fitness": [
-            null,
+            2,
             null,
             null,
             null,
@@ -3123,7 +3065,7 @@ window.BIWENGER_COMMUNITY_DATA = {
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 13.64,
+          "ptsPerMillion": 22.73,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3925,7 +3867,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "purchaseDate": 1789103313,
       "points": 0,
       "fitness": [
-        "injured",
+        "doubt",
         "injured",
         "injured",
         "injured",
@@ -4014,7 +3956,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "fitness": [
         null,
         null,
-        "injured",
+        null,
         "injured",
         "injured"
       ],
@@ -4026,33 +3968,33 @@ window.BIWENGER_COMMUNITY_DATA = {
       "ownerName": "Ajax Pino"
     },
     {
-      "id": 32460,
-      "name": "Héctor Fort",
-      "slug": "hector-fort",
-      "photoUrl": "https://cdn.biwenger.com/i/p/32460.png",
-      "teamId": 13,
-      "teamName": "Real Sociedad",
-      "positionId": 2,
-      "positionName": "Defensa",
-      "positionShort": "DF",
-      "price": 1900000,
-      "priceIncrement": -20000,
-      "purchasePrice": 1900000,
+      "id": 91,
+      "name": "Mayoral",
+      "slug": "borja-mayoral",
+      "photoUrl": "https://cdn.biwenger.com/i/p/91.png",
+      "teamId": 8,
+      "teamName": "Getafe",
+      "positionId": 4,
+      "positionName": "Delantero",
+      "positionShort": "DL",
+      "price": 940000,
+      "priceIncrement": -10000,
+      "purchasePrice": 940000,
       "purchaseDate": 1786894720,
-      "points": 3,
+      "points": 2,
       "fitness": [
         null,
-        3,
         null,
         null,
-        null
+        null,
+        2
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 1.58,
+      "ptsPerMillion": 2.13,
       "negativeMatches": 0,
-      "ownerId": 14296207,
-      "ownerName": "Ajax Pino"
+      "ownerId": 14295617,
+      "ownerName": "Cornellius"
     }
   ],
   "dreamTeam": {
