@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-23T12:44:48.871471+00:00",
+  "updatedAt": "2026-09-24T01:23:11.611775+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -190,8 +190,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             16,
             13
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "injured",
+          "statusInfo": "Lesión en el menisco. Retorno estimado: Finales de Noviembre.",
           "ptsPerMillion": 4.75,
           "negativeMatches": 0,
           "ownerId": 14295893,
@@ -786,8 +786,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             5,
             6
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias en el abductor.",
           "ptsPerMillion": 7.38,
           "negativeMatches": 0,
           "ownerId": 14296207,
@@ -3781,8 +3781,8 @@ window.BIWENGER_COMMUNITY_DATA = {
         16,
         13
       ],
-      "status": "ok",
-      "statusInfo": null,
+      "status": "injured",
+      "statusInfo": "Lesión en el menisco. Retorno estimado: Finales de Noviembre.",
       "ptsPerMillion": 4.75,
       "negativeMatches": 0,
       "ownerId": 14295893,
@@ -4458,8 +4458,8 @@ window.BIWENGER_COMMUNITY_DATA = {
           16,
           13
         ],
-        "status": "ok",
-        "statusInfo": null,
+        "status": "injured",
+        "statusInfo": "Lesión en el menisco. Retorno estimado: Finales de Noviembre.",
         "ptsPerMillion": 4.75,
         "negativeMatches": 0,
         "ownerId": 14295893,
