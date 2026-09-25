@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-24T12:43:07.735915+00:00",
+  "updatedAt": "2026-09-25T01:29:02.574212+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 119,
-    "totalMarketValue": 483990000
+    "totalPlayersOwned": 117,
+    "totalMarketValue": 480340000
   },
   "standings": [
     {
@@ -14,10 +14,10 @@
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
       "points": 386,
-      "squadValue": 74050000,
-      "playerCount": 10,
-      "avgPointsPerPlayer": 38.6,
-      "transfersCount": 45,
+      "squadValue": 73260000,
+      "playerCount": 9,
+      "avgPointsPerPlayer": 42.89,
+      "transfersCount": 46,
       "dominantClub": {
         "name": "Barcelona",
         "count": 3
@@ -106,35 +106,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 30.61,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 17121,
-          "name": "Víctor García",
-          "slug": "victor-garcia",
-          "photoUrl": "https://cdn.biwenger.com/i/p/17121.png",
-          "teamId": 10,
-          "teamName": "Levante",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 790000,
-          "priceIncrement": 0,
-          "purchasePrice": 730690,
-          "purchaseDate": 1789621763,
-          "points": 16,
-          "fitness": [
-            2,
-            5,
-            null,
-            5,
-            2
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 20.25,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -320,10 +291,10 @@
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
       "points": 333,
-      "squadValue": 71480000,
-      "playerCount": 19,
-      "avgPointsPerPlayer": 17.53,
-      "transfersCount": 30,
+      "squadValue": 68620000,
+      "playerCount": 18,
+      "avgPointsPerPlayer": 18.5,
+      "transfersCount": 31,
       "dominantClub": {
         "name": "Betis",
         "count": 4
@@ -731,35 +702,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 66.67,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 40952,
-          "name": "Quagliata",
-          "slug": "g-quagliata",
-          "photoUrl": "https://cdn.biwenger.com/i/p/40952.png",
-          "teamId": 6,
-          "teamName": "Deportivo",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 2860000,
-          "priceIncrement": -10000,
-          "purchasePrice": 2860000,
-          "purchaseDate": 1786894720,
-          "points": 27,
-          "fitness": [
-            5,
-            3,
-            2,
-            4,
-            6
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 9.44,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -1893,7 +1835,7 @@
             null
           ],
           "status": "doubt",
-          "statusInfo": "Esguince leve en la rodilla derecha.",
+          "statusInfo": "Lesión en el ligamento colateral de la pierna derecha.",
           "ptsPerMillion": 5.33,
           "negativeMatches": 0,
           "ownerId": 14319257,
@@ -3636,7 +3578,7 @@
       "badge": "💎",
       "description": "Mánager con la plantilla más cotizada de la liga",
       "manager": "Recreativo de Juerga",
-      "value": "74.050.000 €"
+      "value": "73.260.000 €"
     },
     "elMonje": {
       "title": "El Monje / Austero",
