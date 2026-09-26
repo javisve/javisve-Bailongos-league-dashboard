@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-25T12:45:31.083023+00:00",
+  "updatedAt": "2026-09-26T01:32:01.654851+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 115,
-    "totalMarketValue": 469450000
+    "totalPlayersOwned": 113,
+    "totalMarketValue": 466000000
   },
   "standings": [
     {
@@ -2695,13 +2695,13 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/i/u/14293127.png?v=90",
       "position": 7,
       "points": 197,
-      "squadValue": 51580000,
-      "playerCount": 13,
-      "avgPointsPerPlayer": 15.15,
-      "transfersCount": 38,
+      "squadValue": 48130000,
+      "playerCount": 11,
+      "avgPointsPerPlayer": 17.91,
+      "transfersCount": 40,
       "dominantClub": {
-        "name": "Real Madrid",
-        "count": 3
+        "name": "Rayo Vallecano",
+        "count": 2
       },
       "players": [
         {
@@ -2729,35 +2729,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 9.2,
-          "negativeMatches": 0,
-          "ownerId": 14293127,
-          "ownerName": "Mourinho’s Revenge"
-        },
-        {
-          "id": 1599,
-          "name": "Jonny",
-          "slug": "jonny",
-          "photoUrl": "https://cdn.biwenger.com/i/p/1599.png",
-          "teamId": 91,
-          "teamName": "Alavés",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 2220000,
-          "priceIncrement": -30000,
-          "purchasePrice": 3151100,
-          "purchaseDate": 1788325848,
-          "points": 21,
-          "fitness": [
-            3,
-            null,
-            4,
-            2,
-            5
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 9.46,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -2932,35 +2903,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 10.55,
-          "negativeMatches": 0,
-          "ownerId": 14293127,
-          "ownerName": "Mourinho’s Revenge"
-        },
-        {
-          "id": 31707,
-          "name": "Álvaro Carreras",
-          "slug": "alvaro-fernandez-2",
-          "photoUrl": "https://cdn.biwenger.com/i/p/31707.png",
-          "teamId": 15,
-          "teamName": "Real Madrid",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 1230000,
-          "priceIncrement": -20000,
-          "purchasePrice": 1230000,
-          "purchaseDate": 1786894720,
-          "points": 21,
-          "fitness": [
-            null,
-            null,
-            14,
-            2,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 17.07,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
