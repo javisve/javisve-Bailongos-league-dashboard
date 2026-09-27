@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-26T12:13:39.784296+00:00",
+  "updatedAt": "2026-09-27T01:25:38.874157+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -1341,8 +1341,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             2,
             null
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias en la rodilla.",
           "ptsPerMillion": 3.97,
           "negativeMatches": 0,
           "ownerId": 14319257,
@@ -1996,8 +1996,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             2,
             4
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias musculares.",
           "ptsPerMillion": 8.21,
           "negativeMatches": 0,
           "ownerId": 14298565,
