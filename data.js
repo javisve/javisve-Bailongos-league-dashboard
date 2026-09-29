@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-09-28T15:25:57.018963+00:00",
+  "updatedAt": "2026-09-29T02:34:10.313053+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -554,8 +554,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             "injured",
             5
           ],
-          "status": "doubt",
-          "statusInfo": "Lesión en el bíceps femoral de su pierna izquierda.",
+          "status": "ok",
+          "statusInfo": null,
           "ptsPerMillion": 4.13,
           "negativeMatches": 0,
           "ownerId": 14296207,
@@ -2332,8 +2332,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             5,
             4
           ],
-          "status": "doubt",
-          "statusInfo": "Lesión leve en el bíceps femoral de la pierna izquierda.",
+          "status": "ok",
+          "statusInfo": null,
           "ptsPerMillion": 16.85,
           "negativeMatches": 0,
           "ownerId": 14296022,
