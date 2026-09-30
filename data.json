@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T14:03:36.829218+00:00",
+  "updatedAt": "2026-09-30T02:06:23.313381+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -277,7 +277,7 @@
             null
           ],
           "status": "doubt",
-          "statusInfo": "Tirón muscular.",
+          "statusInfo": "Molestias en el pubis.",
           "ptsPerMillion": 5.03,
           "negativeMatches": 0,
           "ownerId": 14295893,
@@ -1313,7 +1313,7 @@
             4
           ],
           "status": "injured",
-          "statusInfo": "Lesión en la rodilla. Retorno estimado: Vuelta indefinida.",
+          "statusInfo": "Cuerpo libre articular en su rodilla derecha. Retorno estimado: Mediados de Noviembre.",
           "ptsPerMillion": 10.92,
           "negativeMatches": 0,
           "ownerId": 14319257,
