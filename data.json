@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-30T13:41:25.705120+00:00",
+  "updatedAt": "2026-10-01T02:08:23.582742+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 112,
-    "totalMarketValue": 479140000
+    "totalPlayersOwned": 111,
+    "totalMarketValue": 475170000
   },
   "standings": [
     {
@@ -1252,10 +1252,10 @@
       "icon": "https://cdn.biwenger.com/icons/13.png",
       "position": 4,
       "points": 298,
-      "squadValue": 59000000,
-      "playerCount": 18,
-      "avgPointsPerPlayer": 16.56,
-      "transfersCount": 49,
+      "squadValue": 55030000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 17.53,
+      "transfersCount": 50,
       "dominantClub": {
         "name": "Athletic",
         "count": 4
@@ -1315,35 +1315,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 7.75,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 3259,
-          "name": "Miguel Román",
-          "slug": "miguel-roman",
-          "photoUrl": "https://cdn.biwenger.com/i/p/3259.png",
-          "teamId": 5,
-          "teamName": "Celta",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 3970000,
-          "priceIncrement": -60000,
-          "purchasePrice": 3970000,
-          "purchaseDate": 1786894720,
-          "points": 44,
-          "fitness": [
-            16,
-            5,
-            3,
-            3,
-            4
-          ],
-          "status": "injured",
-          "statusInfo": "Cuerpo libre articular en su rodilla derecha. Retorno estimado: Mediados de Noviembre.",
-          "ptsPerMillion": 11.08,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
