@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-10-01T14:27:08.015649+00:00",
+  "updatedAt": "2026-10-02T02:14:28.772495+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
