@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T13:50:55.003055+00:00",
+  "updatedAt": "2026-10-03T01:56:12.202119+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -1313,8 +1313,8 @@
             2,
             null
           ],
-          "status": "doubt",
-          "statusInfo": "Molestias en la rodilla.",
+          "status": "ok",
+          "statusInfo": null,
           "ptsPerMillion": 4.39,
           "negativeMatches": 0,
           "ownerId": 14319257,
