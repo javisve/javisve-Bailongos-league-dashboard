@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-10-05T15:59:14.715723+00:00",
+  "updatedAt": "2026-10-06T02:57:12.033958+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -1719,8 +1719,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             3,
             4
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Lesión en la parte inferior del cuerpo.",
           "ptsPerMillion": 8.42,
           "negativeMatches": 0,
           "ownerId": 14319257,
