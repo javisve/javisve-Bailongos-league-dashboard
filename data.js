@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-10-06T14:10:50.141103+00:00",
+  "updatedAt": "2026-10-07T02:22:03.032229+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -845,8 +845,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             5,
             6
           ],
-          "status": "doubt",
-          "statusInfo": "Molestias en el abductor.",
+          "status": "ok",
+          "statusInfo": null,
           "ptsPerMillion": 8.48,
           "negativeMatches": 0,
           "ownerId": 14296207,
