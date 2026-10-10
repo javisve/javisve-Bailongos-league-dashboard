@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T14:21:33.570274+00:00",
+  "updatedAt": "2026-10-10T02:19:14.460384+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -327,18 +327,18 @@
           "priceIncrement": 0,
           "purchasePrice": 250000,
           "purchaseDate": 1787147888,
-          "points": 18,
+          "points": 25,
           "fitness": [
+            7,
+            2,
             2,
             6,
-            2,
-            6,
-            -1
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 16.67,
-          "negativeMatches": 1,
+          "ptsPerMillion": 23.15,
+          "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
         },
@@ -1006,8 +1006,8 @@
             6,
             0
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "injured",
+          "statusInfo": "Indisposición. Retorno estimado: Mediados de Octubre.",
           "ptsPerMillion": 4.62,
           "negativeMatches": 0,
           "ownerId": 14295466,
@@ -1230,17 +1230,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 2980001,
           "purchaseDate": 1788325847,
-          "points": 18,
+          "points": 23,
           "fitness": [
+            5,
             1,
-            null,
             2,
             4,
-            2
+            null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.29,
+          "ptsPerMillion": 13.14,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -1375,17 +1375,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 3990000,
           "purchaseDate": 1786894720,
-          "points": 42,
+          "points": 45,
           "fitness": [
+            3,
             7,
-            2,
             8,
             8,
-            4
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.53,
+          "ptsPerMillion": 11.28,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -1539,8 +1539,8 @@
           "purchaseDate": 1788325847,
           "points": 0,
           "fitness": [
+            null,
             "doubt",
-            "injured",
             "injured",
             "injured",
             "injured"
@@ -2018,17 +2018,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 2770000,
           "purchaseDate": 1786894720,
-          "points": 28,
+          "points": 32,
           "fitness": [
-            2,
             4,
+            2,
             3,
             2,
             4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.11,
+          "ptsPerMillion": 11.55,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2731,17 +2731,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 1330000,
           "purchaseDate": 1787289137,
-          "points": 30,
+          "points": 36,
           "fitness": [
-            5,
             6,
+            5,
             3,
             5,
-            1
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 11.28,
+          "ptsPerMillion": 13.53,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -3485,17 +3485,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 3500000,
           "purchaseDate": 1789103312,
-          "points": 24,
+          "points": 29,
           "fitness": [
+            5,
             6,
-            3,
             -1,
             4,
-            null
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.26,
+          "ptsPerMillion": 12.39,
           "negativeMatches": 1,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -4019,33 +4019,33 @@
       "ownerName": "Al Bajad Mamad"
     },
     {
-      "id": 41081,
-      "name": "Riki Rodríguez",
-      "slug": "riki-rodriguez",
-      "photoUrl": "https://cdn.biwenger.com/i/p/41081.png",
-      "teamId": 6,
-      "teamName": "Deportivo",
-      "positionId": 3,
-      "positionName": "Centrocampista",
-      "positionShort": "MC",
-      "price": 520000,
+      "id": 41419,
+      "name": "Recio",
+      "slug": "angel-recio",
+      "photoUrl": "https://cdn.biwenger.com/i/p/41419.png",
+      "teamId": 65,
+      "teamName": "Málaga",
+      "positionId": 2,
+      "positionName": "Defensa",
+      "positionShort": "DF",
+      "price": 1080000,
       "priceIncrement": 0,
-      "purchasePrice": 200000,
-      "purchaseDate": 1787720919,
-      "points": 12,
+      "purchasePrice": 250000,
+      "purchaseDate": 1787147888,
+      "points": 25,
       "fitness": [
-        3,
+        7,
         2,
-        null,
-        3,
-        4
+        2,
+        6,
+        6
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 23.08,
+      "ptsPerMillion": 23.15,
       "negativeMatches": 0,
-      "ownerId": 14298565,
-      "ownerName": "Deportivo de la Cogorza"
+      "ownerId": 14295893,
+      "ownerName": "Recreativo de Juerga"
     }
   ],
   "top5Pufos": [
@@ -4094,8 +4094,8 @@
       "purchaseDate": 1788325847,
       "points": 0,
       "fitness": [
+        null,
         "doubt",
-        "injured",
         "injured",
         "injured",
         "injured"
