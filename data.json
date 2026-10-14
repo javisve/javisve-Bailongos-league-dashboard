@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-13T15:02:11.776269+00:00",
+  "updatedAt": "2026-10-14T01:53:48.948830+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 116,
-    "totalMarketValue": 499310000
+    "totalPlayersOwned": 114,
+    "totalMarketValue": 494710000
   },
   "standings": [
     {
@@ -13,10 +13,10 @@
       "name": "Recreativo de Juerga",
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
-      "points": 386,
+      "points": 438,
       "squadValue": 88820000,
       "playerCount": 12,
-      "avgPointsPerPlayer": 32.17,
+      "avgPointsPerPlayer": 36.5,
       "transfersCount": 59,
       "dominantClub": {
         "name": "Barcelona",
@@ -41,8 +41,8 @@
           "fitness": [
             3,
             9,
-            2,
             5,
+            2,
             5
           ],
           "status": "ok",
@@ -70,9 +70,9 @@
           "fitness": [
             11,
             8,
+            9,
             6,
-            0,
-            9
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -97,9 +97,9 @@
           "purchaseDate": 1790917555,
           "points": 16,
           "fitness": [
-            null,
             6,
             -2,
+            6,
             6,
             null
           ],
@@ -128,9 +128,9 @@
           "fitness": [
             2,
             11,
+            5,
             6,
-            8,
-            5
+            8
           ],
           "status": "ok",
           "statusInfo": null,
@@ -157,9 +157,9 @@
           "fitness": [
             6,
             6,
+            6,
             2,
-            12,
-            6
+            12
           ],
           "status": "ok",
           "statusInfo": null,
@@ -186,9 +186,9 @@
           "fitness": [
             3,
             5,
+            null,
             3,
-            2,
-            null
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -215,9 +215,9 @@
           "fitness": [
             5,
             "injured",
+            2,
             6,
-            10,
-            2
+            10
           ],
           "status": "ok",
           "statusInfo": null,
@@ -244,9 +244,9 @@
           "fitness": [
             6,
             5,
+            6,
             3,
-            15,
-            6
+            15
           ],
           "status": "ok",
           "statusInfo": null,
@@ -271,11 +271,11 @@
           "purchaseDate": 1787115842,
           "points": 113,
           "fitness": [
-            "injured",
+            "doubt",
+            21,
             21,
             10,
-            11,
-            21
+            11
           ],
           "status": "doubt",
           "statusInfo": "Edema muscular.",
@@ -302,8 +302,8 @@
           "fitness": [
             7,
             2,
-            2,
             6,
+            2,
             6
           ],
           "status": "ok",
@@ -331,9 +331,9 @@
           "fitness": [
             4,
             4,
+            3,
             5,
-            null,
-            3
+            null
           ],
           "status": "ok",
           "statusInfo": null,
@@ -360,9 +360,9 @@
           "fitness": [
             4,
             5,
+            11,
             13,
-            5,
-            11
+            5
           ],
           "status": "ok",
           "statusInfo": null,
@@ -378,10 +378,10 @@
       "name": "Ajax Pino",
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
-      "points": 333,
+      "points": 367,
       "squadValue": 81050000,
       "playerCount": 20,
-      "avgPointsPerPlayer": 16.65,
+      "avgPointsPerPlayer": 18.35,
       "transfersCount": 37,
       "dominantClub": {
         "name": "Athletic",
@@ -404,11 +404,11 @@
           "purchaseDate": 1787617315,
           "points": 14,
           "fitness": [
-            null,
             7,
             4,
             4,
-            null
+            6,
+            "sanctioned"
           ],
           "status": "ok",
           "statusInfo": null,
@@ -433,11 +433,11 @@
           "purchaseDate": 1790226418,
           "points": 18,
           "fitness": [
-            null,
             2,
             4,
             4,
-            null
+            3,
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -462,11 +462,11 @@
           "purchaseDate": 1787029527,
           "points": 11,
           "fitness": [
-            null,
+            3,
             3,
             -4,
             5,
-            3
+            1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -491,11 +491,11 @@
           "purchaseDate": 1786894720,
           "points": 24,
           "fitness": [
-            null,
+            "doubt",
             2,
             2,
-            3,
-            2
+            2,
+            3
           ],
           "status": "doubt",
           "statusInfo": "Molestias musculares.",
@@ -523,7 +523,7 @@
             null,
             null,
             null,
-            "injured",
+            null,
             "injured"
           ],
           "status": "ok",
@@ -549,11 +549,11 @@
           "purchaseDate": 1791867964,
           "points": 36,
           "fitness": [
-            "injured",
             6,
             9,
             12,
-            null
+            2,
+            2
           ],
           "status": "doubt",
           "statusInfo": "Lesión muscular de carácter moderado en el recto anterior izquierdo.",
@@ -581,7 +581,7 @@
             5,
             "doubt",
             "doubt",
-            "injured",
+            "doubt",
             "doubt"
           ],
           "status": "ok",
@@ -607,11 +607,11 @@
           "purchaseDate": 1790312843,
           "points": 35,
           "fitness": [
-            null,
             6,
             4,
             12,
-            null
+            11,
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -636,8 +636,8 @@
           "purchaseDate": 1786894720,
           "points": 9,
           "fitness": [
-            null,
-            "injured",
+            "doubt",
+            "doubt",
             "injured",
             "injured",
             "injured"
@@ -667,9 +667,9 @@
           "fitness": [
             7,
             4,
+            5,
             12,
-            4,
-            5
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -696,9 +696,9 @@
           "fitness": [
             3,
             9,
+            9,
             12,
-            12,
-            9
+            12
           ],
           "status": "ok",
           "statusInfo": null,
@@ -725,9 +725,9 @@
           "fitness": [
             5,
             9,
+            2,
             10,
-            -2,
-            2
+            -2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -754,9 +754,9 @@
           "fitness": [
             4,
             3,
-            null,
-            3,
-            null
+            "doubt",
+            "doubt",
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -783,9 +783,9 @@
           "fitness": [
             1,
             1,
+            5,
             6,
-            2,
-            5
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -812,9 +812,9 @@
           "fitness": [
             null,
             5,
+            5,
             null,
-            null,
-            5
+            null
           ],
           "status": "ok",
           "statusInfo": null,
@@ -841,9 +841,9 @@
           "fitness": [
             4,
             "injured",
+            "injured",
             2,
-            3,
-            null
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -870,9 +870,9 @@
           "fitness": [
             13,
             8,
+            4,
             5,
-            2,
-            4
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -900,8 +900,8 @@
             -3,
             null,
             6,
-            5,
-            6
+            6,
+            5
           ],
           "status": "sanctioned",
           "statusInfo": "Roja directa.",
@@ -928,9 +928,9 @@
           "fitness": [
             0,
             1,
+            0,
             1,
-            3,
-            0
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -958,8 +958,8 @@
             -1,
             9,
             6,
-            1,
-            6
+            6,
+            1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -975,10 +975,10 @@
       "name": "Selenitos Galacticos",
       "icon": "https://cdn.biwenger.com/i/u/12842805.png",
       "position": 3,
-      "points": 321,
+      "points": 358,
       "squadValue": 50560000,
       "playerCount": 13,
-      "avgPointsPerPlayer": 24.69,
+      "avgPointsPerPlayer": 27.54,
       "transfersCount": 28,
       "dominantClub": {
         "name": "Elche",
@@ -1001,11 +1001,11 @@
           "purchaseDate": 1790226417,
           "points": 27,
           "fitness": [
-            "injured",
             6,
             4,
             6,
-            null
+            6,
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1032,8 +1032,8 @@
           "fitness": [
             6,
             10,
-            10,
             2,
+            10,
             2
           ],
           "status": "ok",
@@ -1061,9 +1061,9 @@
           "fitness": [
             4,
             5,
+            2,
             4,
-            -2,
-            2
+            -2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1119,9 +1119,9 @@
           "fitness": [
             2,
             17,
+            10,
             2,
-            11,
-            10
+            11
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1148,9 +1148,9 @@
           "fitness": [
             "sanctioned",
             -2,
+            2,
             null,
-            7,
-            2
+            7
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1177,8 +1177,8 @@
           "fitness": [
             3,
             7,
-            4,
             2,
+            4,
             2
           ],
           "status": "ok",
@@ -1206,9 +1206,9 @@
           "fitness": [
             5,
             1,
+            null,
             2,
-            4,
-            null
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1235,9 +1235,9 @@
           "fitness": [
             5,
             8,
+            6,
             8,
-            2,
-            6
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1264,12 +1264,12 @@
           "fitness": [
             6,
             7,
+            11,
             2,
-            3,
-            11
+            3
           ],
-          "status": "doubt",
-          "statusInfo": "Lesión en el hombro.",
+          "status": "injured",
+          "statusInfo": "Luxación de la acromioclavicular del hombro derecho. Retorno estimado: Mediados de Enero.",
           "ptsPerMillion": 9.77,
           "negativeMatches": 0,
           "ownerId": 14295466,
@@ -1293,9 +1293,9 @@
           "fitness": [
             -1,
             3,
+            6,
             2,
-            12,
-            6
+            12
           ],
           "status": "sanctioned",
           "statusInfo": "Roja directa.",
@@ -1320,11 +1320,11 @@
           "purchaseDate": 1789880769,
           "points": 8,
           "fitness": [
-            null,
             1,
+            3,
             0,
             3,
-            3
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1351,9 +1351,9 @@
           "fitness": [
             3,
             7,
+            2,
             8,
-            8,
-            2
+            8
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1365,582 +1365,14 @@
       ]
     },
     {
-      "id": 14319257,
-      "name": "Al Bajad Mamad",
-      "icon": "https://cdn.biwenger.com/icons/13.png",
-      "position": 4,
-      "points": 298,
-      "squadValue": 58270000,
-      "playerCount": 19,
-      "avgPointsPerPlayer": 15.68,
-      "transfersCount": 56,
-      "dominantClub": {
-        "name": "Athletic",
-        "count": 4
-      },
-      "players": [
-        {
-          "id": 20,
-          "name": "Eric García",
-          "slug": "eric-garcia",
-          "photoUrl": "https://cdn.biwenger.com/i/p/20.png",
-          "teamId": 3,
-          "teamName": "Barcelona",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 5610000,
-          "priceIncrement": 30000,
-          "purchasePrice": 8560000,
-          "purchaseDate": 1788411963,
-          "points": 34,
-          "fitness": [
-            8,
-            1,
-            3,
-            2,
-            5
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 6.06,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 2184,
-          "name": "Ryan",
-          "slug": "ryan",
-          "photoUrl": "https://cdn.biwenger.com/i/p/2184.png",
-          "teamId": 10,
-          "teamName": "Levante",
-          "positionId": 1,
-          "positionName": "Portero",
-          "positionShort": "PT",
-          "price": 3800000,
-          "priceIncrement": -20000,
-          "purchasePrice": 4001001,
-          "purchaseDate": 1786943558,
-          "points": 36,
-          "fitness": [
-            3,
-            4,
-            0,
-            8,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 9.47,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 8670,
-          "name": "Roro Riquelme",
-          "slug": "rodrigo-riquelme",
-          "photoUrl": "https://cdn.biwenger.com/i/p/8670.png",
-          "teamId": 87,
-          "teamName": "Betis",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 2890000,
-          "priceIncrement": -10000,
-          "purchasePrice": 2960005,
-          "purchaseDate": 1791608706,
-          "points": 35,
-          "fitness": [
-            5,
-            -1,
-            2,
-            1,
-            3
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 12.11,
-          "negativeMatches": 1,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 10245,
-          "name": "Mojica",
-          "slug": "johan-mojica",
-          "photoUrl": "https://cdn.biwenger.com/i/p/10245.png",
-          "teamId": 8,
-          "teamName": "Getafe",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 2690000,
-          "priceIncrement": -30000,
-          "purchasePrice": 3550000,
-          "purchaseDate": 1787893767,
-          "points": 27,
-          "fitness": [
-            2,
-            5,
-            4,
-            3,
-            3
-          ],
-          "status": "warned",
-          "statusInfo": null,
-          "ptsPerMillion": 10.04,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 12400,
-          "name": "Vivian",
-          "slug": "dani-vivian",
-          "photoUrl": "https://cdn.biwenger.com/i/p/12400.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 1630000,
-          "priceIncrement": -20000,
-          "purchasePrice": 1430010,
-          "purchaseDate": 1789189446,
-          "points": 0,
-          "fitness": [
-            null,
-            "injured",
-            "injured",
-            "injured",
-            "injured"
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 0.0,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 16317,
-          "name": "Puado",
-          "slug": "javi-puado",
-          "photoUrl": "https://cdn.biwenger.com/i/p/16317.png",
-          "teamId": 7,
-          "teamName": "Espanyol",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 2050000,
-          "priceIncrement": 20000,
-          "purchasePrice": 360010,
-          "purchaseDate": 1788325847,
-          "points": 0,
-          "fitness": [
-            null,
-            "doubt",
-            "injured",
-            "injured",
-            "injured"
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 0.0,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 17442,
-          "name": "Rioja",
-          "slug": "luis-rioja",
-          "photoUrl": "https://cdn.biwenger.com/i/p/17442.png",
-          "teamId": 18,
-          "teamName": "Valencia",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 1520000,
-          "priceIncrement": -20000,
-          "purchasePrice": 1510020,
-          "purchaseDate": 1789189446,
-          "points": 19,
-          "fitness": [
-            "doubt",
-            3,
-            "doubt",
-            "doubt",
-            10
-          ],
-          "status": "doubt",
-          "statusInfo": "Molestias en la planta del pie.",
-          "ptsPerMillion": 12.5,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 18945,
-          "name": "Koundé",
-          "slug": "jules-kounde",
-          "photoUrl": "https://cdn.biwenger.com/i/p/18945.png",
-          "teamId": 3,
-          "teamName": "Barcelona",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 2500000,
-          "priceIncrement": 130000,
-          "purchasePrice": 3250699,
-          "purchaseDate": 1791695021,
-          "points": 25,
-          "fitness": [
-            13,
-            null,
-            null,
-            7,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 10.0,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 24336,
-          "name": "Nteka",
-          "slug": "randy-nteka",
-          "photoUrl": "https://cdn.biwenger.com/i/p/24336.png",
-          "teamId": 70,
-          "teamName": "Rayo Vallecano",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 270000,
-          "priceIncrement": 0,
-          "purchasePrice": 270010,
-          "purchaseDate": 1790831090,
-          "points": 7,
-          "fitness": [
-            null,
-            "injured",
-            "injured",
-            null,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 25.93,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 30081,
-          "name": "Pape Gueye",
-          "slug": "pape-gueye",
-          "photoUrl": "https://cdn.biwenger.com/i/p/30081.png",
-          "teamId": 19,
-          "teamName": "Villarreal",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 7380000,
-          "priceIncrement": 30000,
-          "purchasePrice": 9100000,
-          "purchaseDate": 1787202195,
-          "points": 56,
-          "fitness": [
-            6,
-            3,
-            3,
-            4,
-            19
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 7.59,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 32338,
-          "name": "Agoumé",
-          "slug": "lucien-agoume",
-          "photoUrl": "https://cdn.biwenger.com/i/p/32338.png",
-          "teamId": 17,
-          "teamName": "Sevilla",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 3520000,
-          "priceIncrement": -20000,
-          "purchasePrice": 3148070,
-          "purchaseDate": 1787547799,
-          "points": 38,
-          "fitness": [
-            2,
-            5,
-            5,
-            4,
-            6
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 10.8,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 33531,
-          "name": "Ejuke",
-          "slug": "ejuke",
-          "photoUrl": "https://cdn.biwenger.com/i/p/33531.png",
-          "teamId": 17,
-          "teamName": "Sevilla",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 1910000,
-          "priceIncrement": -20000,
-          "purchasePrice": 3240003,
-          "purchaseDate": 1789275841,
-          "points": 28,
-          "fitness": [
-            null,
-            2,
-            2,
-            3,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 14.66,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 34527,
-          "name": "Dani Olmo",
-          "slug": "dani-olmo",
-          "photoUrl": "https://cdn.biwenger.com/i/p/34527.png",
-          "teamId": 3,
-          "teamName": "Barcelona",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 10160000,
-          "priceIncrement": 0,
-          "purchasePrice": 12390000,
-          "purchaseDate": 1791003903,
-          "points": 49,
-          "fitness": [
-            6,
-            6,
-            2,
-            11,
-            10
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 4.82,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 35171,
-          "name": "Peio Canales",
-          "slug": "peio-canales",
-          "photoUrl": "https://cdn.biwenger.com/i/p/35171.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 1820000,
-          "priceIncrement": 10000,
-          "purchasePrice": 1930010,
-          "purchaseDate": 1789794655,
-          "points": 15,
-          "fitness": [
-            null,
-            3,
-            "injured",
-            "injured",
-            "injured"
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 8.24,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 35344,
-          "name": "Buchanan",
-          "slug": "tajon-buchanan",
-          "photoUrl": "https://cdn.biwenger.com/i/p/35344.png",
-          "teamId": 19,
-          "teamName": "Villarreal",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 2180000,
-          "priceIncrement": -60000,
-          "purchasePrice": 3100001,
-          "purchaseDate": 1789967370,
-          "points": 24,
-          "fitness": [
-            "injured",
-            3,
-            2,
-            3,
-            6
-          ],
-          "status": "injured",
-          "statusInfo": "Lesión muscular en el bíceps femoral. Retorno estimado: Principios de Noviembre.",
-          "ptsPerMillion": 11.01,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 37733,
-          "name": "Kochorashvili",
-          "slug": "g-kochorashvili",
-          "photoUrl": "https://cdn.biwenger.com/i/p/37733.png",
-          "teamId": 17,
-          "teamName": "Sevilla",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 1540000,
-          "priceIncrement": 0,
-          "purchasePrice": 2306640,
-          "purchaseDate": 1787720918,
-          "points": 21,
-          "fitness": [
-            3,
-            3,
-            6,
-            3,
-            3
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 13.64,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 41087,
-          "name": "Konaté",
-          "slug": "konate",
-          "photoUrl": "https://cdn.biwenger.com/i/p/41087.png",
-          "teamId": 15,
-          "teamName": "Real Madrid",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 3960000,
-          "priceIncrement": 30000,
-          "purchasePrice": 5090000,
-          "purchaseDate": 1789535031,
-          "points": 32,
-          "fitness": [
-            6,
-            5,
-            4,
-            4,
-            3
-          ],
-          "status": "warned",
-          "statusInfo": null,
-          "ptsPerMillion": 8.08,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 41566,
-          "name": "Gerenabarrena",
-          "slug": "b-gerenabarrena",
-          "photoUrl": "https://cdn.biwenger.com/i/p/41566.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 2090000,
-          "priceIncrement": -10000,
-          "purchasePrice": 605991,
-          "purchaseDate": 1787634417,
-          "points": 21,
-          "fitness": [
-            null,
-            null,
-            1,
-            5,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 10.05,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 43171,
-          "name": "Johaneko",
-          "slug": "johaneko",
-          "photoUrl": "https://cdn.biwenger.com/i/p/43171.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 750000,
-          "priceIncrement": -10000,
-          "purchasePrice": 300460,
-          "purchaseDate": 1787979788,
-          "points": 14,
-          "fitness": [
-            null,
-            3,
-            3,
-            3,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 18.67,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        }
-      ]
-    },
-    {
       "id": 14298565,
       "name": "Deportivo de la Cogorza",
       "icon": "",
-      "position": 5,
-      "points": 295,
+      "position": 4,
+      "points": 346,
       "squadValue": 64090000,
       "playerCount": 14,
-      "avgPointsPerPlayer": 21.07,
+      "avgPointsPerPlayer": 24.71,
       "transfersCount": 29,
       "dominantClub": {
         "name": "Levante",
@@ -1967,7 +1399,7 @@
             2,
             5,
             6,
-            null
+            1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -1992,10 +1424,10 @@
           "purchaseDate": 1786894720,
           "points": 23,
           "fitness": [
-            null,
             5,
             4,
             3,
+            9,
             null
           ],
           "status": "ok",
@@ -2021,11 +1453,11 @@
           "purchaseDate": 1786894720,
           "points": 27,
           "fitness": [
-            null,
             4,
+            8,
             3,
             4,
-            8
+            1
           ],
           "status": "warned",
           "statusInfo": null,
@@ -2052,9 +1484,9 @@
           "fitness": [
             4,
             2,
+            4,
             3,
-            2,
-            4
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2082,8 +1514,8 @@
             7,
             2,
             5,
-            3,
-            5
+            5,
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2110,9 +1542,9 @@
           "fitness": [
             6,
             12,
+            14,
             17,
-            17,
-            14
+            17
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2137,10 +1569,10 @@
           "purchaseDate": 1790399123,
           "points": 30,
           "fitness": [
-            null,
             8,
             null,
             4,
+            6,
             null
           ],
           "status": "ok",
@@ -2228,7 +1660,7 @@
             5,
             3,
             6,
-            null
+            13
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2255,9 +1687,9 @@
           "fitness": [
             4,
             4,
+            9,
             3,
-            6,
-            9
+            6
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2284,9 +1716,9 @@
           "fitness": [
             3,
             3,
+            2,
             null,
-            3,
-            2
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2315,7 +1747,7 @@
             2,
             3,
             4,
-            null
+            14
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2343,8 +1775,8 @@
             3,
             0,
             3,
-            0,
-            3
+            3,
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2356,14 +1788,524 @@
       ]
     },
     {
+      "id": 14319257,
+      "name": "Al Bajad Mamad",
+      "icon": "https://cdn.biwenger.com/icons/13.png",
+      "position": 5,
+      "points": 337,
+      "squadValue": 53670000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 19.82,
+      "transfersCount": 58,
+      "dominantClub": {
+        "name": "Athletic",
+        "count": 4
+      },
+      "players": [
+        {
+          "id": 20,
+          "name": "Eric García",
+          "slug": "eric-garcia",
+          "photoUrl": "https://cdn.biwenger.com/i/p/20.png",
+          "teamId": 3,
+          "teamName": "Barcelona",
+          "positionId": 2,
+          "positionName": "Defensa",
+          "positionShort": "DF",
+          "price": 5610000,
+          "priceIncrement": 30000,
+          "purchasePrice": 8560000,
+          "purchaseDate": 1788411963,
+          "points": 34,
+          "fitness": [
+            8,
+            1,
+            5,
+            3,
+            2
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 6.06,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 2184,
+          "name": "Ryan",
+          "slug": "ryan",
+          "photoUrl": "https://cdn.biwenger.com/i/p/2184.png",
+          "teamId": 10,
+          "teamName": "Levante",
+          "positionId": 1,
+          "positionName": "Portero",
+          "positionShort": "PT",
+          "price": 3800000,
+          "priceIncrement": -20000,
+          "purchasePrice": 4001001,
+          "purchaseDate": 1786943558,
+          "points": 36,
+          "fitness": [
+            3,
+            4,
+            0,
+            8,
+            4
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 9.47,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 8670,
+          "name": "Roro Riquelme",
+          "slug": "rodrigo-riquelme",
+          "photoUrl": "https://cdn.biwenger.com/i/p/8670.png",
+          "teamId": 87,
+          "teamName": "Betis",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 2890000,
+          "priceIncrement": -10000,
+          "purchasePrice": 2960005,
+          "purchaseDate": 1791608706,
+          "points": 35,
+          "fitness": [
+            5,
+            -1,
+            3,
+            2,
+            1
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 12.11,
+          "negativeMatches": 1,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 12400,
+          "name": "Vivian",
+          "slug": "dani-vivian",
+          "photoUrl": "https://cdn.biwenger.com/i/p/12400.png",
+          "teamId": 1,
+          "teamName": "Athletic",
+          "positionId": 2,
+          "positionName": "Defensa",
+          "positionShort": "DF",
+          "price": 1630000,
+          "priceIncrement": -20000,
+          "purchasePrice": 1430010,
+          "purchaseDate": 1789189446,
+          "points": 0,
+          "fitness": [
+            "doubt",
+            "injured",
+            "doubt",
+            "injured",
+            "injured"
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 0.0,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 16317,
+          "name": "Puado",
+          "slug": "javi-puado",
+          "photoUrl": "https://cdn.biwenger.com/i/p/16317.png",
+          "teamId": 7,
+          "teamName": "Espanyol",
+          "positionId": 4,
+          "positionName": "Delantero",
+          "positionShort": "DL",
+          "price": 2050000,
+          "priceIncrement": 20000,
+          "purchasePrice": 360010,
+          "purchaseDate": 1788325847,
+          "points": 0,
+          "fitness": [
+            null,
+            "doubt",
+            "injured",
+            "injured",
+            "injured"
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 0.0,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 17442,
+          "name": "Rioja",
+          "slug": "luis-rioja",
+          "photoUrl": "https://cdn.biwenger.com/i/p/17442.png",
+          "teamId": 18,
+          "teamName": "Valencia",
+          "positionId": 4,
+          "positionName": "Delantero",
+          "positionShort": "DL",
+          "price": 1520000,
+          "priceIncrement": -20000,
+          "purchasePrice": 1510020,
+          "purchaseDate": 1789189446,
+          "points": 19,
+          "fitness": [
+            "injured",
+            3,
+            10,
+            "doubt",
+            "doubt"
+          ],
+          "status": "doubt",
+          "statusInfo": "Molestias en la planta del pie.",
+          "ptsPerMillion": 12.5,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 18945,
+          "name": "Koundé",
+          "slug": "jules-kounde",
+          "photoUrl": "https://cdn.biwenger.com/i/p/18945.png",
+          "teamId": 3,
+          "teamName": "Barcelona",
+          "positionId": 2,
+          "positionName": "Defensa",
+          "positionShort": "DF",
+          "price": 2500000,
+          "priceIncrement": 130000,
+          "purchasePrice": 3250699,
+          "purchaseDate": 1791695021,
+          "points": 25,
+          "fitness": [
+            13,
+            null,
+            null,
+            null,
+            7
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 10.0,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 24336,
+          "name": "Nteka",
+          "slug": "randy-nteka",
+          "photoUrl": "https://cdn.biwenger.com/i/p/24336.png",
+          "teamId": 70,
+          "teamName": "Rayo Vallecano",
+          "positionId": 4,
+          "positionName": "Delantero",
+          "positionShort": "DL",
+          "price": 270000,
+          "priceIncrement": 0,
+          "purchasePrice": 270010,
+          "purchaseDate": 1790831090,
+          "points": 7,
+          "fitness": [
+            "injured",
+            "injured",
+            "injured",
+            null,
+            2
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 25.93,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 30081,
+          "name": "Pape Gueye",
+          "slug": "pape-gueye",
+          "photoUrl": "https://cdn.biwenger.com/i/p/30081.png",
+          "teamId": 19,
+          "teamName": "Villarreal",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 7380000,
+          "priceIncrement": 30000,
+          "purchasePrice": 9100000,
+          "purchaseDate": 1787202195,
+          "points": 56,
+          "fitness": [
+            6,
+            3,
+            19,
+            3,
+            4
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 7.59,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 32338,
+          "name": "Agoumé",
+          "slug": "lucien-agoume",
+          "photoUrl": "https://cdn.biwenger.com/i/p/32338.png",
+          "teamId": 17,
+          "teamName": "Sevilla",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 3520000,
+          "priceIncrement": -20000,
+          "purchasePrice": 3148070,
+          "purchaseDate": 1787547799,
+          "points": 38,
+          "fitness": [
+            2,
+            5,
+            6,
+            5,
+            4
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 10.8,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 34527,
+          "name": "Dani Olmo",
+          "slug": "dani-olmo",
+          "photoUrl": "https://cdn.biwenger.com/i/p/34527.png",
+          "teamId": 3,
+          "teamName": "Barcelona",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 10160000,
+          "priceIncrement": 0,
+          "purchasePrice": 12390000,
+          "purchaseDate": 1791003903,
+          "points": 49,
+          "fitness": [
+            6,
+            6,
+            10,
+            2,
+            11
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 4.82,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 35171,
+          "name": "Peio Canales",
+          "slug": "peio-canales",
+          "photoUrl": "https://cdn.biwenger.com/i/p/35171.png",
+          "teamId": 1,
+          "teamName": "Athletic",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 1820000,
+          "priceIncrement": 10000,
+          "purchasePrice": 1930010,
+          "purchaseDate": 1789794655,
+          "points": 15,
+          "fitness": [
+            3,
+            "injured",
+            "injured",
+            3,
+            4
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 8.24,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 35344,
+          "name": "Buchanan",
+          "slug": "tajon-buchanan",
+          "photoUrl": "https://cdn.biwenger.com/i/p/35344.png",
+          "teamId": 19,
+          "teamName": "Villarreal",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 2180000,
+          "priceIncrement": -60000,
+          "purchasePrice": 3100001,
+          "purchaseDate": 1789967370,
+          "points": 24,
+          "fitness": [
+            "injured",
+            3,
+            6,
+            2,
+            3
+          ],
+          "status": "injured",
+          "statusInfo": "Lesión muscular en el bíceps femoral. Retorno estimado: Principios de Noviembre.",
+          "ptsPerMillion": 11.01,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 37733,
+          "name": "Kochorashvili",
+          "slug": "g-kochorashvili",
+          "photoUrl": "https://cdn.biwenger.com/i/p/37733.png",
+          "teamId": 17,
+          "teamName": "Sevilla",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 1540000,
+          "priceIncrement": 0,
+          "purchasePrice": 2306640,
+          "purchaseDate": 1787720918,
+          "points": 21,
+          "fitness": [
+            3,
+            3,
+            3,
+            6,
+            3
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 13.64,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 41087,
+          "name": "Konaté",
+          "slug": "konate",
+          "photoUrl": "https://cdn.biwenger.com/i/p/41087.png",
+          "teamId": 15,
+          "teamName": "Real Madrid",
+          "positionId": 2,
+          "positionName": "Defensa",
+          "positionShort": "DF",
+          "price": 3960000,
+          "priceIncrement": 30000,
+          "purchasePrice": 5090000,
+          "purchaseDate": 1789535031,
+          "points": 32,
+          "fitness": [
+            6,
+            5,
+            3,
+            4,
+            4
+          ],
+          "status": "warned",
+          "statusInfo": null,
+          "ptsPerMillion": 8.08,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 41566,
+          "name": "Gerenabarrena",
+          "slug": "b-gerenabarrena",
+          "photoUrl": "https://cdn.biwenger.com/i/p/41566.png",
+          "teamId": 1,
+          "teamName": "Athletic",
+          "positionId": 3,
+          "positionName": "Centrocampista",
+          "positionShort": "MC",
+          "price": 2090000,
+          "priceIncrement": -10000,
+          "purchasePrice": 605991,
+          "purchaseDate": 1787634417,
+          "points": 21,
+          "fitness": [
+            null,
+            1,
+            5,
+            8,
+            3
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 10.05,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        },
+        {
+          "id": 43171,
+          "name": "Johaneko",
+          "slug": "johaneko",
+          "photoUrl": "https://cdn.biwenger.com/i/p/43171.png",
+          "teamId": 1,
+          "teamName": "Athletic",
+          "positionId": 2,
+          "positionName": "Defensa",
+          "positionShort": "DF",
+          "price": 750000,
+          "priceIncrement": -10000,
+          "purchasePrice": 300460,
+          "purchaseDate": 1787979788,
+          "points": 14,
+          "fitness": [
+            3,
+            3,
+            3,
+            1,
+            4
+          ],
+          "status": "ok",
+          "statusInfo": null,
+          "ptsPerMillion": 18.67,
+          "negativeMatches": 0,
+          "ownerId": 14319257,
+          "ownerName": "Al Bajad Mamad"
+        }
+      ]
+    },
+    {
       "id": 14296022,
       "name": "Los intocables de Javi",
       "icon": "https://cdn.biwenger.com/i/u/14296022.png",
       "position": 6,
-      "points": 249,
+      "points": 326,
       "squadValue": 67970000,
       "playerCount": 14,
-      "avgPointsPerPlayer": 17.79,
+      "avgPointsPerPlayer": 23.29,
       "transfersCount": 91,
       "dominantClub": {
         "name": "Atlético",
@@ -2387,10 +2329,10 @@
           "points": 19,
           "fitness": [
             4,
+            "doubt",
             "injured",
             "injured",
-            5,
-            null
+            5
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2417,8 +2359,8 @@
           "fitness": [
             5,
             12,
-            4,
             null,
+            4,
             null
           ],
           "status": "ok",
@@ -2448,7 +2390,7 @@
             6,
             11,
             2,
-            null
+            16
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2475,9 +2417,9 @@
           "fitness": [
             15,
             7,
+            9,
             8,
-            3,
-            9
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2502,11 +2444,11 @@
           "purchaseDate": 1791435851,
           "points": 30,
           "fitness": [
-            null,
             3,
             3,
             9,
-            null
+            7,
+            12
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2535,7 +2477,7 @@
             10,
             13,
             3,
-            null
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2563,8 +2505,8 @@
             3,
             3,
             3,
-            0,
-            3
+            3,
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2591,9 +2533,9 @@
           "fitness": [
             5,
             11,
+            6,
             null,
-            0,
-            6
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2620,9 +2562,9 @@
           "fitness": [
             3,
             9,
+            "doubt",
             12,
-            3,
-            null
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2649,9 +2591,9 @@
           "fitness": [
             4,
             16,
+            13,
             3,
-            5,
-            13
+            5
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2678,9 +2620,9 @@
           "fitness": [
             null,
             4,
+            null,
             7,
-            7,
-            null
+            7
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2707,9 +2649,9 @@
           "fitness": [
             6,
             5,
+            6,
             3,
-            5,
-            6
+            5
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2736,9 +2678,9 @@
           "fitness": [
             14,
             8,
+            8,
             10,
-            0,
-            8
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2765,9 +2707,9 @@
           "fitness": [
             12,
             14,
+            3,
             6,
-            4,
-            3
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2783,10 +2725,10 @@
       "name": "Mourinho’s Revenge",
       "icon": "https://cdn.biwenger.com/i/u/14293127.png?v=90",
       "position": 7,
-      "points": 197,
+      "points": 236,
       "squadValue": 47390000,
       "playerCount": 11,
-      "avgPointsPerPlayer": 17.91,
+      "avgPointsPerPlayer": 21.45,
       "transfersCount": 48,
       "dominantClub": {
         "name": "Atlético",
@@ -2811,9 +2753,9 @@
           "fitness": [
             3,
             6,
+            2,
             3,
-            6,
-            2
+            6
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2840,9 +2782,9 @@
           "fitness": [
             3,
             4,
+            4,
             5,
-            -1,
-            4
+            -1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2867,8 +2809,8 @@
           "purchaseDate": 1789103313,
           "points": 0,
           "fitness": [
-            "injured",
-            "injured",
+            "doubt",
+            "doubt",
             "injured",
             "injured",
             "injured"
@@ -2898,9 +2840,9 @@
           "fitness": [
             6,
             1,
+            6,
             10,
-            9,
-            6
+            9
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2956,9 +2898,9 @@
           "fitness": [
             6,
             4,
+            11,
             4,
-            1,
-            11
+            1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2985,9 +2927,9 @@
           "fitness": [
             4,
             4,
+            6,
             8,
-            4,
-            6
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3014,9 +2956,9 @@
           "fitness": [
             5,
             5,
+            6,
             2,
-            7,
-            6
+            7
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3043,9 +2985,9 @@
           "fitness": [
             null,
             2,
+            3,
             2,
-            null,
-            3
+            null
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3072,9 +3014,9 @@
           "fitness": [
             5,
             2,
+            4,
             null,
-            3,
-            4
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3101,9 +3043,9 @@
           "fitness": [
             6,
             9,
+            13,
             11,
-            null,
-            13
+            null
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3119,10 +3061,10 @@
       "name": "Cornellius",
       "icon": "https://cdn.biwenger.com/i/u/14295617.png",
       "position": 8,
-      "points": 187,
+      "points": 225,
       "squadValue": 41160000,
       "playerCount": 13,
-      "avgPointsPerPlayer": 14.38,
+      "avgPointsPerPlayer": 17.31,
       "transfersCount": 12,
       "dominantClub": {
         "name": "Valencia",
@@ -3176,8 +3118,8 @@
           "fitness": [
             7,
             2,
-            3,
             7,
+            3,
             7
           ],
           "status": "ok",
@@ -3205,9 +3147,9 @@
           "fitness": [
             4,
             2,
+            5,
             2,
-            -1,
-            5
+            -1
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3261,11 +3203,11 @@
           "purchaseDate": 1786894720,
           "points": 13,
           "fitness": [
-            null,
             5,
+            null,
             "sanctioned",
             0,
-            null
+            2
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3323,7 +3265,7 @@
             1,
             4,
             7,
-            null
+            15
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3350,9 +3292,9 @@
           "fitness": [
             null,
             3,
+            3,
             -1,
-            null,
-            3
+            null
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3379,9 +3321,9 @@
           "fitness": [
             5,
             4,
+            null,
             3,
-            16,
-            null
+            16
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3437,9 +3379,9 @@
           "fitness": [
             6,
             3,
+            8,
             2,
-            3,
-            8
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3466,9 +3408,9 @@
           "fitness": [
             5,
             6,
+            3,
             -1,
-            4,
-            3
+            4
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3495,9 +3437,9 @@
           "fitness": [
             2,
             null,
+            6,
             null,
-            9,
-            6
+            9
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3603,9 +3545,9 @@
       "fitness": [
         6,
         12,
+        14,
         17,
-        17,
-        14
+        17
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3630,11 +3572,11 @@
       "purchaseDate": 1787115842,
       "points": 113,
       "fitness": [
-        "injured",
+        "doubt",
+        21,
         21,
         10,
-        11,
-        21
+        11
       ],
       "status": "doubt",
       "statusInfo": "Edema muscular.",
@@ -3661,9 +3603,9 @@
       "fitness": [
         7,
         4,
+        5,
         12,
-        4,
-        5
+        4
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3690,9 +3632,9 @@
       "fitness": [
         6,
         1,
+        6,
         10,
-        9,
-        6
+        9
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3719,9 +3661,9 @@
       "fitness": [
         6,
         5,
+        6,
         3,
-        15,
-        6
+        15
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3748,11 +3690,11 @@
       "purchaseDate": 1787115842,
       "points": 113,
       "fitness": [
-        "injured",
+        "doubt",
+        21,
         21,
         10,
-        11,
-        21
+        11
       ],
       "status": "doubt",
       "statusInfo": "Edema muscular.",
@@ -3779,9 +3721,9 @@
       "fitness": [
         6,
         12,
+        14,
         17,
-        17,
-        14
+        17
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3808,9 +3750,9 @@
       "fitness": [
         7,
         4,
+        5,
         12,
-        4,
-        5
+        4
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3837,9 +3779,9 @@
       "fitness": [
         5,
         4,
+        null,
         3,
-        16,
-        null
+        16
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3866,9 +3808,9 @@
       "fitness": [
         6,
         1,
+        6,
         10,
-        9,
-        6
+        9
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3897,9 +3839,9 @@
       "fitness": [
         4,
         "injured",
+        "injured",
         2,
-        3,
-        null
+        3
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3926,9 +3868,9 @@
       "fitness": [
         null,
         2,
+        3,
         2,
-        null,
-        3
+        null
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3955,9 +3897,9 @@
       "fitness": [
         3,
         3,
+        2,
         null,
-        3,
-        2
+        3
       ],
       "status": "ok",
       "statusInfo": null,
@@ -3982,11 +3924,11 @@
       "purchaseDate": 1790831090,
       "points": 7,
       "fitness": [
-        null,
         "injured",
         "injured",
+        "injured",
         null,
-        null
+        2
       ],
       "status": "ok",
       "statusInfo": null,
@@ -4013,9 +3955,9 @@
       "fitness": [
         3,
         5,
+        null,
         3,
-        2,
-        null
+        2
       ],
       "status": "ok",
       "statusInfo": null,
@@ -4042,8 +3984,8 @@
       "purchaseDate": 1789103313,
       "points": 0,
       "fitness": [
-        "injured",
-        "injured",
+        "doubt",
+        "doubt",
         "injured",
         "injured",
         "injured"
@@ -4100,9 +4042,9 @@
       "purchaseDate": 1789189446,
       "points": 0,
       "fitness": [
-        null,
+        "doubt",
         "injured",
-        "injured",
+        "doubt",
         "injured",
         "injured"
       ],
@@ -4132,7 +4074,7 @@
         null,
         null,
         null,
-        "injured",
+        null,
         "injured"
       ],
       "status": "ok",
@@ -4160,9 +4102,9 @@
       "fitness": [
         4,
         3,
-        null,
-        3,
-        null
+        "doubt",
+        "doubt",
+        3
       ],
       "status": "ok",
       "statusInfo": null,
@@ -4195,9 +4137,9 @@
         "fitness": [
           3,
           9,
+          9,
           12,
-          12,
-          9
+          12
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4226,7 +4168,7 @@
           5,
           3,
           6,
-          null
+          13
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4254,8 +4196,8 @@
           7,
           2,
           5,
-          3,
-          5
+          5,
+          3
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4282,9 +4224,9 @@
         "fitness": [
           14,
           8,
+          8,
           10,
-          0,
-          8
+          0
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4311,9 +4253,9 @@
         "fitness": [
           7,
           4,
+          5,
           12,
-          4,
-          5
+          4
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4340,9 +4282,9 @@
         "fitness": [
           5,
           4,
+          null,
           3,
-          16,
-          null
+          16
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4369,9 +4311,9 @@
         "fitness": [
           6,
           1,
+          6,
           10,
-          9,
-          6
+          9
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4398,9 +4340,9 @@
         "fitness": [
           6,
           5,
+          6,
           3,
-          15,
-          6
+          15
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4425,11 +4367,11 @@
         "purchaseDate": 1787115842,
         "points": 113,
         "fitness": [
-          "injured",
+          "doubt",
+          21,
           21,
           10,
-          11,
-          21
+          11
         ],
         "status": "doubt",
         "statusInfo": "Edema muscular.",
@@ -4456,9 +4398,9 @@
         "fitness": [
           6,
           12,
+          14,
           17,
-          17,
-          14
+          17
         ],
         "status": "ok",
         "statusInfo": null,
@@ -4485,9 +4427,9 @@
         "fitness": [
           4,
           5,
+          11,
           13,
-          5,
-          11
+          5
         ],
         "status": "ok",
         "statusInfo": null,
