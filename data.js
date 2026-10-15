@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-10-14T12:52:00.157419+00:00",
+  "updatedAt": "2026-10-15T01:27:34.808434+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 116,
-    "totalMarketValue": 497140000
+    "totalPlayersOwned": 113,
+    "totalMarketValue": 489710000
   },
   "standings": [
     {
@@ -379,13 +379,13 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
       "points": 367,
-      "squadValue": 80470000,
-      "playerCount": 20,
-      "avgPointsPerPlayer": 18.35,
-      "transfersCount": 37,
+      "squadValue": 75150000,
+      "playerCount": 18,
+      "avgPointsPerPlayer": 20.39,
+      "transfersCount": 39,
       "dominantClub": {
         "name": "Athletic",
-        "count": 4
+        "count": 3
       },
       "players": [
         {
@@ -413,35 +413,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 4.95,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 1995,
-          "name": "Iñaki Williams",
-          "slug": "williams",
-          "photoUrl": "https://cdn.biwenger.com/i/p/1995.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 2730000,
-          "priceIncrement": -30000,
-          "purchasePrice": 3381000,
-          "purchaseDate": 1790226418,
-          "points": 18,
-          "fitness": [
-            2,
-            4,
-            4,
-            3,
-            2
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 6.59,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -642,8 +613,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             "injured",
             "injured"
           ],
-          "status": "doubt",
-          "statusInfo": "Lesión muscular.",
+          "status": "injured",
+          "statusInfo": "Lesión en el isquiotibial de la pierna izquierda. Retorno estimado: Principios de Noviembre.",
           "ptsPerMillion": 4.57,
           "negativeMatches": 0,
           "ownerId": 14296207,
@@ -936,35 +907,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "statusInfo": null,
           "ptsPerMillion": 11.63,
           "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 43261,
-          "name": "Azón",
-          "slug": "azon",
-          "photoUrl": "https://cdn.biwenger.com/i/p/43261.png",
-          "teamId": 8,
-          "teamName": "Getafe",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 2590000,
-          "priceIncrement": -60000,
-          "purchasePrice": 980100,
-          "purchaseDate": 1789448643,
-          "points": 21,
-          "fitness": [
-            -1,
-            9,
-            6,
-            6,
-            1
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 8.11,
-          "negativeMatches": 1,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
         }
@@ -1793,10 +1735,10 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/icons/13.png",
       "position": 5,
       "points": 337,
-      "squadValue": 53580000,
-      "playerCount": 17,
-      "avgPointsPerPlayer": 19.82,
-      "transfersCount": 58,
+      "squadValue": 51470000,
+      "playerCount": 16,
+      "avgPointsPerPlayer": 21.06,
+      "transfersCount": 59,
       "dominantClub": {
         "name": "Athletic",
         "count": 4
@@ -2146,35 +2088,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 8.24,
-          "negativeMatches": 0,
-          "ownerId": 14319257,
-          "ownerName": "Al Bajad Mamad"
-        },
-        {
-          "id": 35344,
-          "name": "Buchanan",
-          "slug": "tajon-buchanan",
-          "photoUrl": "https://cdn.biwenger.com/i/p/35344.png",
-          "teamId": 19,
-          "teamName": "Villarreal",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 2110000,
-          "priceIncrement": -70000,
-          "purchasePrice": 3100001,
-          "purchaseDate": 1789967370,
-          "points": 24,
-          "fitness": [
-            "injured",
-            3,
-            6,
-            2,
-            3
-          ],
-          "status": "injured",
-          "statusInfo": "Lesión muscular en el bíceps femoral. Retorno estimado: Principios de Noviembre.",
-          "ptsPerMillion": 11.37,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
