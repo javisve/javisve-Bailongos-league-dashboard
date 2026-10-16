@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T12:38:35.606343+00:00",
+  "updatedAt": "2026-10-16T01:19:18.824369+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -526,8 +526,8 @@
             2,
             2
           ],
-          "status": "doubt",
-          "statusInfo": "Lesión muscular de carácter moderado en el recto anterior izquierdo.",
+          "status": "injured",
+          "statusInfo": "Lesión muscular de carácter moderado en el recto anterior izquierdo. Retorno estimado: Finales de Octubre.",
           "ptsPerMillion": 5.37,
           "negativeMatches": 0,
           "ownerId": 14296207,
@@ -2566,8 +2566,8 @@
             12,
             3
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias en el hombro derecho.",
           "ptsPerMillion": 8.8,
           "negativeMatches": 0,
           "ownerId": 14296022,
