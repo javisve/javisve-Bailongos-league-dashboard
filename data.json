@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T14:39:25.748409+00:00",
+  "updatedAt": "2026-10-20T01:48:56.608009+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -489,17 +489,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 6530010,
           "purchaseDate": 1787029527,
-          "points": 11,
+          "points": 19,
           "fitness": [
-            3,
+            8,
+            null,
             3,
             -4,
-            5,
-            1
+            5
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.82,
+          "ptsPerMillion": 6.6,
           "negativeMatches": 1,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -518,17 +518,17 @@
           "priceIncrement": -20000,
           "purchasePrice": 2561000,
           "purchaseDate": 1792299983,
-          "points": 6,
+          "points": 8,
           "fitness": [
-            "doubt",
-            "doubt",
-            "doubt",
+            2,
+            null,
+            "injured",
             "injured",
             "injured"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.37,
+          "ptsPerMillion": 3.16,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -547,17 +547,17 @@
           "priceIncrement": -20000,
           "purchasePrice": 2690000,
           "purchaseDate": 1786894720,
-          "points": 24,
+          "points": 28,
           "fitness": [
-            "doubt",
-            2,
+            4,
+            null,
             2,
             2,
             3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.92,
+          "ptsPerMillion": 10.41,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -1347,17 +1347,17 @@
           "priceIncrement": 0,
           "purchasePrice": 481000,
           "purchaseDate": 1789880769,
-          "points": 8,
+          "points": 9,
           "fitness": [
             1,
-            3,
+            null,
+            1,
             0,
-            3,
-            0
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 16.67,
+          "ptsPerMillion": 18.75,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -1480,17 +1480,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 2730000,
           "purchaseDate": 1786894720,
-          "points": 27,
+          "points": 31,
           "fitness": [
             4,
-            8,
-            3,
+            null,
             4,
-            1
+            3,
+            4
           ],
-          "status": "warned",
+          "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.89,
+          "ptsPerMillion": 11.36,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2050,14 +2050,14 @@
           "purchaseDate": 1790831090,
           "points": 7,
           "fitness": [
-            "injured",
-            "injured",
-            "injured",
             null,
-            2
+            null,
+            "injured",
+            "injured",
+            null
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Problemas físicos.",
           "ptsPerMillion": 25.93,
           "negativeMatches": 0,
           "ownerId": 14319257,
@@ -3143,9 +3143,9 @@
           "priceIncrement": -10000,
           "purchasePrice": 640000,
           "purchaseDate": 1786894720,
-          "points": 2,
+          "points": 3,
           "fitness": [
-            null,
+            1,
             null,
             null,
             null,
@@ -3153,7 +3153,7 @@
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.12,
+          "ptsPerMillion": 4.69,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3259,17 +3259,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 2930000,
           "purchaseDate": 1786894720,
-          "points": 13,
+          "points": 19,
           "fitness": [
-            5,
+            6,
             null,
+            5,
             "sanctioned",
-            0,
-            2
+            0
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 4.44,
+          "ptsPerMillion": 6.48,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -4114,30 +4114,30 @@
       "ownerName": "Al Bajad Mamad"
     },
     {
-      "id": 5069,
-      "name": "Isi Palazón",
-      "slug": "isi-palazon",
-      "photoUrl": "https://cdn.biwenger.com/i/p/5069.png",
-      "teamId": 70,
-      "teamName": "Rayo Vallecano",
+      "id": 34557,
+      "name": "Julián Alvarez",
+      "slug": "j-alvarez",
+      "photoUrl": "https://cdn.biwenger.com/i/p/34557.png",
+      "teamId": 2,
+      "teamName": "Atlético",
       "positionId": 4,
       "positionName": "Delantero",
       "positionShort": "DL",
-      "price": 2530000,
-      "priceIncrement": -20000,
-      "purchasePrice": 2561000,
-      "purchaseDate": 1792299983,
-      "points": 6,
+      "price": 6640000,
+      "priceIncrement": 50000,
+      "purchasePrice": 6681000,
+      "purchaseDate": 1791176765,
+      "points": 18,
       "fitness": [
+        8,
+        4,
+        3,
         "doubt",
-        "doubt",
-        "doubt",
-        "injured",
-        "injured"
+        "doubt"
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 2.37,
+      "ptsPerMillion": 2.71,
       "negativeMatches": 0,
       "ownerId": 14296207,
       "ownerName": "Ajax Pino"
