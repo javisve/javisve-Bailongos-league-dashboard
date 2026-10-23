@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-22T12:57:32.346228+00:00",
+  "updatedAt": "2026-10-23T01:29:35.810658+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 119,
-    "totalMarketValue": 523380000
+    "totalPlayersOwned": 117,
+    "totalMarketValue": 514670000
   },
   "standings": [
     {
@@ -13,11 +13,11 @@
       "name": "Recreativo de Juerga",
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
-      "points": 515,
-      "squadValue": 95300000,
-      "playerCount": 15,
-      "avgPointsPerPlayer": 34.33,
-      "transfersCount": 62,
+      "points": 517,
+      "squadValue": 90430000,
+      "playerCount": 14,
+      "avgPointsPerPlayer": 36.93,
+      "transfersCount": 63,
       "dominantClub": {
         "name": "Barcelona",
         "count": 4
@@ -107,35 +107,6 @@
           "statusInfo": null,
           "ptsPerMillion": 8.09,
           "negativeMatches": 1,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 9887,
-          "name": "Sivera",
-          "slug": "sivera",
-          "photoUrl": "https://cdn.biwenger.com/i/p/9887.png",
-          "teamId": 91,
-          "teamName": "Alavés",
-          "positionId": 1,
-          "positionName": "Portero",
-          "positionShort": "PT",
-          "price": 4870000,
-          "priceIncrement": -60000,
-          "purchasePrice": 4870000,
-          "purchaseDate": 1786894720,
-          "points": 51,
-          "fitness": [
-            1,
-            2,
-            11,
-            5,
-            6
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 10.47,
-          "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
         },
@@ -465,10 +436,10 @@
       "name": "Ajax Pino",
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
-      "points": 424,
+      "points": 429,
       "squadValue": 78680000,
       "playerCount": 19,
-      "avgPointsPerPlayer": 22.32,
+      "avgPointsPerPlayer": 22.58,
       "transfersCount": 44,
       "dominantClub": {
         "name": "Athletic",
@@ -1033,10 +1004,10 @@
       "name": "Al Bajad Mamad",
       "icon": "https://cdn.biwenger.com/icons/13.png",
       "position": 3,
-      "points": 404,
+      "points": 408,
       "squadValue": 55630000,
       "playerCount": 17,
-      "avgPointsPerPlayer": 23.76,
+      "avgPointsPerPlayer": 24.0,
       "transfersCount": 64,
       "dominantClub": {
         "name": "Barcelona",
@@ -1543,10 +1514,10 @@
       "name": "Los intocables de Javi",
       "icon": "https://cdn.biwenger.com/i/u/14296022.png",
       "position": 4,
-      "points": 394,
+      "points": 400,
       "squadValue": 85190000,
       "playerCount": 13,
-      "avgPointsPerPlayer": 30.31,
+      "avgPointsPerPlayer": 30.77,
       "transfersCount": 98,
       "dominantClub": {
         "name": "Atlético",
@@ -1937,10 +1908,10 @@
       "name": "Deportivo de la Cogorza",
       "icon": "",
       "position": 5,
-      "points": 393,
+      "points": 396,
       "squadValue": 63600000,
       "playerCount": 14,
-      "avgPointsPerPlayer": 28.07,
+      "avgPointsPerPlayer": 28.29,
       "transfersCount": 29,
       "dominantClub": {
         "name": "Levante",
@@ -2813,44 +2784,15 @@
       "icon": "https://cdn.biwenger.com/i/u/14293127.png?v=90",
       "position": 7,
       "points": 286,
-      "squadValue": 56790000,
-      "playerCount": 13,
-      "avgPointsPerPlayer": 22.0,
-      "transfersCount": 56,
+      "squadValue": 52950000,
+      "playerCount": 12,
+      "avgPointsPerPlayer": 23.83,
+      "transfersCount": 57,
       "dominantClub": {
-        "name": "Atlético",
+        "name": "Real Madrid",
         "count": 3
       },
       "players": [
-        {
-          "id": 1897,
-          "name": "Oblak",
-          "slug": "oblak",
-          "photoUrl": "https://cdn.biwenger.com/i/p/1897.png",
-          "teamId": 2,
-          "teamName": "Atlético",
-          "positionId": 1,
-          "positionName": "Portero",
-          "positionShort": "PT",
-          "price": 3840000,
-          "priceIncrement": 0,
-          "purchasePrice": 9610000,
-          "purchaseDate": 1786943557,
-          "points": 39,
-          "fitness": [
-            7,
-            3,
-            4,
-            4,
-            5
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 10.16,
-          "negativeMatches": 0,
-          "ownerId": 14293127,
-          "ownerName": "Mourinho’s Revenge"
-        },
         {
           "id": 16738,
           "name": "Courtois",
@@ -2989,8 +2931,8 @@
             11,
             4
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "injured",
+          "statusInfo": "Lesión muscular de bajo grado en el muslo. Retorno estimado: Mediados de Noviembre.",
           "ptsPerMillion": 8.59,
           "negativeMatches": 0,
           "ownerId": 14293127,
@@ -3206,10 +3148,10 @@
       "name": "Cornellius",
       "icon": "https://cdn.biwenger.com/i/u/14295617.png",
       "position": 8,
-      "points": 276,
+      "points": 281,
       "squadValue": 40890000,
       "playerCount": 13,
-      "avgPointsPerPlayer": 21.23,
+      "avgPointsPerPlayer": 21.62,
       "transfersCount": 12,
       "dominantClub": {
         "name": "Valencia",
@@ -3601,8 +3543,8 @@
       "title": "La Masterclass",
       "badge": "💥",
       "description": "Mayor puntuación en una jornada individual",
-      "manager": "Selenitos Galacticos",
-      "value": "94 pts (Jornada 7)"
+      "manager": "Al Bajad Mamad",
+      "value": "119 pts (Jornada 6)"
     },
     "jornadaNegra": {
       "title": "La Jornada Negra",
@@ -3638,7 +3580,7 @@
       "badge": "💎",
       "description": "Mánager con la plantilla más cotizada de la liga",
       "manager": "Recreativo de Juerga",
-      "value": "95.300.000 €"
+      "value": "90.430.000 €"
     },
     "elMonje": {
       "title": "El Monje / Austero",
