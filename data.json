@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T11:58:59.013847+00:00",
+  "updatedAt": "2026-10-25T01:08:46.689503+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -37,17 +37,17 @@
           "priceIncrement": 40000,
           "purchasePrice": 4298090,
           "purchaseDate": 1790485490,
-          "points": 39,
+          "points": 41,
           "fitness": [
+            2,
             6,
             3,
             9,
-            5,
-            2
+            5
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.02,
+          "ptsPerMillion": 8.44,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -124,17 +124,17 @@
           "priceIncrement": 50000,
           "purchasePrice": 2901170,
           "purchaseDate": 1789621762,
-          "points": 40,
+          "points": 51,
           "fitness": [
+            11,
             8,
             6,
             6,
-            6,
-            2
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.5,
+          "ptsPerMillion": 12.11,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -153,17 +153,17 @@
           "priceIncrement": 0,
           "purchasePrice": 300000,
           "purchaseDate": 1789189446,
-          "points": 21,
+          "points": 29,
           "fitness": [
+            8,
             3,
             3,
             5,
-            null,
-            3
+            null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 26.25,
+          "ptsPerMillion": 36.25,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -298,17 +298,17 @@
           "priceIncrement": 30000,
           "purchasePrice": 3450000,
           "purchaseDate": 1792126994,
-          "points": 48,
+          "points": 50,
           "fitness": [
+            2,
             10,
             6,
             4,
-            5,
-            2
+            5
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 12.9,
+          "ptsPerMillion": 13.44,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -460,18 +460,18 @@
           "priceIncrement": 20000,
           "purchasePrice": 6530010,
           "purchaseDate": 1787029527,
-          "points": 19,
+          "points": 18,
           "fitness": [
+            -1,
             8,
             3,
             3,
-            -4,
-            5
+            -4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.21,
-          "negativeMatches": 1,
+          "ptsPerMillion": 5.88,
+          "negativeMatches": 2,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
         },
@@ -489,17 +489,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 2561000,
           "purchaseDate": 1792299983,
-          "points": 8,
+          "points": 10,
           "fitness": [
+            2,
             2,
             "doubt",
             "doubt",
-            "doubt",
-            "injured"
+            "doubt"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 3.15,
+          "ptsPerMillion": 3.94,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -547,17 +547,17 @@
           "priceIncrement": 30000,
           "purchasePrice": 2541000,
           "purchaseDate": 1792818492,
-          "points": 22,
+          "points": 27,
           "fitness": [
+            5,
             5,
             8,
             1,
-            1,
-            4
+            1
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.63,
+          "ptsPerMillion": 10.59,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -663,17 +663,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 2671000,
           "purchaseDate": 1791176765,
-          "points": 24,
+          "points": 27,
           "fitness": [
+            3,
             5,
             5,
-            "doubt",
             "doubt",
             "doubt"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 7.48,
+          "ptsPerMillion": 8.41,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -837,17 +837,17 @@
           "priceIncrement": 30000,
           "purchasePrice": 5441000,
           "purchaseDate": 1789621763,
-          "points": 44,
+          "points": 50,
           "fitness": [
+            6,
             4,
             5,
             9,
-            2,
-            10
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.83,
+          "ptsPerMillion": 7.76,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -866,17 +866,17 @@
           "priceIncrement": 80000,
           "purchasePrice": 6681000,
           "purchaseDate": 1791176765,
-          "points": 18,
+          "points": 31,
           "fitness": [
+            13,
             8,
             4,
             3,
-            "doubt",
             "doubt"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 2.57,
+          "ptsPerMillion": 4.42,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -953,17 +953,17 @@
           "priceIncrement": 10000,
           "purchasePrice": 3861000,
           "purchaseDate": 1789967370,
-          "points": 47,
+          "points": 52,
           "fitness": [
+            5,
             2,
             13,
             8,
-            4,
-            5
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.85,
+          "ptsPerMillion": 10.9,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -982,17 +982,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 3020000,
           "purchaseDate": 1786894720,
-          "points": 30,
+          "points": 35,
           "fitness": [
+            5,
             "sanctioned",
             -3,
             null,
-            6,
             6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.93,
+          "ptsPerMillion": 11.59,
           "negativeMatches": 1,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -1144,17 +1144,17 @@
           "priceIncrement": -20000,
           "purchasePrice": 360010,
           "purchaseDate": 1788325847,
-          "points": 2,
+          "points": 4,
           "fitness": [
+            2,
             2,
             null,
             "doubt",
-            "injured",
             "injured"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 1.06,
+          "ptsPerMillion": 2.13,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1173,17 +1173,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 1510020,
           "purchaseDate": 1789189446,
-          "points": 22,
+          "points": 26,
           "fitness": [
+            4,
             3,
             "injured",
             3,
-            10,
-            "doubt"
+            10
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 14.1,
+          "ptsPerMillion": 16.67,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -1234,13 +1234,13 @@
           "points": 7,
           "fitness": [
             "doubt",
+            "doubt",
             "injured",
             "injured",
-            "injured",
-            null
+            "injured"
           ],
-          "status": "injured",
-          "statusInfo": "Problemas físicos. Retorno estimado: Finales de Octubre.",
+          "status": "doubt",
+          "statusInfo": "Problemas físicos.",
           "ptsPerMillion": 29.17,
           "negativeMatches": 0,
           "ownerId": 14319257,
@@ -1289,18 +1289,18 @@
           "priceIncrement": -50000,
           "purchasePrice": 9100000,
           "purchaseDate": 1787202195,
-          "points": 59,
+          "points": 58,
           "fitness": [
+            -1,
             3,
             6,
             3,
-            19,
-            3
+            19
           ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 7.91,
-          "negativeMatches": 0,
+          "status": "sanctioned",
+          "statusInfo": "Roja directa.",
+          "ptsPerMillion": 7.77,
+          "negativeMatches": 1,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
         },
@@ -1685,14 +1685,14 @@
           "purchaseDate": 1789794655,
           "points": 49,
           "fitness": [
+            "doubt",
             7,
             15,
             7,
-            9,
-            8
+            9
           ],
-          "status": "injured",
-          "statusInfo": "Lesión de bajo grado en el aductor. Retorno estimado: Finales de Octubre.",
+          "status": "doubt",
+          "statusInfo": "Lesión de bajo grado en el aductor.",
           "ptsPerMillion": 7.04,
           "negativeMatches": 0,
           "ownerId": 14296022,
@@ -1770,7 +1770,7 @@
           "priceIncrement": 20000,
           "purchasePrice": 3010000,
           "purchaseDate": 1790572144,
-          "points": 22,
+          "points": 25,
           "fitness": [
             3,
             3,
@@ -1780,7 +1780,7 @@
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 7.67,
+          "ptsPerMillion": 8.71,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1857,17 +1857,17 @@
           "priceIncrement": 10000,
           "purchasePrice": 1425501,
           "purchaseDate": 1790053587,
-          "points": 32,
+          "points": 36,
           "fitness": [
+            4,
             4,
             5,
             11,
-            6,
-            null
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 8.06,
+          "ptsPerMillion": 9.07,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1886,17 +1886,17 @@
           "priceIncrement": 60000,
           "purchasePrice": 8470233,
           "purchaseDate": 1790226417,
-          "points": 58,
+          "points": 64,
           "fitness": [
+            6,
             6,
             4,
             16,
-            13,
-            3
+            13
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.81,
+          "ptsPerMillion": 6.41,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1944,17 +1944,17 @@
           "priceIncrement": 80000,
           "purchasePrice": 6120000,
           "purchaseDate": 1790140000,
-          "points": 48,
+          "points": 57,
           "fitness": [
+            9,
             3,
             14,
             8,
-            8,
-            10
+            8
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.34,
+          "ptsPerMillion": 7.53,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -2077,18 +2077,18 @@
           "priceIncrement": -10000,
           "purchasePrice": 2610000,
           "purchaseDate": 1786894720,
-          "points": 31,
+          "points": 30,
           "fitness": [
+            -1,
             4,
             4,
             8,
-            3,
-            4
+            3
           ],
-          "status": "warned",
+          "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 11.88,
-          "negativeMatches": 0,
+          "ptsPerMillion": 11.49,
+          "negativeMatches": 1,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
         },
@@ -2106,17 +2106,17 @@
           "priceIncrement": 10000,
           "purchasePrice": 2690000,
           "purchaseDate": 1786894720,
-          "points": 36,
+          "points": 41,
           "fitness": [
+            5,
             4,
             4,
             2,
-            4,
-            3
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 13.38,
+          "ptsPerMillion": 15.24,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2338,17 +2338,17 @@
           "priceIncrement": -10000,
           "purchasePrice": 200000,
           "purchaseDate": 1787720919,
-          "points": 17,
+          "points": 19,
           "fitness": [
             2,
-            3,
-            3,
             2,
-            null
+            3,
+            3,
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 29.82,
+          "ptsPerMillion": 33.33,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2471,17 +2471,17 @@
           "priceIncrement": 0,
           "purchasePrice": 1630000,
           "purchaseDate": 1792040968,
-          "points": 23,
+          "points": 27,
           "fitness": [
+            4,
             3,
             4,
             2,
-            4,
-            3
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 13.22,
+          "ptsPerMillion": 15.52,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2558,17 +2558,17 @@
           "priceIncrement": 10000,
           "purchasePrice": 1830000,
           "purchaseDate": 1786894720,
-          "points": 27,
+          "points": 38,
           "fitness": [
+            11,
             12,
             4,
             5,
-            2,
-            4
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 14.75,
+          "ptsPerMillion": 20.77,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2616,17 +2616,17 @@
           "priceIncrement": -70000,
           "purchasePrice": 4581000,
           "purchaseDate": 1789707888,
-          "points": 60,
+          "points": 67,
           "fitness": [
+            7,
             3,
             2,
             17,
-            10,
-            2
+            10
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.88,
+          "ptsPerMillion": 11.04,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2645,17 +2645,17 @@
           "priceIncrement": 40000,
           "purchasePrice": 1999000,
           "purchaseDate": 1792472745,
-          "points": 17,
+          "points": 20,
           "fitness": [
+            3,
             7,
             null,
             "injured",
-            "injured",
-            3
+            "injured"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 13.08,
+          "ptsPerMillion": 15.38,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2703,17 +2703,17 @@
           "priceIncrement": 30000,
           "purchasePrice": 4911001,
           "purchaseDate": 1787374967,
-          "points": 40,
+          "points": 45,
           "fitness": [
+            5,
             7,
             3,
             7,
-            2,
-            4
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.42,
+          "ptsPerMillion": 11.72,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2732,17 +2732,17 @@
           "priceIncrement": -20000,
           "purchasePrice": 2980001,
           "purchaseDate": 1788325847,
-          "points": 23,
+          "points": 25,
           "fitness": [
+            2,
             null,
             5,
             1,
-            null,
             2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 15.86,
+          "ptsPerMillion": 17.24,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2761,17 +2761,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 4161000,
           "purchaseDate": 1790140001,
-          "points": 41,
+          "points": 43,
           "fitness": [
+            2,
             null,
             5,
             8,
-            6,
-            8
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.03,
+          "ptsPerMillion": 9.47,
           "negativeMatches": 0,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -2850,11 +2850,11 @@
           "purchaseDate": 1789880769,
           "points": 9,
           "fitness": [
+            0,
             1,
             1,
             3,
-            0,
-            3
+            0
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3042,10 +3042,10 @@
           "points": 28,
           "fitness": [
             "injured",
+            "injured",
             6,
             4,
-            11,
-            4
+            11
           ],
           "status": "injured",
           "statusInfo": "Lesión muscular de bajo grado en el muslo. Retorno estimado: Mediados de Noviembre.",
@@ -3126,17 +3126,17 @@
           "priceIncrement": -30000,
           "purchasePrice": 1926000,
           "purchaseDate": 1790658253,
-          "points": 34,
+          "points": 38,
           "fitness": [
+            4,
             1,
             5,
             5,
-            6,
-            2
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 20.73,
+          "ptsPerMillion": 23.17,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3155,17 +3155,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 840100,
           "purchaseDate": 1791954511,
-          "points": 27,
+          "points": 29,
           "fitness": [
+            2,
             4,
             5,
             12,
-            null,
             null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 21.77,
+          "ptsPerMillion": 23.39,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3184,17 +3184,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 8611000,
           "purchaseDate": 1792126994,
-          "points": 66,
+          "points": 77,
           "fitness": [
+            11,
             3,
             9,
             2,
-            11,
             17
           ],
           "status": "warned",
           "statusInfo": null,
-          "ptsPerMillion": 8.85,
+          "ptsPerMillion": 10.32,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3215,11 +3215,11 @@
           "purchaseDate": 1790744783,
           "points": 41,
           "fitness": [
+            null,
             2,
             6,
             9,
-            13,
-            11
+            13
           ],
           "status": "ok",
           "statusInfo": null,
@@ -3288,17 +3288,17 @@
           "priceIncrement": -20000,
           "purchasePrice": 3930000,
           "purchaseDate": 1787029528,
-          "points": 40,
+          "points": 41,
           "fitness": [
+            1,
             4,
             7,
             2,
-            7,
-            3
+            7
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 14.04,
+          "ptsPerMillion": 14.39,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3317,17 +3317,17 @@
           "priceIncrement": 50000,
           "purchasePrice": 2730000,
           "purchaseDate": 1786894720,
-          "points": 31,
+          "points": 38,
           "fitness": [
+            7,
             7,
             4,
             2,
-            5,
-            2
+            5
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 11.36,
+          "ptsPerMillion": 13.92,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3375,17 +3375,17 @@
           "priceIncrement": -20000,
           "purchasePrice": 9140000,
           "purchaseDate": 1792731950,
-          "points": 58,
+          "points": 63,
           "fitness": [
+            5,
             4,
             5,
             5,
-            16,
-            3
+            16
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.47,
+          "ptsPerMillion": 7.03,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3404,18 +3404,18 @@
           "priceIncrement": 30000,
           "purchasePrice": 2990000,
           "purchaseDate": 1786894720,
-          "points": 19,
+          "points": 18,
           "fitness": [
+            -1,
             6,
             5,
             null,
-            "sanctioned",
-            0
+            "sanctioned"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.35,
-          "negativeMatches": 0,
+          "ptsPerMillion": 6.02,
+          "negativeMatches": 1,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
         },
@@ -3491,18 +3491,18 @@
           "priceIncrement": -20000,
           "purchasePrice": 1340000,
           "purchaseDate": 1786894720,
-          "points": 14,
+          "points": 17,
           "fitness": [
+            3,
             null,
             null,
             3,
-            3,
-            -1
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.45,
-          "negativeMatches": 1,
+          "ptsPerMillion": 12.69,
+          "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
         },
@@ -3578,17 +3578,17 @@
           "priceIncrement": 130000,
           "purchasePrice": 3010000,
           "purchaseDate": 1786894720,
-          "points": 32,
+          "points": 45,
           "fitness": [
+            13,
             6,
             6,
             3,
-            8,
-            2
+            8
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.63,
+          "ptsPerMillion": 14.95,
           "negativeMatches": 0,
           "ownerId": 14295617,
           "ownerName": "Cornellius"
@@ -3719,7 +3719,7 @@
       "description": "Jugador de alto coste y bajo rendimiento en puntos",
       "player": "Julián Alvarez",
       "owner": "Ajax Pino",
-      "value": "18 pts / 7.010.000 €"
+      "value": "31 pts / 7.010.000 €"
     },
     "elMonotematico": {
       "title": "El Monotemático",
@@ -3994,30 +3994,30 @@
       "ownerName": "Ajax Pino"
     },
     {
-      "id": 31027,
-      "name": "Arda Güler",
-      "slug": "arda-guler",
-      "photoUrl": "https://cdn.biwenger.com/i/p/31027.png",
-      "teamId": 15,
-      "teamName": "Real Madrid",
-      "positionId": 3,
-      "positionName": "Centrocampista",
-      "positionShort": "MC",
-      "price": 15250000,
-      "priceIncrement": 110000,
-      "purchasePrice": 16521000,
-      "purchaseDate": 1789362356,
-      "points": 74,
+      "id": 42610,
+      "name": "Zabiri",
+      "slug": "yassir-zabiri",
+      "photoUrl": "https://cdn.biwenger.com/i/p/42610.png",
+      "teamId": 812,
+      "teamName": "Racing",
+      "positionId": 4,
+      "positionName": "Delantero",
+      "positionShort": "DL",
+      "price": 7460000,
+      "priceIncrement": 20000,
+      "purchasePrice": 8611000,
+      "purchaseDate": 1792126994,
+      "points": 77,
       "fitness": [
-        13,
-        6,
-        1,
-        6,
-        10
+        11,
+        3,
+        9,
+        2,
+        17
       ],
-      "status": "ok",
+      "status": "warned",
       "statusInfo": null,
-      "ptsPerMillion": 4.85,
+      "ptsPerMillion": 10.32,
       "negativeMatches": 0,
       "ownerId": 14293127,
       "ownerName": "Mourinho’s Revenge"
@@ -4112,6 +4112,35 @@
       "ownerName": "Cornellius"
     },
     {
+      "id": 12734,
+      "name": "Javi Morcillo",
+      "slug": "javi-morcillo",
+      "photoUrl": "https://cdn.biwenger.com/i/p/12734.png",
+      "teamId": 75,
+      "teamName": "Elche",
+      "positionId": 3,
+      "positionName": "Centrocampista",
+      "positionShort": "MC",
+      "price": 800000,
+      "priceIncrement": 0,
+      "purchasePrice": 300000,
+      "purchaseDate": 1789189446,
+      "points": 29,
+      "fitness": [
+        8,
+        3,
+        3,
+        5,
+        null
+      ],
+      "status": "ok",
+      "statusInfo": null,
+      "ptsPerMillion": 36.25,
+      "negativeMatches": 0,
+      "ownerId": 14295893,
+      "ownerName": "Recreativo de Juerga"
+    },
+    {
       "id": 41081,
       "name": "Riki Rodríguez",
       "slug": "riki-rodriguez",
@@ -4125,49 +4154,20 @@
       "priceIncrement": -10000,
       "purchasePrice": 200000,
       "purchaseDate": 1787720919,
-      "points": 17,
+      "points": 19,
       "fitness": [
         2,
-        3,
-        3,
         2,
-        null
+        3,
+        3,
+        2
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 29.82,
+      "ptsPerMillion": 33.33,
       "negativeMatches": 0,
       "ownerId": 14298565,
       "ownerName": "Deportivo de la Cogorza"
-    },
-    {
-      "id": 24336,
-      "name": "Nteka",
-      "slug": "randy-nteka",
-      "photoUrl": "https://cdn.biwenger.com/i/p/24336.png",
-      "teamId": 70,
-      "teamName": "Rayo Vallecano",
-      "positionId": 4,
-      "positionName": "Delantero",
-      "positionShort": "DL",
-      "price": 240000,
-      "priceIncrement": 0,
-      "purchasePrice": 270010,
-      "purchaseDate": 1790831090,
-      "points": 7,
-      "fitness": [
-        "doubt",
-        "injured",
-        "injured",
-        "injured",
-        null
-      ],
-      "status": "injured",
-      "statusInfo": "Problemas físicos. Retorno estimado: Finales de Octubre.",
-      "ptsPerMillion": 29.17,
-      "negativeMatches": 0,
-      "ownerId": 14319257,
-      "ownerName": "Al Bajad Mamad"
     }
   ],
   "top5Pufos": [
@@ -4272,55 +4272,55 @@
       "priceIncrement": -20000,
       "purchasePrice": 360010,
       "purchaseDate": 1788325847,
-      "points": 2,
+      "points": 4,
       "fitness": [
+        2,
         2,
         null,
         "doubt",
-        "injured",
         "injured"
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 1.06,
+      "ptsPerMillion": 2.13,
       "negativeMatches": 0,
       "ownerId": 14319257,
       "ownerName": "Al Bajad Mamad"
     },
     {
-      "id": 34557,
-      "name": "Julián Alvarez",
-      "slug": "j-alvarez",
-      "photoUrl": "https://cdn.biwenger.com/i/p/34557.png",
-      "teamId": 2,
-      "teamName": "Atlético",
+      "id": 19577,
+      "name": "Mbappé",
+      "slug": "mbappe",
+      "photoUrl": "https://cdn.biwenger.com/i/p/19577.png",
+      "teamId": 15,
+      "teamName": "Real Madrid",
       "positionId": 4,
       "positionName": "Delantero",
       "positionShort": "DL",
-      "price": 7010000,
-      "priceIncrement": 80000,
-      "purchasePrice": 6681000,
-      "purchaseDate": 1791176765,
-      "points": 18,
+      "price": 24020000,
+      "priceIncrement": 30000,
+      "purchasePrice": 24350000,
+      "purchaseDate": 1792213500,
+      "points": 90,
       "fitness": [
-        8,
+        17,
         4,
-        3,
-        "doubt",
-        "doubt"
+        1,
+        12,
+        17
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 2.57,
+      "ptsPerMillion": 3.75,
       "negativeMatches": 0,
-      "ownerId": 14296207,
-      "ownerName": "Ajax Pino"
+      "ownerId": 14296022,
+      "ownerName": "Los intocables de Javi"
     }
   ],
   "dreamTeam": {
     "formation": "3-4-3",
-    "totalPoints": 835,
-    "totalValue": 152490000,
+    "totalPoints": 843,
+    "totalValue": 154220000,
     "players": [
       {
         "id": 30487,
@@ -4381,6 +4381,35 @@
         "ownerName": "Deportivo de la Cogorza"
       },
       {
+        "id": 41684,
+        "name": "Grimaldo",
+        "slug": "grimaldo",
+        "photoUrl": "https://cdn.biwenger.com/i/p/41684.png",
+        "teamId": 2,
+        "teamName": "Atlético",
+        "positionId": 2,
+        "positionName": "Defensa",
+        "positionShort": "DF",
+        "price": 7570000,
+        "priceIncrement": 80000,
+        "purchasePrice": 6120000,
+        "purchaseDate": 1790140000,
+        "points": 57,
+        "fitness": [
+          9,
+          3,
+          14,
+          8,
+          8
+        ],
+        "status": "ok",
+        "statusInfo": null,
+        "ptsPerMillion": 7.53,
+        "negativeMatches": 0,
+        "ownerId": 14296022,
+        "ownerName": "Los intocables de Javi"
+      },
+      {
         "id": 25384,
         "name": "Tenaglia",
         "slug": "nahuel-tenaglia",
@@ -4408,35 +4437,6 @@
         "negativeMatches": 0,
         "ownerId": 14298565,
         "ownerName": "Deportivo de la Cogorza"
-      },
-      {
-        "id": 15828,
-        "name": "Cristian Romero",
-        "slug": "cristian-romero",
-        "photoUrl": "https://cdn.biwenger.com/i/p/15828.png",
-        "teamId": 2,
-        "teamName": "Atlético",
-        "positionId": 2,
-        "positionName": "Defensa",
-        "positionShort": "DF",
-        "price": 6960000,
-        "priceIncrement": 0,
-        "purchasePrice": 5170000,
-        "purchaseDate": 1789794655,
-        "points": 49,
-        "fitness": [
-          7,
-          15,
-          7,
-          9,
-          8
-        ],
-        "status": "injured",
-        "statusInfo": "Lesión de bajo grado en el aductor. Retorno estimado: Finales de Octubre.",
-        "ptsPerMillion": 7.04,
-        "negativeMatches": 0,
-        "ownerId": 14296022,
-        "ownerName": "Los intocables de Javi"
       },
       {
         "id": 30477,
@@ -4526,33 +4526,33 @@
         "ownerName": "Cornellius"
       },
       {
-        "id": 34527,
-        "name": "Dani Olmo",
-        "slug": "dani-olmo",
-        "photoUrl": "https://cdn.biwenger.com/i/p/34527.png",
-        "teamId": 3,
-        "teamName": "Barcelona",
+        "id": 30495,
+        "name": "Moleiro",
+        "slug": "alberto-moleiro",
+        "photoUrl": "https://cdn.biwenger.com/i/p/30495.png",
+        "teamId": 19,
+        "teamName": "Villarreal",
         "positionId": 3,
         "positionName": "Centrocampista",
         "positionShort": "MC",
-        "price": 8870000,
-        "priceIncrement": -500000,
-        "purchasePrice": 12390000,
-        "purchaseDate": 1791003903,
+        "price": 9990000,
+        "priceIncrement": 60000,
+        "purchasePrice": 8470233,
+        "purchaseDate": 1790226417,
         "points": 64,
         "fitness": [
-          15,
           6,
           6,
-          10,
-          2
+          4,
+          16,
+          13
         ],
-        "status": "injured",
-        "statusInfo": "Rotura de grado I en el aductor izquierdo. Retorno estimado: Finales de Noviembre.",
-        "ptsPerMillion": 7.22,
+        "status": "ok",
+        "statusInfo": null,
+        "ptsPerMillion": 6.41,
         "negativeMatches": 0,
-        "ownerId": 14319257,
-        "ownerName": "Al Bajad Mamad"
+        "ownerId": 14296022,
+        "ownerName": "Los intocables de Javi"
       },
       {
         "id": 26930,
