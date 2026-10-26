@@ -331,27 +331,31 @@ def main():
             return m.group(1).title()
         return str(r_name).strip()
 
-    # Extraer y acumular puntuaciones de jornadas individuales desde los eventos del tablon
-    # Permite sumar partes de jornadas adelantadas / aplazadas correspondientes a la misma jornada
+    # Extraer puntuaciones de jornadas individuales desde los eventos del tablon.
+    # Cada evento roundFinished de una jornada contiene la puntuacion total recalculada
+    # de esa jornada hasta esa fecha (no es un delta, sino el acumulado oficial).
+    # Por tanto, si una jornada se juega en varias partes (aplazadas/adelantadas),
+    # el evento mas reciente de esa jornada contiene la puntuacion total definitiva.
     round_totals = {}
-    for ev in board_events:
+    for ev in sorted(board_events, key=lambda x: int(x.get("date", 0) or 0)):
         if ev.get("type") == "roundFinished":
-            raw_rname = ev.get("content", {}).get("round", {}).get("name", "Jornada")
+            content = ev.get("content")
+            if not isinstance(content, dict):
+                continue
+            raw_rname = content.get("round", {}).get("name", "Jornada")
             canon_rname = normalize_round_name(raw_rname)
-            results = ev.get("content", {}).get("results", [])
+            results = content.get("results", [])
             for res in results:
                 uid = res.get("user", {}).get("id")
                 uname = res.get("user", {}).get("name", "Desconocido")
                 pts = res.get("points", 0)
-                key = (canon_rname, uid)
-                if key not in round_totals:
-                    round_totals[key] = {
-                        "userId": uid,
-                        "userName": uname,
-                        "points": 0,
-                        "roundName": canon_rname
-                    }
-                round_totals[key]["points"] += pts
+                key = (canon_rname, uid if uid is not None else uname)
+                round_totals[key] = {
+                    "userId": uid,
+                    "userName": uname,
+                    "points": pts,
+                    "roundName": canon_rname
+                }
 
     all_round_scores = list(round_totals.values())
     if all_round_scores:
