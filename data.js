@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-10-26T08:01:05.623352+00:00",
+  "updatedAt": "2026-10-26T14:14:46.481015+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 124,
-    "totalMarketValue": 555620000
+    "totalPlayersOwned": 123,
+    "totalMarketValue": 550730000
   },
   "standings": [
     {
@@ -14,44 +14,15 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
       "points": 517,
-      "squadValue": 90360000,
-      "playerCount": 13,
-      "avgPointsPerPlayer": 39.77,
-      "transfersCount": 66,
+      "squadValue": 85470000,
+      "playerCount": 12,
+      "avgPointsPerPlayer": 43.08,
+      "transfersCount": 67,
       "dominantClub": {
         "name": "Barcelona",
         "count": 4
       },
       "players": [
-        {
-          "id": 2001,
-          "name": "Ayoze",
-          "slug": "ayoze-perez",
-          "photoUrl": "https://cdn.biwenger.com/i/p/2001.png",
-          "teamId": 19,
-          "teamName": "Villarreal",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 4890000,
-          "priceIncrement": 10000,
-          "purchasePrice": 4298090,
-          "purchaseDate": 1790485490,
-          "points": 41,
-          "fitness": [
-            2,
-            6,
-            3,
-            9,
-            5
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 8.38,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
         {
           "id": 8555,
           "name": "Diomande",
@@ -1691,8 +1662,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             5,
             6
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias musculares.",
           "ptsPerMillion": 13.95,
           "negativeMatches": 0,
           "ownerId": 14296022,
@@ -1894,8 +1865,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             11,
             6
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "injured",
+          "statusInfo": "Lesión sin determinar. Retorno estimado: Vuelta indefinida.",
           "ptsPerMillion": 9.05,
           "negativeMatches": 0,
           "ownerId": 14296022,
