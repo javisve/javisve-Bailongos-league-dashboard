@@ -43,10 +43,27 @@ def login(email, password):
         return resp.json().get("token")
     raise Exception(f"Login fallido ({resp.status_code}): {resp.text}")
 
+_biwenger_version = None
+
+def get_biwenger_version():
+    global _biwenger_version
+    if _biwenger_version:
+        return _biwenger_version
+    try:
+        r = requests.get("https://biwenger.as.com/", headers={"User-Agent": "Mozilla/5.0"}, timeout=3)
+        m = re.search(r"cdn\.biwenger\.com/app/v(\d+)", r.text)
+        if m:
+            _biwenger_version = m.group(1)
+            return _biwenger_version
+    except Exception:
+        pass
+    _biwenger_version = "632"
+    return _biwenger_version
+
 def get_headers(token, league_id=None, user_id=None):
     h = {
         "Authorization": f"Bearer {token}",
-        "X-Version": "631",
+        "X-Version": get_biwenger_version(),
         "X-Lang": "es"
     }
     if league_id:
