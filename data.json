@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-02T17:02:28.142644+00:00",
+  "updatedAt": "2026-11-03T03:55:15.012648+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 120,
-    "totalMarketValue": 584410000
+    "totalPlayersOwned": 119,
+    "totalMarketValue": 579440000
   },
   "standings": [
     {
@@ -298,17 +298,17 @@
           "priceIncrement": 0,
           "purchasePrice": 3450000,
           "purchaseDate": 1792126994,
-          "points": 50,
+          "points": 59,
           "fitness": [
+            9,
             2,
             10,
             6,
-            4,
-            5
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 13.05,
+          "ptsPerMillion": 15.4,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -379,13 +379,13 @@
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
       "points": 517,
-      "squadValue": 86530000,
-      "playerCount": 18,
-      "avgPointsPerPlayer": 28.72,
-      "transfersCount": 51,
+      "squadValue": 81560000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 30.41,
+      "transfersCount": 52,
       "dominantClub": {
         "name": "Athletic",
-        "count": 3
+        "count": 2
       },
       "players": [
         {
@@ -621,35 +621,6 @@
           "ownerName": "Ajax Pino"
         },
         {
-          "id": 24474,
-          "name": "Robert Navarro",
-          "slug": "robert-navarro",
-          "photoUrl": "https://cdn.biwenger.com/i/p/24474.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 4,
-          "positionName": "Delantero",
-          "positionShort": "DL",
-          "price": 4970000,
-          "priceIncrement": -30000,
-          "purchasePrice": 4675001,
-          "purchaseDate": 1790312843,
-          "points": 52,
-          "fitness": [
-            5,
-            null,
-            6,
-            6,
-            6
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 10.46,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
           "id": 27591,
           "name": "Aimar",
           "slug": "aimar-oroz",
@@ -667,9 +638,9 @@
           "fitness": [
             "injured",
             "injured",
+            "injured",
             "doubt",
-            "doubt",
-            "injured"
+            "doubt"
           ],
           "status": "injured",
           "statusInfo": "Lesión en el isquiotibial de la pierna izquierda. Retorno estimado: Mediados de Noviembre.",
@@ -837,17 +808,17 @@
           "priceIncrement": 20000,
           "purchasePrice": 3861000,
           "purchaseDate": 1789967370,
-          "points": 52,
+          "points": 67,
           "fitness": [
+            15,
             5,
             2,
             13,
-            8,
-            4
+            8
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.44,
+          "ptsPerMillion": 13.45,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -866,17 +837,17 @@
           "priceIncrement": 0,
           "purchasePrice": 3070000,
           "purchaseDate": 1786894720,
-          "points": 35,
+          "points": 41,
           "fitness": [
+            6,
             5,
             "sanctioned",
             -3,
-            null,
-            6
+            null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 11.4,
+          "ptsPerMillion": 13.36,
           "negativeMatches": 1,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -970,17 +941,17 @@
           "priceIncrement": 30000,
           "purchasePrice": 909550,
           "purchaseDate": 1790485490,
-          "points": 30,
+          "points": 36,
           "fitness": [
+            6,
             6,
             5,
             4,
-            "doubt",
             "injured"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 18.63,
+          "ptsPerMillion": 22.36,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1086,17 +1057,17 @@
           "priceIncrement": 50000,
           "purchasePrice": 13520000,
           "purchaseDate": 1793254165,
-          "points": 75,
+          "points": 86,
           "fitness": [
+            11,
             2,
             11,
             7,
-            10,
-            3
+            10
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 5.83,
+          "ptsPerMillion": 6.69,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1932,17 +1903,17 @@
           "priceIncrement": 60000,
           "purchasePrice": 7320000,
           "purchaseDate": 1793167625,
-          "points": 69,
+          "points": 74,
           "fitness": [
+            5,
             "injured",
             "injured",
             "injured",
-            4,
-            2
+            4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 9.48,
+          "ptsPerMillion": 10.16,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2195,11 +2166,11 @@
           "purchaseDate": 1787720919,
           "points": 19,
           "fitness": [
+            0,
             2,
             2,
             3,
-            3,
-            2
+            3
           ],
           "status": "ok",
           "statusInfo": null,
@@ -2563,8 +2534,8 @@
             "injured",
             "injured",
             "injured",
-            3,
-            null
+            "injured",
+            3
           ],
           "status": "injured",
           "statusInfo": "Fractura en la clavícula derecha. Retorno estimado: Principios de Enero.",
@@ -3404,17 +3375,17 @@
           "priceIncrement": 0,
           "purchasePrice": 1210000,
           "purchaseDate": 1792645648,
-          "points": 10,
+          "points": 13,
           "fitness": [
+            3,
             5,
             3,
             2,
-            "doubt",
             "injured"
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 7.87,
+          "ptsPerMillion": 10.24,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -4069,11 +4040,11 @@
       "purchaseDate": 1787720919,
       "points": 19,
       "fitness": [
+        0,
         2,
         2,
         3,
-        3,
-        2
+        3
       ],
       "status": "ok",
       "statusInfo": null,
