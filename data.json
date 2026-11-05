@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-04T15:24:09.001969+00:00",
+  "updatedAt": "2026-11-05T03:28:33.212112+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 121,
-    "totalMarketValue": 596420000
+    "totalPlayersOwned": 120,
+    "totalMarketValue": 591430000
   },
   "standings": [
     {
@@ -14,10 +14,10 @@
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
       "points": 679,
-      "squadValue": 91230000,
-      "playerCount": 12,
-      "avgPointsPerPlayer": 56.58,
-      "transfersCount": 69,
+      "squadValue": 86240000,
+      "playerCount": 11,
+      "avgPointsPerPlayer": 61.73,
+      "transfersCount": 70,
       "dominantClub": {
         "name": "Barcelona",
         "count": 4
@@ -48,35 +48,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 4.69,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 11196,
-          "name": "Lemar",
-          "slug": "thomas-lemar",
-          "photoUrl": "https://cdn.biwenger.com/i/p/11196.png",
-          "teamId": 75,
-          "teamName": "Elche",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 4990000,
-          "priceIncrement": -230000,
-          "purchasePrice": 2901170,
-          "purchaseDate": 1789621762,
-          "points": 54,
-          "fitness": [
-            3,
-            11,
-            8,
-            6,
-            6
-          ],
-          "status": "injured",
-          "statusInfo": "Rotura fibrilar en el aductor. Retorno estimado: Finales de Noviembre.",
-          "ptsPerMillion": 10.82,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -1036,8 +1007,8 @@
             15,
             7
           ],
-          "status": "doubt",
-          "statusInfo": "Recuperación de lesión.",
+          "status": "injured",
+          "statusInfo": "Molestias musculares. Retorno estimado: Mediados de Noviembre.",
           "ptsPerMillion": 6.56,
           "negativeMatches": 0,
           "ownerId": 14296022,
@@ -2595,8 +2566,8 @@
             "injured",
             3
           ],
-          "status": "injured",
-          "statusInfo": "Fractura en la clavícula derecha. Retorno estimado: Principios de Enero.",
+          "status": "doubt",
+          "statusInfo": "Fractura en la clavícula derecha.",
           "ptsPerMillion": 6.94,
           "negativeMatches": 0,
           "ownerId": 14319257,
