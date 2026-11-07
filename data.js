@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-11-06T15:01:16.350736+00:00",
+  "updatedAt": "2026-11-07T02:46:34.324889+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -153,17 +153,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 20000,
           "purchasePrice": 3640000,
           "purchaseDate": 1793167625,
-          "points": 56,
+          "points": 62,
           "fitness": [
+            6,
             5,
             6,
             0,
-            6,
-            5
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 14.58,
+          "ptsPerMillion": 16.15,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -634,17 +634,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 1020000,
           "purchaseDate": 1792213500,
-          "points": 17,
+          "points": 18,
           "fitness": [
+            1,
             0,
             3,
             0,
-            1,
-            0
+            1
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 17.35,
+          "ptsPerMillion": 18.37,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -721,17 +721,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 60000,
           "purchasePrice": 3251000,
           "purchaseDate": 1792213500,
-          "points": 47,
+          "points": 53,
           "fitness": [
+            6,
             12,
             7,
             3,
-            6,
-            "injured"
+            6
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 13.06,
+          "ptsPerMillion": 14.72,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
@@ -1318,17 +1318,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 5490000,
           "purchaseDate": 1790485490,
-          "points": 52,
+          "points": 54,
           "fitness": [
+            2,
             2,
             7,
             4,
-            12,
-            14
+            12
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 6.95,
+          "ptsPerMillion": 7.22,
           "negativeMatches": 0,
           "ownerId": 14296022,
           "ownerName": "Los intocables de Javi"
@@ -1712,17 +1712,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -20000,
           "purchasePrice": 3100000,
           "purchaseDate": 1786894720,
-          "points": 45,
+          "points": 47,
           "fitness": [
+            2,
             3,
             4,
             "sanctioned",
-            -1,
-            3
+            -1
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 14.52,
+          "ptsPerMillion": 15.16,
           "negativeMatches": 1,
           "ownerId": 14295466,
           "ownerName": "Selenitos Galacticos"
@@ -1932,17 +1932,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -20000,
           "purchasePrice": 4370000,
           "purchaseDate": 1786894720,
-          "points": 53,
+          "points": 57,
           "fitness": [
+            4,
             -4,
             6,
             2,
-            7,
-            2
+            7
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 12.13,
+          "ptsPerMillion": 13.04,
           "negativeMatches": 1,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2077,17 +2077,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 50000,
           "purchasePrice": 1780000,
           "purchaseDate": 1793513155,
-          "points": 43,
+          "points": 48,
           "fitness": [
+            5,
             4,
             5,
             6,
-            null,
-            2
+            null
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 21.5,
+          "ptsPerMillion": 24.0,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2193,17 +2193,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": -20000,
           "purchasePrice": 2450000,
           "purchaseDate": 1786894720,
-          "points": 37,
+          "points": 41,
           "fitness": [
+            4,
             2,
             2,
             -1,
-            4,
             4
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 15.1,
+          "ptsPerMillion": 16.73,
           "negativeMatches": 1,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -2558,17 +2558,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 30000,
           "purchasePrice": 3148070,
           "purchaseDate": 1787547799,
-          "points": 56,
+          "points": 61,
           "fitness": [
+            5,
             6,
             7,
             5,
-            2,
-            5
+            2
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 14.97,
+          "ptsPerMillion": 16.31,
           "negativeMatches": 0,
           "ownerId": 14319257,
           "ownerName": "Al Bajad Mamad"
@@ -2676,10 +2676,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1787720918,
           "points": 22,
           "fitness": [
+            null,
             1,
             null,
             "injured",
-            3,
             3
           ],
           "status": "ok",
@@ -3157,10 +3157,10 @@ window.BIWENGER_COMMUNITY_DATA = {
           "purchaseDate": 1786894720,
           "points": 19,
           "fitness": [
+            "injured",
             null,
             null,
             2,
-            null,
             null
           ],
           "status": "injured",
@@ -3404,17 +3404,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 0,
           "purchasePrice": 155000,
           "purchaseDate": 1792213500,
-          "points": 15,
+          "points": 19,
           "fitness": [
+            4,
             3,
             null,
             null,
-            3,
-            4
+            3
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 100.0,
+          "ptsPerMillion": 126.67,
           "negativeMatches": 0,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3607,17 +3607,17 @@ window.BIWENGER_COMMUNITY_DATA = {
           "priceIncrement": 50000,
           "purchasePrice": 4376000,
           "purchaseDate": 1793513154,
-          "points": 37,
+          "points": 45,
           "fitness": [
+            8,
             5,
             11,
             -1,
-            9,
-            6
+            9
           ],
           "status": "ok",
           "statusInfo": null,
-          "ptsPerMillion": 10.19,
+          "ptsPerMillion": 12.4,
           "negativeMatches": 1,
           "ownerId": 14293127,
           "ownerName": "Mourinho’s Revenge"
@@ -3711,7 +3711,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "description": "Jugador de bajo coste y gran rendimiento en puntos",
       "player": "Benavidez",
       "owner": "Mourinho’s Revenge",
-      "value": "15 pts / 150.000 €"
+      "value": "19 pts / 150.000 €"
     },
     "elPozo": {
       "title": "El Pozo sin Fondo",
@@ -4038,17 +4038,17 @@ window.BIWENGER_COMMUNITY_DATA = {
       "priceIncrement": 0,
       "purchasePrice": 155000,
       "purchaseDate": 1792213500,
-      "points": 15,
+      "points": 19,
       "fitness": [
+        4,
         3,
         null,
         null,
-        3,
-        4
+        3
       ],
       "status": "ok",
       "statusInfo": null,
-      "ptsPerMillion": 100.0,
+      "ptsPerMillion": 126.67,
       "negativeMatches": 0,
       "ownerId": 14293127,
       "ownerName": "Mourinho’s Revenge"
@@ -4319,8 +4319,8 @@ window.BIWENGER_COMMUNITY_DATA = {
   ],
   "dreamTeam": {
     "formation": "3-4-3",
-    "totalPoints": 1031,
-    "totalValue": 164910000,
+    "totalPoints": 1037,
+    "totalValue": 162750000,
     "players": [
       {
         "id": 30487,
@@ -4381,6 +4381,35 @@ window.BIWENGER_COMMUNITY_DATA = {
         "ownerName": "Los intocables de Javi"
       },
       {
+        "id": 23840,
+        "name": "Juan Iglesias",
+        "slug": "juan-iglesias",
+        "photoUrl": "https://cdn.biwenger.com/i/p/23840.png",
+        "teamId": 17,
+        "teamName": "Sevilla",
+        "positionId": 2,
+        "positionName": "Defensa",
+        "positionShort": "DF",
+        "price": 3840000,
+        "priceIncrement": 20000,
+        "purchasePrice": 3640000,
+        "purchaseDate": 1793167625,
+        "points": 62,
+        "fitness": [
+          6,
+          5,
+          6,
+          0,
+          6
+        ],
+        "status": "ok",
+        "statusInfo": null,
+        "ptsPerMillion": 16.15,
+        "negativeMatches": 0,
+        "ownerId": 14295893,
+        "ownerName": "Recreativo de Juerga"
+      },
+      {
         "id": 37739,
         "name": "De la Fuente",
         "slug": "a-de-la-fuente",
@@ -4408,35 +4437,6 @@ window.BIWENGER_COMMUNITY_DATA = {
         "negativeMatches": 0,
         "ownerId": 14298565,
         "ownerName": "Deportivo de la Cogorza"
-      },
-      {
-        "id": 19614,
-        "name": "Natan",
-        "slug": "natan",
-        "photoUrl": "https://cdn.biwenger.com/i/p/19614.png",
-        "teamId": 87,
-        "teamName": "Betis",
-        "positionId": 2,
-        "positionName": "Defensa",
-        "positionShort": "DF",
-        "price": 6000000,
-        "priceIncrement": -70000,
-        "purchasePrice": 6580000,
-        "purchaseDate": 1792126994,
-        "points": 56,
-        "fitness": [
-          4,
-          5,
-          null,
-          5,
-          7
-        ],
-        "status": "ok",
-        "statusInfo": null,
-        "ptsPerMillion": 9.33,
-        "negativeMatches": 0,
-        "ownerId": 14296022,
-        "ownerName": "Los intocables de Javi"
       },
       {
         "id": 30477,
