@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T15:34:36.411033+00:00",
+  "updatedAt": "2026-11-11T02:46:21.629299+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -2508,8 +2508,8 @@
             5,
             4
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias en el aductor derecho.",
           "ptsPerMillion": 7.22,
           "negativeMatches": 0,
           "ownerId": 14319257,
