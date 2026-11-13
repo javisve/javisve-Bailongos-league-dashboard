@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-12T15:57:39.574550+00:00",
+  "updatedAt": "2026-11-13T03:24:27.781276+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 125,
-    "totalMarketValue": 633410000
+    "totalPlayersOwned": 124,
+    "totalMarketValue": 631870000
   },
   "standings": [
     {
@@ -14,10 +14,10 @@
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
       "points": 732,
-      "squadValue": 92560000,
-      "playerCount": 15,
-      "avgPointsPerPlayer": 48.8,
-      "transfersCount": 74,
+      "squadValue": 91020000,
+      "playerCount": 14,
+      "avgPointsPerPlayer": 52.29,
+      "transfersCount": 75,
       "dominantClub": {
         "name": "Barcelona",
         "count": 4
@@ -251,35 +251,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 10.64,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 37897,
-          "name": "Gorrotxategi",
-          "slug": "j-gorrotxategi",
-          "photoUrl": "https://cdn.biwenger.com/i/p/37897.png",
-          "teamId": 13,
-          "teamName": "Real Sociedad",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 1540000,
-          "priceIncrement": -40000,
-          "purchasePrice": 1044430,
-          "purchaseDate": 1792908388,
-          "points": 29,
-          "fitness": [
-            3,
-            4,
-            6,
-            5,
-            null
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 18.83,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -2111,8 +2082,8 @@
             2,
             5
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "doubt",
+          "statusInfo": "Molestias en el tendón rotuliano.",
           "ptsPerMillion": 15.68,
           "negativeMatches": 1,
           "ownerId": 14295466,
