@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-15T14:44:15.588549+00:00",
+  "updatedAt": "2026-11-16T02:43:19.691043+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 124,
-    "totalMarketValue": 650760000
+    "totalPlayersOwned": 123,
+    "totalMarketValue": 649360000
   },
   "standings": [
     {
@@ -14,10 +14,10 @@
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 1,
       "points": 732,
-      "squadValue": 105790000,
-      "playerCount": 16,
-      "avgPointsPerPlayer": 45.75,
-      "transfersCount": 77,
+      "squadValue": 104390000,
+      "playerCount": 15,
+      "avgPointsPerPlayer": 48.8,
+      "transfersCount": 78,
       "dominantClub": {
         "name": "Barcelona",
         "count": 4
@@ -309,35 +309,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 16.61,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 39399,
-          "name": "Matarazzo",
-          "slug": "matarazzo",
-          "photoUrl": "https://cdn.biwenger.com/i/p/39399.png",
-          "teamId": 13,
-          "teamName": "Real Sociedad",
-          "positionId": 5,
-          "positionName": "Otro",
-          "positionShort": "OT",
-          "price": 1400000,
-          "priceIncrement": -10000,
-          "purchasePrice": 1370000,
-          "purchaseDate": 1793858753,
-          "points": 22,
-          "fitness": [
-            3,
-            0,
-            3,
-            3,
-            3
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 15.71,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -3780,7 +3751,7 @@
       "badge": "💎",
       "description": "Mánager con la plantilla más cotizada de la liga",
       "manager": "Recreativo de Juerga",
-      "value": "105.790.000 €"
+      "value": "104.390.000 €"
     },
     "elMonje": {
       "title": "El Monje / Austero",
