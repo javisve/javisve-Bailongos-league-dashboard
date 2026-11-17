@@ -1,5 +1,5 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-11-16T16:58:54.285897+00:00",
+  "updatedAt": "2026-11-17T05:03:49.696554+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -2563,8 +2563,8 @@ window.BIWENGER_COMMUNITY_DATA = {
             null,
             null
           ],
-          "status": "ok",
-          "statusInfo": null,
+          "status": "injured",
+          "statusInfo": "Lesión moderada en el sóleo de su pierna izquierda. Retorno estimado: Mediados de Diciembre.",
           "ptsPerMillion": 5.61,
           "negativeMatches": 0,
           "ownerId": 14319257,
