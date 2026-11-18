@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T16:52:17.394122+00:00",
+  "updatedAt": "2026-11-18T04:17:30.094609+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
@@ -2285,8 +2285,8 @@
             2,
             5
           ],
-          "status": "doubt",
-          "statusInfo": "Molestias en el tendón rotuliano.",
+          "status": "ok",
+          "statusInfo": null,
           "ptsPerMillion": 17.31,
           "negativeMatches": 1,
           "ownerId": 14295466,
