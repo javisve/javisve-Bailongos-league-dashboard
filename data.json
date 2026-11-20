@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-19T16:32:01.778659+00:00",
+  "updatedAt": "2026-11-20T03:58:14.109852+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 127,
-    "totalMarketValue": 668880000
+    "totalPlayersOwned": 126,
+    "totalMarketValue": 667190000
   },
   "standings": [
     {
@@ -521,10 +521,10 @@
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 2,
       "points": 693,
-      "squadValue": 102710000,
-      "playerCount": 19,
-      "avgPointsPerPlayer": 36.47,
-      "transfersCount": 56,
+      "squadValue": 101020000,
+      "playerCount": 18,
+      "avgPointsPerPlayer": 38.5,
+      "transfersCount": 57,
       "dominantClub": {
         "name": "Atlético",
         "count": 3
@@ -1049,35 +1049,6 @@
           "statusInfo": null,
           "ptsPerMillion": 14.12,
           "negativeMatches": 1,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 42757,
-          "name": "Ndukwe",
-          "slug": "ifeanyi-ndukwe",
-          "photoUrl": "https://cdn.biwenger.com/i/p/42757.png",
-          "teamId": 10,
-          "teamName": "Levante",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 1690000,
-          "priceIncrement": -20000,
-          "purchasePrice": 1300000,
-          "purchaseDate": 1793513154,
-          "points": 38,
-          "fitness": [
-            4,
-            6,
-            2,
-            7,
-            3
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 22.49,
-          "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
         }
