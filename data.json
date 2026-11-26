@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-25T17:57:06.738423+00:00",
+  "updatedAt": "2026-11-26T05:00:11.825690+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 132,
-    "totalMarketValue": 706500000
+    "totalPlayersOwned": 131,
+    "totalMarketValue": 703260000
   },
   "standings": [
     {
@@ -14,10 +14,10 @@
       "icon": "https://cdn.biwenger.com/i/u/14296207.png",
       "position": 1,
       "points": 793,
-      "squadValue": 113430000,
-      "playerCount": 20,
-      "avgPointsPerPlayer": 39.65,
-      "transfersCount": 61,
+      "squadValue": 110190000,
+      "playerCount": 19,
+      "avgPointsPerPlayer": 41.74,
+      "transfersCount": 62,
       "dominantClub": {
         "name": "Betis",
         "count": 3
@@ -541,35 +541,6 @@
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 12.18,
-          "negativeMatches": 0,
-          "ownerId": 14296207,
-          "ownerName": "Ajax Pino"
-        },
-        {
-          "id": 42425,
-          "name": "Amatucci",
-          "slug": "l-amatucci",
-          "photoUrl": "https://cdn.biwenger.com/i/p/42425.png",
-          "teamId": 6,
-          "teamName": "Deportivo",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 3240000,
-          "priceIncrement": -70000,
-          "purchasePrice": 3240000,
-          "purchaseDate": 1786894720,
-          "points": 50,
-          "fitness": [
-            2,
-            7,
-            6,
-            5,
-            "sanctioned"
-          ],
-          "status": "warned",
-          "statusInfo": null,
-          "ptsPerMillion": 15.43,
           "negativeMatches": 0,
           "ownerId": 14296207,
           "ownerName": "Ajax Pino"
