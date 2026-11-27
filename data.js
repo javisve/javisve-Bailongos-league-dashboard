@@ -1,11 +1,11 @@
 window.BIWENGER_COMMUNITY_DATA = {
-  "updatedAt": "2026-11-26T17:42:14.717376+00:00",
+  "updatedAt": "2026-11-27T05:01:32.778245+00:00",
   "league": {
     "id": 2178947,
     "name": "Bailongos League",
     "totalManagers": 8,
-    "totalPlayersOwned": 132,
-    "totalMarketValue": 715180000
+    "totalPlayersOwned": 130,
+    "totalMarketValue": 708980000
   },
   "standings": [
     {
@@ -582,10 +582,10 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "https://cdn.biwenger.com/icons/23.png",
       "position": 2,
       "points": 771,
-      "squadValue": 123240000,
-      "playerCount": 18,
-      "avgPointsPerPlayer": 42.83,
-      "transfersCount": 89,
+      "squadValue": 119150000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 45.35,
+      "transfersCount": 90,
       "dominantClub": {
         "name": "Barcelona",
         "count": 5
@@ -703,35 +703,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 4.58,
-          "negativeMatches": 0,
-          "ownerId": 14295893,
-          "ownerName": "Recreativo de Juerga"
-        },
-        {
-          "id": 11196,
-          "name": "Lemar",
-          "slug": "thomas-lemar",
-          "photoUrl": "https://cdn.biwenger.com/i/p/11196.png",
-          "teamId": 75,
-          "teamName": "Elche",
-          "positionId": 3,
-          "positionName": "Centrocampista",
-          "positionShort": "MC",
-          "price": 4090000,
-          "priceIncrement": -260000,
-          "purchasePrice": 4270020,
-          "purchaseDate": 1794895509,
-          "points": 55,
-          "fitness": [
-            1,
-            "doubt",
-            3,
-            11,
-            8
-          ],
-          "status": "injured",
-          "statusInfo": "Sobrecarga muscular leve en el bíceps femoral de la pierna izquierda. Retorno estimado: Principios de Diciembre.",
-          "ptsPerMillion": 13.45,
           "negativeMatches": 0,
           "ownerId": 14295893,
           "ownerName": "Recreativo de Juerga"
@@ -2110,12 +2081,12 @@ window.BIWENGER_COMMUNITY_DATA = {
       "icon": "",
       "position": 5,
       "points": 639,
-      "squadValue": 99730000,
-      "playerCount": 18,
-      "avgPointsPerPlayer": 35.5,
-      "transfersCount": 41,
+      "squadValue": 97620000,
+      "playerCount": 17,
+      "avgPointsPerPlayer": 37.59,
+      "transfersCount": 42,
       "dominantClub": {
-        "name": "Athletic",
+        "name": "Betis",
         "count": 3
       },
       "players": [
@@ -2405,35 +2376,6 @@ window.BIWENGER_COMMUNITY_DATA = {
           "status": "ok",
           "statusInfo": null,
           "ptsPerMillion": 5.53,
-          "negativeMatches": 0,
-          "ownerId": 14298565,
-          "ownerName": "Deportivo de la Cogorza"
-        },
-        {
-          "id": 27996,
-          "name": "Paredes",
-          "slug": "aitor-paredes",
-          "photoUrl": "https://cdn.biwenger.com/i/p/27996.png",
-          "teamId": 1,
-          "teamName": "Athletic",
-          "positionId": 2,
-          "positionName": "Defensa",
-          "positionShort": "DF",
-          "price": 2110000,
-          "priceIncrement": -20000,
-          "purchasePrice": 2800000,
-          "purchaseDate": 1790399123,
-          "points": 51,
-          "fitness": [
-            null,
-            "injured",
-            null,
-            14,
-            2
-          ],
-          "status": "ok",
-          "statusInfo": null,
-          "ptsPerMillion": 24.17,
           "negativeMatches": 0,
           "ownerId": 14298565,
           "ownerName": "Deportivo de la Cogorza"
@@ -4013,7 +3955,7 @@ window.BIWENGER_COMMUNITY_DATA = {
       "badge": "💎",
       "description": "Mánager con la plantilla más cotizada de la liga",
       "manager": "Recreativo de Juerga",
-      "value": "123.240.000 €"
+      "value": "119.150.000 €"
     },
     "elMonje": {
       "title": "El Monje / Austero",
